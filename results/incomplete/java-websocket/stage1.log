@@ -1,0 +1,347 @@
+Cloning into '/home/java8-flakesync/scripts/projects-For-Delta/TooTallNate/Java-WebSocket'...
+Note: checking out 'fa3909c391195178ccf5a92d4ac342a30ae247c8'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by performing another checkout.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -b with the checkout command again. Example:
+
+  git checkout -b <new-branch-name>
+
+HEAD is now at fa3909c Merge pull request #754 from marci4/SonarQube
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m-----------------< [0;36morg.java-websocket:Java-WebSocket[0;1m >------------------[m
+[[1;34mINFO[m] [1mBuilding Java-WebSocket 1.4.0-SNAPSHOT[m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.6:resources[m [1m(default-resources)[m @ [36mJava-WebSocket[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] skip non existing resourceDirectory /home/java8-flakesync/scripts/projects-For-Delta/TooTallNate/Java-WebSocket/src/main/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.7.0:compile[m [1m(default-compile)[m @ [36mJava-WebSocket[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;34mINFO[m] Compiling 69 source files to /home/java8-flakesync/scripts/projects-For-Delta/TooTallNate/Java-WebSocket/target/classes
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.6:testResources[m [1m(default-testResources)[m @ [36mJava-WebSocket[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] Copying 1 resource
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.7.0:testCompile[m [1m(default-testCompile)[m @ [36mJava-WebSocket[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;34mINFO[m] Compiling 37 source files to /home/java8-flakesync/scripts/projects-For-Delta/TooTallNate/Java-WebSocket/target/test-classes
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-surefire-plugin:2.12.4:test[m [1m(default-test)[m @ [36mJava-WebSocket[0;1m ---[m
+[[1;34mINFO[m] Tests are skipped.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-jar-plugin:2.4:jar[m [1m(default-jar)[m @ [36mJava-WebSocket[0;1m ---[m
+[[1;34mINFO[m] Building jar: /home/java8-flakesync/scripts/projects-For-Delta/TooTallNate/Java-WebSocket/target/Java-WebSocket-1.4.0-SNAPSHOT.jar
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-install-plugin:2.4:install[m [1m(default-install)[m @ [36mJava-WebSocket[0;1m ---[m
+[[1;34mINFO[m] Installing /home/java8-flakesync/scripts/projects-For-Delta/TooTallNate/Java-WebSocket/target/Java-WebSocket-1.4.0-SNAPSHOT.jar to /home/java8-flakesync/.m2/repository/org/java-websocket/Java-WebSocket/1.4.0-SNAPSHOT/Java-WebSocket-1.4.0-SNAPSHOT.jar
+[[1;34mINFO[m] Installing /home/java8-flakesync/scripts/projects-For-Delta/TooTallNate/Java-WebSocket/pom.xml to /home/java8-flakesync/.m2/repository/org/java-websocket/Java-WebSocket/1.4.0-SNAPSHOT/Java-WebSocket-1.4.0-SNAPSHOT.pom
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;32mBUILD SUCCESS[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  7.093 s
+[[1;34mINFO[m] Finished at: 2026-08-31T20:44:37Z
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+/home/java8-flakesync/scripts/projects-For-Delta/TooTallNate/Java-WebSocket
+Stop at ............................. 
+iteration_linkage_error= 0
+delay === 100
+java.lang.InterruptedException: sleep interrupted
+	at java.lang.Thread.sleep(Native Method)
+	at edu.utexas.ece.flakedelay.agent.Utility.delay(Utility.java:30)
+	at org.java_websocket.client.WebSocketClient$WebsocketWriteThread.run(WebSocketClient.java:660)
+	at java.lang.Thread.run(Thread.java:750)
+Stop at ............................. 
+0 ****************
+delay === 200
+java.lang.InterruptedException: sleep interrupted
+	at java.lang.Thread.sleep(Native Method)
+	at edu.utexas.ece.flakedelay.agent.Utility.delay(Utility.java:30)
+	at org.java_websocket.client.WebSocketClient$WebsocketWriteThread.run(WebSocketClient.java:660)
+	at java.lang.Thread.run(Thread.java:750)
+Stop at ............................. 
+0 ****************
+delay === 400
+java.lang.InterruptedException: sleep interrupted
+	at java.lang.Thread.sleep(Native Method)
+	at edu.utexas.ece.flakedelay.agent.Utility.delay(Utility.java:30)
+	at org.java_websocket.client.WebSocketClient$WebsocketWriteThread.run(WebSocketClient.java:660)
+	at java.lang.Thread.run(Thread.java:750)
+Stop at ............................. 
+0 ****************
+delay === 800
+java.lang.InterruptedException: sleep interrupted
+	at java.lang.Thread.sleep(Native Method)
+	at edu.utexas.ece.flakedelay.agent.Utility.delay(Utility.java:30)
+	at org.java_websocket.client.WebSocketClient$WebsocketWriteThread.run(WebSocketClient.java:660)
+	at java.lang.Thread.run(Thread.java:750)
+Stop at ............................. 
+0 ****************
+delay === 1600
+java.lang.InterruptedException: sleep interrupted
+	at java.lang.Thread.sleep(Native Method)
+	at edu.utexas.ece.flakedelay.agent.Utility.delay(Utility.java:30)
+	at org.java_websocket.client.WebSocketClient$WebsocketWriteThread.run(WebSocketClient.java:660)
+	at java.lang.Thread.run(Thread.java:750)
+0 ****************
+delay === 3200
+
+WebSocketWorker-14
+    at sun.misc.Unsafe.park(Native Method)
+    at java.util.concurrent.locks.LockSupport.park(LockSupport.java:175)
+    at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2039)
+    at java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:442)
+    at org.java_websocket.server.WebSocketServer$WebSocketWorker.run(WebSocketServer.java:908)
+
+WebSocketWorker-15
+    at sun.misc.Unsafe.park(Native Method)
+    at java.util.concurrent.locks.LockSupport.park(LockSupport.java:175)
+    at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2039)
+    at java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:442)
+    at org.java_websocket.server.WebSocketServer$WebSocketWorker.run(WebSocketServer.java:908)
+
+WebSocketWorker-16
+    at sun.misc.Unsafe.park(Native Method)
+    at java.util.concurrent.locks.LockSupport.park(LockSupport.java:175)
+    at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2039)
+    at java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:442)
+    at org.java_websocket.server.WebSocketServer$WebSocketWorker.run(WebSocketServer.java:908)
+
+WebSocketWorker-17
+    at sun.misc.Unsafe.park(Native Method)
+    at java.util.concurrent.locks.LockSupport.park(LockSupport.java:175)
+    at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2039)
+    at java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:442)
+    at org.java_websocket.server.WebSocketServer$WebSocketWorker.run(WebSocketServer.java:908)
+
+WebSocketWorker-18
+    at sun.misc.Unsafe.park(Native Method)
+    at java.util.concurrent.locks.LockSupport.park(LockSupport.java:175)
+    at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2039)
+    at java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:442)
+    at org.java_websocket.server.WebSocketServer$WebSocketWorker.run(WebSocketServer.java:908)
+
+WebSocketWorker-19
+    at sun.misc.Unsafe.park(Native Method)
+    at java.util.concurrent.locks.LockSupport.park(LockSupport.java:175)
+    at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2039)
+    at java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:442)
+    at org.java_websocket.server.WebSocketServer$WebSocketWorker.run(WebSocketServer.java:908)
+
+WebSocketWorker-20
+    at sun.misc.Unsafe.park(Native Method)
+    at java.util.concurrent.locks.LockSupport.park(LockSupport.java:175)
+    at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2039)
+    at java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:442)
+    at org.java_websocket.server.WebSocketServer$WebSocketWorker.run(WebSocketServer.java:908)
+
+WebSocketWorker-21
+    at sun.misc.Unsafe.park(Native Method)
+    at java.util.concurrent.locks.LockSupport.park(LockSupport.java:175)
+    at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2039)
+    at java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:442)
+    at org.java_websocket.server.WebSocketServer$WebSocketWorker.run(WebSocketServer.java:908)
+
+WebSocketSelector-22
+    at sun.nio.ch.EPollArrayWrapper.epollWait(Native Method)
+    at sun.nio.ch.EPollArrayWrapper.poll(EPollArrayWrapper.java:269)
+    at sun.nio.ch.EPollSelectorImpl.doSelect(EPollSelectorImpl.java:93)
+    at sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:86)
+    at sun.nio.ch.SelectorImpl.select(SelectorImpl.java:97)
+    at org.java_websocket.server.WebSocketServer.run(WebSocketServer.java:343)
+    at java.lang.Thread.run(Thread.java:750)
+
+WebSocketTimer
+    at java.lang.Object.wait(Native Method)
+    at java.util.TimerThread.mainLoop(Timer.java:552)
+    at java.util.TimerThread.run(Timer.java:505)
+
+WebSocketConnectReadThread-24
+    at java.lang.Thread.sleep(Native Method)
+    at edu.utexas.ece.flakedelay.agent.Utility.delay(Utility.java:30)
+    at org.java_websocket.WebSocketImpl.eot(WebSocketImpl.java:560)
+    at org.java_websocket.client.WebSocketClient.run(WebSocketClient.java:420)
+    at java.lang.Thread.run(Thread.java:750)
+
+WebSocketWriteThread-25
+    at sun.misc.Unsafe.park(Native Method)
+    at java.util.concurrent.locks.LockSupport.park(LockSupport.java:175)
+    at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2039)
+    at java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:442)
+    at org.java_websocket.client.WebSocketClient$WebsocketWriteThread.run(WebSocketClient.java:646)
+    at java.lang.Thread.run(Thread.java:750)
+
+WebSocketTimer
+    at java.lang.Thread.sleep(Native Method)
+    at edu.utexas.ece.flakedelay.agent.Utility.delay(Utility.java:30)
+    at org.java_websocket.AbstractWebSocket.stopConnectionLostTimer(AbstractWebSocket.java:135)
+    at org.java_websocket.client.WebSocketClient.onWebsocketClose(WebSocketClient.java:516)
+    at org.java_websocket.WebSocketImpl.closeConnection(WebSocketImpl.java:507)
+    at org.java_websocket.WebSocketImpl.closeConnection(WebSocketImpl.java:530)
+    at org.java_websocket.AbstractWebSocket$1.run(AbstractWebSocket.java:178)
+    at java.util.TimerThread.mainLoop(Timer.java:555)
+    at java.util.TimerThread.run(Timer.java:505)
+Stop at ............................. 
+1 ****************
+Running flakedelay in a loc...
+
+WebSocketWorker-14
+    at sun.misc.Unsafe.park(Native Method)
+    at java.util.concurrent.locks.LockSupport.park(LockSupport.java:175)
+    at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2039)
+    at java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:442)
+    at org.java_websocket.server.WebSocketServer$WebSocketWorker.run(WebSocketServer.java:908)
+
+WebSocketWorker-15
+    at sun.misc.Unsafe.park(Native Method)
+    at java.util.concurrent.locks.LockSupport.park(LockSupport.java:175)
+    at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2039)
+    at java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:442)
+    at org.java_websocket.server.WebSocketServer$WebSocketWorker.run(WebSocketServer.java:908)
+
+WebSocketWorker-16
+    at sun.misc.Unsafe.park(Native Method)
+    at java.util.concurrent.locks.LockSupport.park(LockSupport.java:175)
+    at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2039)
+    at java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:442)
+    at org.java_websocket.server.WebSocketServer$WebSocketWorker.run(WebSocketServer.java:908)
+
+WebSocketWorker-17
+    at sun.misc.Unsafe.park(Native Method)
+    at java.util.concurrent.locks.LockSupport.park(LockSupport.java:175)
+    at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2039)
+    at java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:442)
+    at org.java_websocket.server.WebSocketServer$WebSocketWorker.run(WebSocketServer.java:908)
+
+WebSocketWorker-18
+    at sun.misc.Unsafe.park(Native Method)
+    at java.util.concurrent.locks.LockSupport.park(LockSupport.java:175)
+    at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2039)
+    at java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:442)
+    at org.java_websocket.server.WebSocketServer$WebSocketWorker.run(WebSocketServer.java:908)
+
+WebSocketWorker-19
+    at sun.misc.Unsafe.park(Native Method)
+    at java.util.concurrent.locks.LockSupport.park(LockSupport.java:175)
+    at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2039)
+    at java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:442)
+    at org.java_websocket.server.WebSocketServer$WebSocketWorker.run(WebSocketServer.java:908)
+
+WebSocketWorker-20
+    at sun.misc.Unsafe.park(Native Method)
+    at java.util.concurrent.locks.LockSupport.park(LockSupport.java:175)
+    at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2039)
+    at java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:442)
+    at org.java_websocket.server.WebSocketServer$WebSocketWorker.run(WebSocketServer.java:908)
+
+WebSocketWorker-21
+    at sun.misc.Unsafe.park(Native Method)
+    at java.util.concurrent.locks.LockSupport.park(LockSupport.java:175)
+    at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2039)
+    at java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:442)
+    at org.java_websocket.server.WebSocketServer$WebSocketWorker.run(WebSocketServer.java:908)
+
+WebSocketSelector-22
+    at sun.nio.ch.EPollArrayWrapper.epollWait(Native Method)
+    at sun.nio.ch.EPollArrayWrapper.poll(EPollArrayWrapper.java:269)
+    at sun.nio.ch.EPollSelectorImpl.doSelect(EPollSelectorImpl.java:93)
+    at sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:86)
+    at sun.nio.ch.SelectorImpl.select(SelectorImpl.java:97)
+    at org.java_websocket.server.WebSocketServer.run(WebSocketServer.java:343)
+    at java.lang.Thread.run(Thread.java:750)
+
+WebSocketTimer
+    at java.lang.Object.wait(Native Method)
+    at java.util.TimerThread.mainLoop(Timer.java:552)
+    at java.util.TimerThread.run(Timer.java:505)
+
+WebSocketConnectReadThread-24
+    at java.lang.Thread.sleep(Native Method)
+    at edu.utexas.ece.flakedelay.agent.Utility.delay(Utility.java:30)
+    at org.java_websocket.WebSocketImpl.eot(WebSocketImpl.java:560)
+    at org.java_websocket.client.WebSocketClient.run(WebSocketClient.java:420)
+    at java.lang.Thread.run(Thread.java:750)
+
+WebSocketWriteThread-25
+    at sun.misc.Unsafe.park(Native Method)
+    at java.util.concurrent.locks.LockSupport.park(LockSupport.java:175)
+    at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2039)
+    at java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:442)
+    at org.java_websocket.client.WebSocketClient$WebsocketWriteThread.run(WebSocketClient.java:646)
+    at java.lang.Thread.run(Thread.java:750)
+
+WebSocketTimer
+    at java.lang.Thread.sleep(Native Method)
+    at edu.utexas.ece.flakedelay.agent.Utility.delay(Utility.java:30)
+    at org.java_websocket.AbstractWebSocket.stopConnectionLostTimer(AbstractWebSocket.java:135)
+    at org.java_websocket.client.WebSocketClient.onWebsocketClose(WebSocketClient.java:516)
+    at org.java_websocket.WebSocketImpl.closeConnection(WebSocketImpl.java:507)
+    at org.java_websocket.WebSocketImpl.closeConnection(WebSocketImpl.java:530)
+    at org.java_websocket.AbstractWebSocket$1.run(AbstractWebSocket.java:178)
+    at java.util.TimerThread.mainLoop(Timer.java:555)
+    at java.util.TimerThread.run(Timer.java:505)
+Stop at ............................. 
+HEAD is now at fa3909c Merge pull request #754 from marci4/SonarQube
+M	pom.xml
+Strings are not equal.
+/home/java8-flakesync/scripts/projects-For-Delta/TooTallNate/Java-WebSocket
+currentDir= /home/java8-flakesync/scripts/agent-pom-modify, slug=/home/java8-flakesync/scripts/projects-For-Delta/TooTallNate/Java-WebSocket
+[[1;34mINFO[m] Scanning for projects...
+[[1;33mWARNING[m] 
+[[1;33mWARNING[m] Some problems were encountered while building the effective model for org.java-websocket:Java-WebSocket:jar:1.4.0-SNAPSHOT
+[[1;33mWARNING[m] 'build.plugins.plugin.(groupId:artifactId)' must be unique but found duplicate declaration of plugin org.apache.maven.plugins:maven-surefire-plugin @ line 49, column 17
+[[1;33mWARNING[m] 
+[[1;33mWARNING[m] It is highly recommended to fix these problems because they threaten the stability of your build.
+[[1;33mWARNING[m] 
+[[1;33mWARNING[m] For this reason, future Maven versions might no longer support building such malformed projects.
+[[1;33mWARNING[m] 
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m-----------------< [0;36morg.java-websocket:Java-WebSocket[0;1m >------------------[m
+[[1;34mINFO[m] [1mBuilding Java-WebSocket 1.4.0-SNAPSHOT[m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.6:resources[m [1m(default-resources)[m @ [36mJava-WebSocket[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] skip non existing resourceDirectory /home/java8-flakesync/scripts/projects-For-Delta/TooTallNate/Java-WebSocket/src/main/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.7.0:compile[m [1m(default-compile)[m @ [36mJava-WebSocket[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;34mINFO[m] Compiling 69 source files to /home/java8-flakesync/scripts/projects-For-Delta/TooTallNate/Java-WebSocket/target/classes
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.6:testResources[m [1m(default-testResources)[m @ [36mJava-WebSocket[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] Copying 1 resource
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.7.0:testCompile[m [1m(default-testCompile)[m @ [36mJava-WebSocket[0;1m ---[m
+[[1;34mINFO[m] Nothing to compile - all classes are up to date
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-surefire-plugin:3.0.0-M9:test[m [1m(default-test)[m @ [36mJava-WebSocket[0;1m ---[m
+[[1;34mINFO[m] Tests are skipped.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-jar-plugin:2.4:jar[m [1m(default-jar)[m @ [36mJava-WebSocket[0;1m ---[m
+[[1;34mINFO[m] Building jar: /home/java8-flakesync/scripts/projects-For-Delta/TooTallNate/Java-WebSocket/target/Java-WebSocket-1.4.0-SNAPSHOT.jar
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-install-plugin:2.4:install[m [1m(default-install)[m @ [36mJava-WebSocket[0;1m ---[m
+[[1;34mINFO[m] Installing /home/java8-flakesync/scripts/projects-For-Delta/TooTallNate/Java-WebSocket/target/Java-WebSocket-1.4.0-SNAPSHOT.jar to /home/java8-flakesync/.m2/repository/org/java-websocket/Java-WebSocket/1.4.0-SNAPSHOT/Java-WebSocket-1.4.0-SNAPSHOT.jar
+[[1;34mINFO[m] Installing /home/java8-flakesync/scripts/projects-For-Delta/TooTallNate/Java-WebSocket/pom.xml to /home/java8-flakesync/.m2/repository/org/java-websocket/Java-WebSocket/1.4.0-SNAPSHOT/Java-WebSocket-1.4.0-SNAPSHOT.pom
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;32mBUILD SUCCESS[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  7.714 s
+[[1;34mINFO[m] Finished at: 2026-09-01T01:35:55Z
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+Seq size= 639 
+STARTING ELEMENTS: 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 100 101 102 103 104 105 106 107 108 109 110 111 112 113 114 115 116 117 118 119 120 121 122 123 124 125 126 127 128 129 130 131 132 133 134 135 136 137 138 139 140 141 142 143 144 145 146 147 148 149 150 151 152 153 154 155 156 157 158 159 160 161 162 163 164 165 166 167 168 169 170 171 172 173 174 175 176 177 178 179 180 181 182 183 184 185 186 187 188 189 190 191 192 193 194 195 196 197 198 199 200 201 202 203 204 205 206 207 208 209 210 211 212 213 214 215 216 217 218 219 220 221 222 223 224 225 226 227 228 229 230 231 232 233 234 235 236 237 238 239 240 241 242 243 244 245 246 247 248 249 250 251 252 253 254 255 256 257 258 259 260 261 262 263 264 265 266 267 268 269 270 271 272 273 274 275 276 277 278 279 280 281 282 283 284 285 286 287 288 289 290 291 292 293 294 295 296 297 298 299 300 301 302 303 304 305 306 307 308 309 310 311 312 313 314 315 316 317 318 319 320 321 322 323 324 325 326 327 328 329 330 331 332 333 334 335 336 337 338 339 340 341 342 343 344 345 346 347 348 349 350 351 352 353 354 355 356 357 358 359 360 361 362 363 364 365 366 367 368 369 370 371 372 373 374 375 376 377 378 379 380 381 382 383 384 385 386 387 388 389 390 391 392 393 394 395 396 397 398 399 400 401 402 403 404 405 406 407 408 409 410 411 412 413 414 415 416 417 418 419 420 421 422 423 424 425 426 427 428 429 430 431 432 433 434 435 436 437 438 439 440 441 442 443 444 445 446 447 448 449 450 451 452 453 454 455 456 457 458 459 460 461 462 463 464 465 466 467 468 469 470 471 472 473 474 475 476 477 478 479 480 481 482 483 484 485 486 487 488 489 490 491 492 493 494 495 496 497 498 499 500 501 502 503 504 505 506 507 508 509 510 511 512 513 514 515 516 517 518 519 520 521 522 523 524 525 526 527 528 529 530 531 532 533 534 535 536 537 538 539 540 541 542 543 544 545 546 547 548 549 550 551 552 553 554 555 556 557 558 559 560 561 562 563 564 565 566 567 568 569 570 571 572 573 574 575 576 577 578 579 580 581 582 583 584 585 586 587 588 589 590 591 592 593 594 595 596 597 598 599 600 601 602 603 604 605 606 607 608 609 610 611 612 613 614 615 616 617 618 619 620 621 622 623 624 625 626 627 628 629 630 631 632 633 634 635 636 637 638 639
+*********** len = 639
+1  319
+java.lang.InterruptedException: sleep interrupted
+	at java.lang.Thread.sleep(Native Method)
+	at edu.utexas.ece.flakedelay.agent.Utility.delay(Utility.java:30)
+	at org.java_websocket.client.WebSocketClient$WebsocketWriteThread.run(WebSocketClient.java:660)
+	at java.lang.Thread.run(Thread.java:750)

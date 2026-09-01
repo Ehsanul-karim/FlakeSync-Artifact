@@ -1,0 +1,16 @@
+java8-flakesync@59745dfffa98:~/scripts$ cd /home/java8-flakesync/scripts && ./run_instrumented_flakesync.sh data_list/achilles_one.csv TEST=info.archinnov.achilles.it.TestDSLSimpleEntity#should_dsl_select_with_token_value ===== STAGE 1: delay injection + minimization ===== ===== STAGE 2: root method + critical point ===== ===== STAGE 3: barrier search ===== ===== COMPLETE ===== Stage 1: 2051.023 sec Stage 2: 2698.157 sec Stage 3: 1734.989 sec Total: 6484.169 sec Logs: /home/java8-flakesync/experiment_results/batch Metrics: /home/java8-flakesync/experiment_results/batch/stage_runtimes.csv ===== EXTRACTING CANDIDATE METRICS ===== Extracted metrics for: info.archinnov.achilles.it.TestDSLSimpleEntity#should_dsl_select_with_token_value Root methods: 1 Critical candidates: 6 [156;159;162;163;164;165] Critical successes: [159;162;163] Barrier candidates: 0 Barrier success: Barrier rank: Saved: /home/java8-flakesync/experiment_results/batch/candidate_metrics.csv
+
+
+
+This is already a useful second data point:
+
+Total: 6484.169 s ≈ 108.1 min
+Stage 1: 2051.023 s ≈ 34.2 min
+Stage 2: 2698.157 s ≈ 45.0 min — slowest
+Stage 3: 1734.989 s ≈ 28.9 min
+Critical-line candidates: 6
+Failure-inducing critical lines: 159, 162, 163
+
+So unlike Wasp, where BarrierSearch dominated, Achilles is dominated by Stage 2. A variation.
+
+The 0 barrier candidates is clearly an extractor-format problem, not a real zero - Stage 3 ran for almost 29 minutes.

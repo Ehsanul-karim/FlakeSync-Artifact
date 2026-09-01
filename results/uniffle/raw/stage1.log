@@ -1,0 +1,1206 @@
+Cloning into '/home/java8-flakesync/scripts/projects-For-Delta/apache/incubator-uniffle'...
+Checking out files:  53% (747/1391)   Checking out files:  54% (752/1391)   Checking out files:  55% (766/1391)   Checking out files:  56% (779/1391)   Checking out files:  57% (793/1391)   Checking out files:  58% (807/1391)   Checking out files:  59% (821/1391)   Checking out files:  60% (835/1391)   Checking out files:  61% (849/1391)   Checking out files:  62% (863/1391)   Checking out files:  63% (877/1391)   Checking out files:  64% (891/1391)   Checking out files:  65% (905/1391)   Checking out files:  66% (919/1391)   Checking out files:  67% (932/1391)   Checking out files:  68% (946/1391)   Checking out files:  69% (960/1391)   Checking out files:  70% (974/1391)   Checking out files:  71% (988/1391)   Checking out files:  72% (1002/1391)   Checking out files:  73% (1016/1391)   Checking out files:  74% (1030/1391)   Checking out files:  75% (1044/1391)   Checking out files:  76% (1058/1391)   Checking out files:  77% (1072/1391)   Checking out files:  78% (1085/1391)   Checking out files:  79% (1099/1391)   Checking out files:  80% (1113/1391)   Checking out files:  81% (1127/1391)   Checking out files:  82% (1141/1391)   Checking out files:  83% (1155/1391)   Checking out files:  84% (1169/1391)   Checking out files:  85% (1183/1391)   Checking out files:  86% (1197/1391)   Checking out files:  87% (1211/1391)   Checking out files:  88% (1225/1391)   Checking out files:  89% (1238/1391)   Checking out files:  90% (1252/1391)   Checking out files:  91% (1266/1391)   Checking out files:  92% (1280/1391)   Checking out files:  93% (1294/1391)   Checking out files:  94% (1308/1391)   Checking out files:  95% (1322/1391)   Checking out files:  96% (1336/1391)   Checking out files:  97% (1350/1391)   Checking out files:  98% (1364/1391)   Checking out files:  99% (1378/1391)   Checking out files: 100% (1391/1391)   Checking out files: 100% (1391/1391), done.
+Note: checking out '6fb2a9a63132ab9abbde2f1f9240f9caf2f5d0f0'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by performing another checkout.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -b with the checkout command again. Example:
+
+  git checkout -b <new-branch-name>
+
+HEAD is now at 6fb2a9a6 [#1018] test(tez) RssUnorderedPartitionedKVOutputTest add close func unit test (#1034)
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] ------------------------------------------------------------------------
+[[1;34mINFO[m] Detecting the operating system and CPU architecture
+[[1;34mINFO[m] ------------------------------------------------------------------------
+[[1;34mINFO[m] os.detected.name: linux
+[[1;34mINFO[m] os.detected.arch: x86_64
+[[1;34mINFO[m] os.detected.version: 6.18
+[[1;34mINFO[m] os.detected.version.major: 6
+[[1;34mINFO[m] os.detected.version.minor: 18
+[[1;34mINFO[m] os.detected.release: ubuntu
+[[1;34mINFO[m] os.detected.release.version: 18.04
+[[1;34mINFO[m] os.detected.release.like.ubuntu: true
+[[1;34mINFO[m] os.detected.release.like.debian: true
+[[1;34mINFO[m] os.detected.classifier: linux-x86_64
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1mReactor Build Order:[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] Apache Uniffle                                                     [pom]
+[[1;34mINFO[m] Apache Uniffle Protocols                                           [jar]
+[[1;34mINFO[m] Apache Uniffle Common                                              [jar]
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m-----------------< [0;36morg.apache.uniffle:uniffle-parent[0;1m >------------------[m
+[[1;34mINFO[m] [1mBuilding Apache Uniffle 0.8.0-SNAPSHOT                             [1/3][m
+[[1;34mINFO[m] [1m--------------------------------[ pom ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mjacoco-maven-plugin:0.8.3:prepare-agent[m [1m(default-prepare-agent)[m @ [36muniffle-parent[0;1m ---[m
+[[1;34mINFO[m] argLine set to -javaagent:/home/java8-flakesync/.m2/repository/org/jacoco/org.jacoco.agent/0.8.3/org.jacoco.agent-0.8.3-runtime.jar=destfile=/home/java8-flakesync/scripts/projects-For-Delta/apache/incubator-uniffle/target/jacoco.exec
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-remote-resources-plugin:1.5:process[m [1m(process-resource-bundles)[m @ [36muniffle-parent[0;1m ---[m
+Downloading from apache.snapshots: https://repository.apache.org/snapshots/org/apache/apache/resources/apache-incubator-disclaimer-resource-bundle/1.2-SNAPSHOT/maven-metadata.xml
+Progress (1): 817 B                   Downloaded from apache.snapshots: https://repository.apache.org/snapshots/org/apache/apache/resources/apache-incubator-disclaimer-resource-bundle/1.2-SNAPSHOT/maven-metadata.xml (817 B at 497 B/s)
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-antrun-plugin:1.8:run[m [1m(pre-test-clean)[m @ [36muniffle-parent[0;1m ---[m
+[[1;34mINFO[m] Executing tasks
+
+main:
+[[1;34mINFO[m] Executed tasks
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-antrun-plugin:1.8:run[m [1m(create-tmp-dir)[m @ [36muniffle-parent[0;1m ---[m
+[[1;34mINFO[m] Executing tasks
+
+main:
+    [mkdir] Created dir: /home/java8-flakesync/scripts/projects-For-Delta/apache/incubator-uniffle/target/tmp
+[[1;34mINFO[m] Executed tasks
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mjacoco-maven-plugin:0.8.3:report[m [1m(report)[m @ [36muniffle-parent[0;1m ---[m
+[[1;34mINFO[m] Skipping JaCoCo execution due to missing execution data file.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-dependency-plugin:2.10:copy-dependencies[m [1m(copy-dependencies)[m @ [36muniffle-parent[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-site-plugin:3.5.1:attach-descriptor[m [1m(attach-descriptor)[m @ [36muniffle-parent[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-install-plugin:2.5.2:install[m [1m(default-install)[m @ [36muniffle-parent[0;1m ---[m
+[[1;34mINFO[m] Installing /home/java8-flakesync/scripts/projects-For-Delta/apache/incubator-uniffle/pom.xml to /home/java8-flakesync/.m2/repository/org/apache/uniffle/uniffle-parent/0.8.0-SNAPSHOT/uniffle-parent-0.8.0-SNAPSHOT.pom
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--------------------< [0;36morg.apache.uniffle:rss-proto[0;1m >--------------------[m
+[[1;34mINFO[m] [1mBuilding Apache Uniffle Protocols 0.8.0-SNAPSHOT                   [2/3][m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+Downloading from central: https://repo1.maven.org/maven2/io/grpc/grpc-core/maven-metadata.xml
+Downloading from apache-repo: https://repository.apache.org/content/repositories/releases/io/grpc/grpc-core/maven-metadata.xml
+Downloading from apache.snapshots: https://repository.apache.org/snapshots/io/grpc/grpc-core/maven-metadata.xml
+Progress (1): 4.1 kBProgress (1): 4.7 kBProgress (1): 6.6 kB                    Downloaded from central: https://repo1.maven.org/maven2/io/grpc/grpc-core/maven-metadata.xml (6.6 kB at 9.8 kB/s)
+Downloading from apache-repo: https://repository.apache.org/content/repositories/releases/io/grpc/grpc-api/maven-metadata.xml
+Downloading from central: https://repo1.maven.org/maven2/io/grpc/grpc-api/maven-metadata.xml
+Downloading from apache.snapshots: https://repository.apache.org/snapshots/io/grpc/grpc-api/maven-metadata.xml
+Progress (1): 4.1 kBProgress (1): 4.7 kBProgress (1): 5.0 kB                    Downloaded from central: https://repo1.maven.org/maven2/io/grpc/grpc-api/maven-metadata.xml (5.0 kB at 12 kB/s)
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mjacoco-maven-plugin:0.8.3:prepare-agent[m [1m(default-prepare-agent)[m @ [36mrss-proto[0;1m ---[m
+[[1;34mINFO[m] argLine set to -javaagent:/home/java8-flakesync/.m2/repository/org/jacoco/org.jacoco.agent/0.8.3/org.jacoco.agent-0.8.3-runtime.jar=destfile=/home/java8-flakesync/scripts/projects-For-Delta/apache/incubator-uniffle/proto/target/jacoco.exec
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mprotobuf-maven-plugin:0.6.1:compile[m [1m(default)[m @ [36mrss-proto[0;1m ---[m
+[[1;34mINFO[m] Compiling 1 proto file(s) to /home/java8-flakesync/scripts/projects-For-Delta/apache/incubator-uniffle/proto/target/generated-sources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mprotobuf-maven-plugin:0.6.1:compile-custom[m [1m(default)[m @ [36mrss-proto[0;1m ---[m
+[[1;34mINFO[m] Compiling 1 proto file(s) to /home/java8-flakesync/scripts/projects-For-Delta/apache/incubator-uniffle/proto/target/generated-sources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mprotobuf-maven-plugin:0.6.1:compile[m [1m(compile-protobuf)[m @ [36mrss-proto[0;1m ---[m
+[[1;34mINFO[m] Compiling 1 proto file(s) to /home/java8-flakesync/scripts/projects-For-Delta/apache/incubator-uniffle/proto/target/generated-sources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mprotobuf-maven-plugin:0.6.1:compile-custom[m [1m(compile-grpc)[m @ [36mrss-proto[0;1m ---[m
+[[1;34mINFO[m] Compiling 1 proto file(s) to /home/java8-flakesync/scripts/projects-For-Delta/apache/incubator-uniffle/proto/target/generated-sources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-remote-resources-plugin:1.5:process[m [1m(process-resource-bundles)[m @ [36mrss-proto[0;1m ---[m
+[[1;34mINFO[m] artifact io.grpc:grpc-core: checking for updates from central
+[[1;34mINFO[m] artifact io.grpc:grpc-core: checking for updates from apache-repo
+[[1;34mINFO[m] artifact io.grpc:grpc-api: checking for updates from central
+[[1;34mINFO[m] artifact io.grpc:grpc-api: checking for updates from apache-repo
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.7:resources[m [1m(default-resources)[m @ [36mrss-proto[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] skip non existing resourceDirectory /home/java8-flakesync/scripts/projects-For-Delta/apache/incubator-uniffle/proto/src/main/resources
+[[1;34mINFO[m] Copying 1 resource
+[[1;34mINFO[m] Copying 1 resource
+[[1;34mINFO[m] Copying 1 resource
+[[1;34mINFO[m] Copying 1 resource
+[[1;34mINFO[m] Copying 4 resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.7.0:compile[m [1m(default-compile)[m @ [36mrss-proto[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;34mINFO[m] Compiling 5 source files to /home/java8-flakesync/scripts/projects-For-Delta/apache/incubator-uniffle/proto/target/classes
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-jar-plugin:2.3.2:jar[m [1m(default-jar)[m @ [36mrss-proto[0;1m ---[m
+[[1;34mINFO[m] Building jar: /home/java8-flakesync/scripts/projects-For-Delta/apache/incubator-uniffle/proto/target/rss-proto-0.8.0-SNAPSHOT.jar
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-antrun-plugin:1.8:run[m [1m(pre-test-clean)[m @ [36mrss-proto[0;1m ---[m
+[[1;34mINFO[m] Executing tasks
+
+main:
+[[1;34mINFO[m] Executed tasks
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-antrun-plugin:1.8:run[m [1m(create-tmp-dir)[m @ [36mrss-proto[0;1m ---[m
+[[1;34mINFO[m] Executing tasks
+
+main:
+    [mkdir] Created dir: /home/java8-flakesync/scripts/projects-For-Delta/apache/incubator-uniffle/proto/target/tmp
+[[1;34mINFO[m] Executed tasks
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.7:testResources[m [1m(default-testResources)[m @ [36mrss-proto[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] skip non existing resourceDirectory /home/java8-flakesync/scripts/projects-For-Delta/apache/incubator-uniffle/proto/src/test/resources
+[[1;34mINFO[m] Copying 4 resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.7.0:testCompile[m [1m(default-testCompile)[m @ [36mrss-proto[0;1m ---[m
+[[1;34mINFO[m] No sources to compile
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-surefire-plugin:2.22.2:test[m [1m(default-test)[m @ [36mrss-proto[0;1m ---[m
+[[1;34mINFO[m] Tests are skipped.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mjacoco-maven-plugin:0.8.3:report[m [1m(report)[m @ [36mrss-proto[0;1m ---[m
+[[1;34mINFO[m] Skipping JaCoCo execution due to missing execution data file.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-dependency-plugin:2.10:copy-dependencies[m [1m(copy-dependencies)[m @ [36mrss-proto[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-site-plugin:3.5.1:attach-descriptor[m [1m(attach-descriptor)[m @ [36mrss-proto[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-jar-plugin:2.3.2:test-jar[m [1m(default)[m @ [36mrss-proto[0;1m ---[m
+[[1;34mINFO[m] Building jar: /home/java8-flakesync/scripts/projects-For-Delta/apache/incubator-uniffle/proto/target/rss-proto-0.8.0-SNAPSHOT-tests.jar
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-install-plugin:2.5.2:install[m [1m(default-install)[m @ [36mrss-proto[0;1m ---[m
+[[1;34mINFO[m] Installing /home/java8-flakesync/scripts/projects-For-Delta/apache/incubator-uniffle/proto/target/rss-proto-0.8.0-SNAPSHOT.jar to /home/java8-flakesync/.m2/repository/org/apache/uniffle/rss-proto/0.8.0-SNAPSHOT/rss-proto-0.8.0-SNAPSHOT.jar
+[[1;34mINFO[m] Installing /home/java8-flakesync/scripts/projects-For-Delta/apache/incubator-uniffle/proto/pom.xml to /home/java8-flakesync/.m2/repository/org/apache/uniffle/rss-proto/0.8.0-SNAPSHOT/rss-proto-0.8.0-SNAPSHOT.pom
+[[1;34mINFO[m] Installing /home/java8-flakesync/scripts/projects-For-Delta/apache/incubator-uniffle/proto/target/rss-proto-0.8.0-SNAPSHOT-tests.jar to /home/java8-flakesync/.m2/repository/org/apache/uniffle/rss-proto/0.8.0-SNAPSHOT/rss-proto-0.8.0-SNAPSHOT-tests.jar
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m-------------------< [0;36morg.apache.uniffle:rss-common[0;1m >--------------------[m
+[[1;34mINFO[m] [1mBuilding Apache Uniffle Common 0.8.0-SNAPSHOT                      [3/3][m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mjacoco-maven-plugin:0.8.3:prepare-agent[m [1m(default-prepare-agent)[m @ [36mrss-common[0;1m ---[m
+[[1;34mINFO[m] argLine set to -javaagent:/home/java8-flakesync/.m2/repository/org/jacoco/org.jacoco.agent/0.8.3/org.jacoco.agent-0.8.3-runtime.jar=destfile=/home/java8-flakesync/scripts/projects-For-Delta/apache/incubator-uniffle/common/target/jacoco.exec
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-remote-resources-plugin:1.5:process[m [1m(process-resource-bundles)[m @ [36mrss-common[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.7:resources[m [1m(default-resources)[m @ [36mrss-common[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] Copying 1 resource
+[[1;34mINFO[m] Copying 4 resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.7.0:compile[m [1m(default-compile)[m @ [36mrss-common[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;34mINFO[m] Compiling 119 source files to /home/java8-flakesync/scripts/projects-For-Delta/apache/incubator-uniffle/common/target/classes
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-antrun-plugin:1.8:run[m [1m(pre-test-clean)[m @ [36mrss-common[0;1m ---[m
+[[1;34mINFO[m] Executing tasks
+
+main:
+[[1;34mINFO[m] Executed tasks
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-antrun-plugin:1.8:run[m [1m(create-tmp-dir)[m @ [36mrss-common[0;1m ---[m
+[[1;34mINFO[m] Executing tasks
+
+main:
+    [mkdir] Created dir: /home/java8-flakesync/scripts/projects-For-Delta/apache/incubator-uniffle/common/target/tmp
+[[1;34mINFO[m] Executed tasks
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.7:testResources[m [1m(default-testResources)[m @ [36mrss-common[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] Copying 2 resources
+[[1;34mINFO[m] Copying 4 resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.7.0:testCompile[m [1m(default-testCompile)[m @ [36mrss-common[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;34mINFO[m] Compiling 46 source files to /home/java8-flakesync/scripts/projects-For-Delta/apache/incubator-uniffle/common/target/test-classes
+[[1;33mWARNING[m] /home/java8-flakesync/scripts/projects-For-Delta/apache/incubator-uniffle/common/src/test/java/org/apache/uniffle/common/KerberizedHadoop.java:[220,27] [unchecked] unchecked generic array creation for varargs parameter of type Class<? extends Throwable>[]
+[[1;33mWARNING[m] /home/java8-flakesync/scripts/projects-For-Delta/apache/incubator-uniffle/common/src/test/java/org/apache/uniffle/common/util/RetryUtilsTest.java:[47,25] [unchecked] unchecked generic array creation for varargs parameter of type Class<? extends Throwable>[]
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-surefire-plugin:2.22.2:test[m [1m(default-test)[m @ [36mrss-common[0;1m ---[m
+[[1;34mINFO[m] Tests are skipped.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mjacoco-maven-plugin:0.8.3:report[m [1m(report)[m @ [36mrss-common[0;1m ---[m
+[[1;34mINFO[m] Skipping JaCoCo execution due to missing execution data file.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-dependency-plugin:2.10:copy-dependencies[m [1m(copy-dependencies)[m @ [36mrss-common[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-jar-plugin:2.3.2:jar[m [1m(default-jar)[m @ [36mrss-common[0;1m ---[m
+[[1;34mINFO[m] Building jar: /home/java8-flakesync/scripts/projects-For-Delta/apache/incubator-uniffle/common/target/rss-common-0.8.0-SNAPSHOT.jar
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-site-plugin:3.5.1:attach-descriptor[m [1m(attach-descriptor)[m @ [36mrss-common[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-jar-plugin:2.3.2:test-jar[m [1m(default)[m @ [36mrss-common[0;1m ---[m
+[[1;34mINFO[m] Building jar: /home/java8-flakesync/scripts/projects-For-Delta/apache/incubator-uniffle/common/target/rss-common-0.8.0-SNAPSHOT-tests.jar
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-install-plugin:2.5.2:install[m [1m(default-install)[m @ [36mrss-common[0;1m ---[m
+[[1;34mINFO[m] Installing /home/java8-flakesync/scripts/projects-For-Delta/apache/incubator-uniffle/common/target/rss-common-0.8.0-SNAPSHOT.jar to /home/java8-flakesync/.m2/repository/org/apache/uniffle/rss-common/0.8.0-SNAPSHOT/rss-common-0.8.0-SNAPSHOT.jar
+[[1;34mINFO[m] Installing /home/java8-flakesync/scripts/projects-For-Delta/apache/incubator-uniffle/common/pom.xml to /home/java8-flakesync/.m2/repository/org/apache/uniffle/rss-common/0.8.0-SNAPSHOT/rss-common-0.8.0-SNAPSHOT.pom
+[[1;34mINFO[m] Installing /home/java8-flakesync/scripts/projects-For-Delta/apache/incubator-uniffle/common/target/rss-common-0.8.0-SNAPSHOT-tests.jar to /home/java8-flakesync/.m2/repository/org/apache/uniffle/rss-common/0.8.0-SNAPSHOT/rss-common-0.8.0-SNAPSHOT-tests.jar
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1mReactor Summary for Apache Uniffle 0.8.0-SNAPSHOT:[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] Apache Uniffle ..................................... [1;32mSUCCESS[m [  7.353 s]
+[[1;34mINFO[m] Apache Uniffle Protocols ........................... [1;32mSUCCESS[m [ 15.277 s]
+[[1;34mINFO[m] Apache Uniffle Common .............................. [1;32mSUCCESS[m [ 17.356 s]
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;32mBUILD SUCCESS[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  41.729 s
+[[1;34mINFO[m] Finished at: 2026-09-01T01:38:03Z
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+/home/java8-flakesync/scripts/projects-For-Delta/apache/incubator-uniffle/client-mr/core
+/home/java8-flakesync/scripts/projects-For-Delta/apache/incubator-uniffle/cli
+/home/java8-flakesync/scripts/projects-For-Delta/apache/incubator-uniffle/client-mr/hadoop2.8
+/home/java8-flakesync/scripts/projects-For-Delta/apache/incubator-uniffle/client
+/home/java8-flakesync/scripts/projects-For-Delta/apache/incubator-uniffle/integration-test/spark3
+/home/java8-flakesync/scripts/projects-For-Delta/apache/incubator-uniffle/coordinator
+/home/java8-flakesync/scripts/projects-For-Delta/apache/incubator-uniffle/client-spark/common
+/home/java8-flakesync/scripts/projects-For-Delta/apache/incubator-uniffle/client-tez
+/home/java8-flakesync/scripts/projects-For-Delta/apache/incubator-uniffle/client-mr/hadoop3.2
+/home/java8-flakesync/scripts/projects-For-Delta/apache/incubator-uniffle/client-spark/spark2
+/home/java8-flakesync/scripts/projects-For-Delta/apache/incubator-uniffle/integration-test/tez
+/home/java8-flakesync/scripts/projects-For-Delta/apache/incubator-uniffle/client-spark/spark3
+/home/java8-flakesync/scripts/projects-For-Delta/apache/incubator-uniffle/server
+/home/java8-flakesync/scripts/projects-For-Delta/apache/incubator-uniffle/deploy/kubernetes
+/home/java8-flakesync/scripts/projects-For-Delta/apache/incubator-uniffle
+/home/java8-flakesync/scripts/projects-For-Delta/apache/incubator-uniffle/storage
+/home/java8-flakesync/scripts/projects-For-Delta/apache/incubator-uniffle/integration-test/spark2
+/home/java8-flakesync/scripts/projects-For-Delta/apache/incubator-uniffle/common
+/home/java8-flakesync/scripts/projects-For-Delta/apache/incubator-uniffle/integration-test/common
+/home/java8-flakesync/scripts/projects-For-Delta/apache/incubator-uniffle/internal-client
+/home/java8-flakesync/scripts/projects-For-Delta/apache/incubator-uniffle/proto
+/home/java8-flakesync/scripts/projects-For-Delta/apache/incubator-uniffle/integration-test/spark-common
+/home/java8-flakesync/scripts/projects-For-Delta/apache/incubator-uniffle/integration-test/mr
+iteration_linkage_error= 0
+delay === 100
+1 ****************
+Running flakedelay in a loc...
+HEAD is now at 6fb2a9a6 [#1018] test(tez) RssUnorderedPartitionedKVOutputTest add close func unit test (#1034)
+M	cli/pom.xml
+M	client-mr/core/pom.xml
+M	client-mr/hadoop2.8/pom.xml
+M	client-mr/hadoop3.2/pom.xml
+M	client-spark/common/pom.xml
+M	client-spark/spark2/pom.xml
+M	client-spark/spark3/pom.xml
+M	client-tez/pom.xml
+M	client/pom.xml
+M	common/pom.xml
+M	coordinator/pom.xml
+M	deploy/kubernetes/pom.xml
+M	integration-test/common/pom.xml
+M	integration-test/mr/pom.xml
+M	integration-test/spark-common/pom.xml
+M	integration-test/spark2/pom.xml
+M	integration-test/spark3/pom.xml
+M	integration-test/tez/pom.xml
+M	internal-client/pom.xml
+M	pom.xml
+M	proto/pom.xml
+M	server/pom.xml
+M	storage/pom.xml
+Strings are not equal.
+/home/java8-flakesync/scripts/projects-For-Delta/apache/incubator-uniffle/client-mr/core
+/home/java8-flakesync/scripts/projects-For-Delta/apache/incubator-uniffle/cli
+/home/java8-flakesync/scripts/projects-For-Delta/apache/incubator-uniffle/client-mr/hadoop2.8
+/home/java8-flakesync/scripts/projects-For-Delta/apache/incubator-uniffle/client
+/home/java8-flakesync/scripts/projects-For-Delta/apache/incubator-uniffle/integration-test/spark3
+/home/java8-flakesync/scripts/projects-For-Delta/apache/incubator-uniffle/coordinator
+/home/java8-flakesync/scripts/projects-For-Delta/apache/incubator-uniffle/client-spark/common
+/home/java8-flakesync/scripts/projects-For-Delta/apache/incubator-uniffle/client-tez
+/home/java8-flakesync/scripts/projects-For-Delta/apache/incubator-uniffle/client-mr/hadoop3.2
+/home/java8-flakesync/scripts/projects-For-Delta/apache/incubator-uniffle/client-spark/spark2
+/home/java8-flakesync/scripts/projects-For-Delta/apache/incubator-uniffle/integration-test/tez
+/home/java8-flakesync/scripts/projects-For-Delta/apache/incubator-uniffle/client-spark/spark3
+/home/java8-flakesync/scripts/projects-For-Delta/apache/incubator-uniffle/server
+/home/java8-flakesync/scripts/projects-For-Delta/apache/incubator-uniffle/deploy/kubernetes
+/home/java8-flakesync/scripts/projects-For-Delta/apache/incubator-uniffle
+/home/java8-flakesync/scripts/projects-For-Delta/apache/incubator-uniffle/storage
+/home/java8-flakesync/scripts/projects-For-Delta/apache/incubator-uniffle/integration-test/spark2
+/home/java8-flakesync/scripts/projects-For-Delta/apache/incubator-uniffle/common
+/home/java8-flakesync/scripts/projects-For-Delta/apache/incubator-uniffle/integration-test/common
+/home/java8-flakesync/scripts/projects-For-Delta/apache/incubator-uniffle/internal-client
+/home/java8-flakesync/scripts/projects-For-Delta/apache/incubator-uniffle/proto
+/home/java8-flakesync/scripts/projects-For-Delta/apache/incubator-uniffle/integration-test/spark-common
+/home/java8-flakesync/scripts/projects-For-Delta/apache/incubator-uniffle/integration-test/mr
+currentDir= /home/java8-flakesync/scripts/agent-pom-modify, slug=/home/java8-flakesync/scripts/projects-For-Delta/apache/incubator-uniffle
+[[1;34mINFO[m] Scanning for projects...
+[[1;33mWARNING[m] 
+[[1;33mWARNING[m] Some problems were encountered while building the effective model for org.apache.uniffle:rss-proto:jar:0.8.0-SNAPSHOT
+[[1;33mWARNING[m] 'build.plugins.plugin.(groupId:artifactId)' must be unique but found duplicate declaration of plugin org.apache.maven.plugins:maven-surefire-plugin @ org.apache.uniffle:rss-proto:[unknown-version], /home/java8-flakesync/scripts/projects-For-Delta/apache/incubator-uniffle/proto/pom.xml, line 157, column 17
+[[1;33mWARNING[m] 'build.plugins.plugin.(groupId:artifactId)' must be unique but found duplicate declaration of plugin org.apache.maven.plugins:maven-surefire-plugin @ org.apache.uniffle:uniffle-parent:0.8.0-SNAPSHOT, /home/java8-flakesync/scripts/projects-For-Delta/apache/incubator-uniffle/pom.xml, line 1071, column 13
+[[1;33mWARNING[m] 'build.plugins.plugin.(groupId:artifactId)' must be unique but found duplicate declaration of plugin org.apache.maven.plugins:maven-surefire-plugin @ org.apache.uniffle:uniffle-parent:0.8.0-SNAPSHOT, /home/java8-flakesync/scripts/projects-For-Delta/apache/incubator-uniffle/pom.xml, line 1079, column 17
+[[1;33mWARNING[m] 
+[[1;33mWARNING[m] Some problems were encountered while building the effective model for org.apache.uniffle:rss-common:jar:0.8.0-SNAPSHOT
+[[1;33mWARNING[m] 'build.plugins.plugin.(groupId:artifactId)' must be unique but found duplicate declaration of plugin org.apache.maven.plugins:maven-surefire-plugin @ org.apache.uniffle:rss-common:[unknown-version], /home/java8-flakesync/scripts/projects-For-Delta/apache/incubator-uniffle/common/pom.xml, line 167, column 17
+[[1;33mWARNING[m] 
+[[1;33mWARNING[m] Some problems were encountered while building the effective model for org.apache.uniffle:coordinator:jar:0.8.0-SNAPSHOT
+[[1;33mWARNING[m] 'build.plugins.plugin.(groupId:artifactId)' must be unique but found duplicate declaration of plugin org.apache.maven.plugins:maven-surefire-plugin @ org.apache.uniffle:coordinator:[unknown-version], /home/java8-flakesync/scripts/projects-For-Delta/apache/incubator-uniffle/coordinator/pom.xml, line 174, column 17
+[[1;33mWARNING[m] 
+[[1;33mWARNING[m] Some problems were encountered while building the effective model for org.apache.uniffle:rss-internal-client:jar:0.8.0-SNAPSHOT
+[[1;33mWARNING[m] 'build.plugins.plugin.(groupId:artifactId)' must be unique but found duplicate declaration of plugin org.apache.maven.plugins:maven-surefire-plugin @ line 50, column 17
+[[1;33mWARNING[m] 
+[[1;33mWARNING[m] Some problems were encountered while building the effective model for org.apache.uniffle:shuffle-storage:jar:0.8.0-SNAPSHOT
+[[1;33mWARNING[m] 'build.plugins.plugin.(groupId:artifactId)' must be unique but found duplicate declaration of plugin org.apache.maven.plugins:maven-surefire-plugin @ org.apache.uniffle:shuffle-storage:[unknown-version], /home/java8-flakesync/scripts/projects-For-Delta/apache/incubator-uniffle/storage/pom.xml, line 115, column 17
+[[1;33mWARNING[m] 
+[[1;33mWARNING[m] Some problems were encountered while building the effective model for org.apache.uniffle:shuffle-server:jar:0.8.0-SNAPSHOT
+[[1;33mWARNING[m] 'build.plugins.plugin.(groupId:artifactId)' must be unique but found duplicate declaration of plugin org.apache.maven.plugins:maven-surefire-plugin @ org.apache.uniffle:shuffle-server:[unknown-version], /home/java8-flakesync/scripts/projects-For-Delta/apache/incubator-uniffle/server/pom.xml, line 220, column 17
+[[1;33mWARNING[m] 
+[[1;33mWARNING[m] Some problems were encountered while building the effective model for org.apache.uniffle:rss-client:jar:0.8.0-SNAPSHOT
+[[1;33mWARNING[m] 'build.plugins.plugin.(groupId:artifactId)' must be unique but found duplicate declaration of plugin org.apache.maven.plugins:maven-surefire-plugin @ line 79, column 17
+[[1;33mWARNING[m] 
+[[1;33mWARNING[m] Some problems were encountered while building the effective model for org.apache.uniffle:rss-integration-common-test:jar:0.8.0-SNAPSHOT
+[[1;33mWARNING[m] 'build.plugins.plugin.(groupId:artifactId)' must be unique but found duplicate declaration of plugin org.apache.maven.plugins:maven-surefire-plugin @ line 158, column 17
+[[1;33mWARNING[m] 
+[[1;33mWARNING[m] Some problems were encountered while building the effective model for org.apache.uniffle:cli:jar:0.8.0-SNAPSHOT
+[[1;33mWARNING[m] 'build.plugins.plugin.(groupId:artifactId)' must be unique but found duplicate declaration of plugin org.apache.maven.plugins:maven-surefire-plugin @ org.apache.uniffle:cli:[unknown-version], /home/java8-flakesync/scripts/projects-For-Delta/apache/incubator-uniffle/cli/pom.xml, line 57, column 17
+[[1;33mWARNING[m] 
+[[1;33mWARNING[m] Some problems were encountered while building the effective model for org.apache.uniffle:uniffle-parent:pom:0.8.0-SNAPSHOT
+[[1;33mWARNING[m] 'build.plugins.plugin.(groupId:artifactId)' must be unique but found duplicate declaration of plugin org.apache.maven.plugins:maven-surefire-plugin @ line 1071, column 13
+[[1;33mWARNING[m] 'build.plugins.plugin.(groupId:artifactId)' must be unique but found duplicate declaration of plugin org.apache.maven.plugins:maven-surefire-plugin @ line 1079, column 17
+[[1;33mWARNING[m] 
+[[1;33mWARNING[m] It is highly recommended to fix these problems because they threaten the stability of your build.
+[[1;33mWARNING[m] 
+[[1;33mWARNING[m] For this reason, future Maven versions might no longer support building such malformed projects.
+[[1;33mWARNING[m] 
+[[1;34mINFO[m] ------------------------------------------------------------------------
+[[1;34mINFO[m] Detecting the operating system and CPU architecture
+[[1;34mINFO[m] ------------------------------------------------------------------------
+[[1;34mINFO[m] os.detected.name: linux
+[[1;34mINFO[m] os.detected.arch: x86_64
+[[1;34mINFO[m] os.detected.version: 6.18
+[[1;34mINFO[m] os.detected.version.major: 6
+[[1;34mINFO[m] os.detected.version.minor: 18
+[[1;34mINFO[m] os.detected.release: ubuntu
+[[1;34mINFO[m] os.detected.release.version: 18.04
+[[1;34mINFO[m] os.detected.release.like.ubuntu: true
+[[1;34mINFO[m] os.detected.release.like.debian: true
+[[1;34mINFO[m] os.detected.classifier: linux-x86_64
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1mReactor Build Order:[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] Apache Uniffle                                                     [pom]
+[[1;34mINFO[m] Apache Uniffle Protocols                                           [jar]
+[[1;34mINFO[m] Apache Uniffle Common                                              [jar]
+[[1;34mINFO[m] Apache Uniffle Internal Client                                     [jar]
+[[1;34mINFO[m] Apache Uniffle Coordinator                                         [jar]
+[[1;34mINFO[m] Apache Uniffle Storage                                             [jar]
+[[1;34mINFO[m] Apache Uniffle Server                                              [jar]
+[[1;34mINFO[m] Apache Uniffle Client                                              [jar]
+[[1;34mINFO[m] Apache Uniffle CLI                                                 [jar]
+[[1;34mINFO[m] Apache Uniffle Integration Test (Common)                           [jar]
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m-----------------< [0;36morg.apache.uniffle:uniffle-parent[0;1m >------------------[m
+[[1;34mINFO[m] [1mBuilding Apache Uniffle 0.8.0-SNAPSHOT                            [1/10][m
+[[1;34mINFO[m] [1m--------------------------------[ pom ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mjacoco-maven-plugin:0.8.3:prepare-agent[m [1m(default-prepare-agent)[m @ [36muniffle-parent[0;1m ---[m
+[[1;34mINFO[m] argLine set to -javaagent:/home/java8-flakesync/.m2/repository/org/jacoco/org.jacoco.agent/0.8.3/org.jacoco.agent-0.8.3-runtime.jar=destfile=/home/java8-flakesync/scripts/projects-For-Delta/apache/incubator-uniffle/target/jacoco.exec
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-remote-resources-plugin:1.5:process[m [1m(process-resource-bundles)[m @ [36muniffle-parent[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-antrun-plugin:1.8:run[m [1m(pre-test-clean)[m @ [36muniffle-parent[0;1m ---[m
+[[1;34mINFO[m] Executing tasks
+
+main:
+   [delete] Deleting directory /home/java8-flakesync/scripts/projects-For-Delta/apache/incubator-uniffle/target/tmp
+[[1;34mINFO[m] Executed tasks
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-antrun-plugin:1.8:run[m [1m(create-tmp-dir)[m @ [36muniffle-parent[0;1m ---[m
+[[1;34mINFO[m] Executing tasks
+
+main:
+    [mkdir] Created dir: /home/java8-flakesync/scripts/projects-For-Delta/apache/incubator-uniffle/target/tmp
+[[1;34mINFO[m] Executed tasks
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mjacoco-maven-plugin:0.8.3:report[m [1m(report)[m @ [36muniffle-parent[0;1m ---[m
+[[1;34mINFO[m] Skipping JaCoCo execution due to missing execution data file.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-dependency-plugin:2.10:copy-dependencies[m [1m(copy-dependencies)[m @ [36muniffle-parent[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-site-plugin:3.5.1:attach-descriptor[m [1m(attach-descriptor)[m @ [36muniffle-parent[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-install-plugin:2.5.2:install[m [1m(default-install)[m @ [36muniffle-parent[0;1m ---[m
+[[1;34mINFO[m] Installing /home/java8-flakesync/scripts/projects-For-Delta/apache/incubator-uniffle/pom.xml to /home/java8-flakesync/.m2/repository/org/apache/uniffle/uniffle-parent/0.8.0-SNAPSHOT/uniffle-parent-0.8.0-SNAPSHOT.pom
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--------------------< [0;36morg.apache.uniffle:rss-proto[0;1m >--------------------[m
+[[1;34mINFO[m] [1mBuilding Apache Uniffle Protocols 0.8.0-SNAPSHOT                  [2/10][m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mjacoco-maven-plugin:0.8.3:prepare-agent[m [1m(default-prepare-agent)[m @ [36mrss-proto[0;1m ---[m
+[[1;34mINFO[m] argLine set to -javaagent:/home/java8-flakesync/.m2/repository/org/jacoco/org.jacoco.agent/0.8.3/org.jacoco.agent-0.8.3-runtime.jar=destfile=/home/java8-flakesync/scripts/projects-For-Delta/apache/incubator-uniffle/proto/target/jacoco.exec
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mprotobuf-maven-plugin:0.6.1:compile[m [1m(default)[m @ [36mrss-proto[0;1m ---[m
+[[1;34mINFO[m] Compiling 1 proto file(s) to /home/java8-flakesync/scripts/projects-For-Delta/apache/incubator-uniffle/proto/target/generated-sources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mprotobuf-maven-plugin:0.6.1:compile-custom[m [1m(default)[m @ [36mrss-proto[0;1m ---[m
+[[1;34mINFO[m] Compiling 1 proto file(s) to /home/java8-flakesync/scripts/projects-For-Delta/apache/incubator-uniffle/proto/target/generated-sources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mprotobuf-maven-plugin:0.6.1:compile[m [1m(compile-protobuf)[m @ [36mrss-proto[0;1m ---[m
+[[1;34mINFO[m] Compiling 1 proto file(s) to /home/java8-flakesync/scripts/projects-For-Delta/apache/incubator-uniffle/proto/target/generated-sources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mprotobuf-maven-plugin:0.6.1:compile-custom[m [1m(compile-grpc)[m @ [36mrss-proto[0;1m ---[m
+[[1;34mINFO[m] Compiling 1 proto file(s) to /home/java8-flakesync/scripts/projects-For-Delta/apache/incubator-uniffle/proto/target/generated-sources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-remote-resources-plugin:1.5:process[m [1m(process-resource-bundles)[m @ [36mrss-proto[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.7:resources[m [1m(default-resources)[m @ [36mrss-proto[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] skip non existing resourceDirectory /home/java8-flakesync/scripts/projects-For-Delta/apache/incubator-uniffle/proto/src/main/resources
+[[1;34mINFO[m] Copying 1 resource
+[[1;34mINFO[m] Copying 1 resource
+[[1;34mINFO[m] Copying 1 resource
+[[1;34mINFO[m] Copying 1 resource
+[[1;34mINFO[m] Copying 4 resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.7.0:compile[m [1m(default-compile)[m @ [36mrss-proto[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;34mINFO[m] Compiling 5 source files to /home/java8-flakesync/scripts/projects-For-Delta/apache/incubator-uniffle/proto/target/classes
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-jar-plugin:2.3.2:jar[m [1m(default-jar)[m @ [36mrss-proto[0;1m ---[m
+[[1;34mINFO[m] Building jar: /home/java8-flakesync/scripts/projects-For-Delta/apache/incubator-uniffle/proto/target/rss-proto-0.8.0-SNAPSHOT.jar
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-antrun-plugin:1.8:run[m [1m(pre-test-clean)[m @ [36mrss-proto[0;1m ---[m
+[[1;34mINFO[m] Executing tasks
+
+main:
+   [delete] Deleting directory /home/java8-flakesync/scripts/projects-For-Delta/apache/incubator-uniffle/proto/target/tmp
+[[1;34mINFO[m] Executed tasks
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-antrun-plugin:1.8:run[m [1m(create-tmp-dir)[m @ [36mrss-proto[0;1m ---[m
+[[1;34mINFO[m] Executing tasks
+
+main:
+    [mkdir] Created dir: /home/java8-flakesync/scripts/projects-For-Delta/apache/incubator-uniffle/proto/target/tmp
+[[1;34mINFO[m] Executed tasks
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.7:testResources[m [1m(default-testResources)[m @ [36mrss-proto[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] skip non existing resourceDirectory /home/java8-flakesync/scripts/projects-For-Delta/apache/incubator-uniffle/proto/src/test/resources
+[[1;34mINFO[m] Copying 4 resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.7.0:testCompile[m [1m(default-testCompile)[m @ [36mrss-proto[0;1m ---[m
+[[1;34mINFO[m] No sources to compile
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-surefire-plugin:2.22.2:test[m [1m(default-test)[m @ [36mrss-proto[0;1m ---[m
+[[1;34mINFO[m] Tests are skipped.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mjacoco-maven-plugin:0.8.3:report[m [1m(report)[m @ [36mrss-proto[0;1m ---[m
+[[1;34mINFO[m] Skipping JaCoCo execution due to missing execution data file.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-dependency-plugin:2.10:copy-dependencies[m [1m(copy-dependencies)[m @ [36mrss-proto[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-jar-plugin:2.3.2:test-jar[m [1m(default)[m @ [36mrss-proto[0;1m ---[m
+[[1;34mINFO[m] Building jar: /home/java8-flakesync/scripts/projects-For-Delta/apache/incubator-uniffle/proto/target/rss-proto-0.8.0-SNAPSHOT-tests.jar
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-site-plugin:3.5.1:attach-descriptor[m [1m(attach-descriptor)[m @ [36mrss-proto[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-install-plugin:2.5.2:install[m [1m(default-install)[m @ [36mrss-proto[0;1m ---[m
+[[1;34mINFO[m] Installing /home/java8-flakesync/scripts/projects-For-Delta/apache/incubator-uniffle/proto/target/rss-proto-0.8.0-SNAPSHOT.jar to /home/java8-flakesync/.m2/repository/org/apache/uniffle/rss-proto/0.8.0-SNAPSHOT/rss-proto-0.8.0-SNAPSHOT.jar
+[[1;34mINFO[m] Installing /home/java8-flakesync/scripts/projects-For-Delta/apache/incubator-uniffle/proto/pom.xml to /home/java8-flakesync/.m2/repository/org/apache/uniffle/rss-proto/0.8.0-SNAPSHOT/rss-proto-0.8.0-SNAPSHOT.pom
+[[1;34mINFO[m] Installing /home/java8-flakesync/scripts/projects-For-Delta/apache/incubator-uniffle/proto/target/rss-proto-0.8.0-SNAPSHOT-tests.jar to /home/java8-flakesync/.m2/repository/org/apache/uniffle/rss-proto/0.8.0-SNAPSHOT/rss-proto-0.8.0-SNAPSHOT-tests.jar
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m-------------------< [0;36morg.apache.uniffle:rss-common[0;1m >--------------------[m
+[[1;34mINFO[m] [1mBuilding Apache Uniffle Common 0.8.0-SNAPSHOT                     [3/10][m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mjacoco-maven-plugin:0.8.3:prepare-agent[m [1m(default-prepare-agent)[m @ [36mrss-common[0;1m ---[m
+[[1;34mINFO[m] argLine set to -javaagent:/home/java8-flakesync/.m2/repository/org/jacoco/org.jacoco.agent/0.8.3/org.jacoco.agent-0.8.3-runtime.jar=destfile=/home/java8-flakesync/scripts/projects-For-Delta/apache/incubator-uniffle/common/target/jacoco.exec
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-remote-resources-plugin:1.5:process[m [1m(process-resource-bundles)[m @ [36mrss-common[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.7:resources[m [1m(default-resources)[m @ [36mrss-common[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] Copying 1 resource
+[[1;34mINFO[m] Copying 4 resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.7.0:compile[m [1m(default-compile)[m @ [36mrss-common[0;1m ---[m
+[[1;34mINFO[m] Nothing to compile - all classes are up to date
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-antrun-plugin:1.8:run[m [1m(pre-test-clean)[m @ [36mrss-common[0;1m ---[m
+[[1;34mINFO[m] Executing tasks
+
+main:
+   [delete] Deleting directory /home/java8-flakesync/scripts/projects-For-Delta/apache/incubator-uniffle/common/target/tmp
+[[1;34mINFO[m] Executed tasks
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-antrun-plugin:1.8:run[m [1m(create-tmp-dir)[m @ [36mrss-common[0;1m ---[m
+[[1;34mINFO[m] Executing tasks
+
+main:
+    [mkdir] Created dir: /home/java8-flakesync/scripts/projects-For-Delta/apache/incubator-uniffle/common/target/tmp
+[[1;34mINFO[m] Executed tasks
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.7:testResources[m [1m(default-testResources)[m @ [36mrss-common[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] Copying 2 resources
+[[1;34mINFO[m] Copying 4 resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.7.0:testCompile[m [1m(default-testCompile)[m @ [36mrss-common[0;1m ---[m
+[[1;34mINFO[m] Nothing to compile - all classes are up to date
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-surefire-plugin:2.22.2:test[m [1m(default-test)[m @ [36mrss-common[0;1m ---[m
+[[1;34mINFO[m] Tests are skipped.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mjacoco-maven-plugin:0.8.3:report[m [1m(report)[m @ [36mrss-common[0;1m ---[m
+[[1;34mINFO[m] Skipping JaCoCo execution due to missing execution data file.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-dependency-plugin:2.10:copy-dependencies[m [1m(copy-dependencies)[m @ [36mrss-common[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-jar-plugin:2.3.2:jar[m [1m(default-jar)[m @ [36mrss-common[0;1m ---[m
+[[1;34mINFO[m] Building jar: /home/java8-flakesync/scripts/projects-For-Delta/apache/incubator-uniffle/common/target/rss-common-0.8.0-SNAPSHOT.jar
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-site-plugin:3.5.1:attach-descriptor[m [1m(attach-descriptor)[m @ [36mrss-common[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-jar-plugin:2.3.2:test-jar[m [1m(default)[m @ [36mrss-common[0;1m ---[m
+[[1;34mINFO[m] Building jar: /home/java8-flakesync/scripts/projects-For-Delta/apache/incubator-uniffle/common/target/rss-common-0.8.0-SNAPSHOT-tests.jar
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-install-plugin:2.5.2:install[m [1m(default-install)[m @ [36mrss-common[0;1m ---[m
+[[1;34mINFO[m] Installing /home/java8-flakesync/scripts/projects-For-Delta/apache/incubator-uniffle/common/target/rss-common-0.8.0-SNAPSHOT.jar to /home/java8-flakesync/.m2/repository/org/apache/uniffle/rss-common/0.8.0-SNAPSHOT/rss-common-0.8.0-SNAPSHOT.jar
+[[1;34mINFO[m] Installing /home/java8-flakesync/scripts/projects-For-Delta/apache/incubator-uniffle/common/pom.xml to /home/java8-flakesync/.m2/repository/org/apache/uniffle/rss-common/0.8.0-SNAPSHOT/rss-common-0.8.0-SNAPSHOT.pom
+[[1;34mINFO[m] Installing /home/java8-flakesync/scripts/projects-For-Delta/apache/incubator-uniffle/common/target/rss-common-0.8.0-SNAPSHOT-tests.jar to /home/java8-flakesync/.m2/repository/org/apache/uniffle/rss-common/0.8.0-SNAPSHOT/rss-common-0.8.0-SNAPSHOT-tests.jar
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m---------------< [0;36morg.apache.uniffle:rss-internal-client[0;1m >---------------[m
+[[1;34mINFO[m] [1mBuilding Apache Uniffle Internal Client 0.8.0-SNAPSHOT            [4/10][m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mjacoco-maven-plugin:0.8.3:prepare-agent[m [1m(default-prepare-agent)[m @ [36mrss-internal-client[0;1m ---[m
+[[1;34mINFO[m] argLine set to -javaagent:/home/java8-flakesync/.m2/repository/org/jacoco/org.jacoco.agent/0.8.3/org.jacoco.agent-0.8.3-runtime.jar=destfile=/home/java8-flakesync/scripts/projects-For-Delta/apache/incubator-uniffle/internal-client/target/jacoco.exec
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-remote-resources-plugin:1.5:process[m [1m(process-resource-bundles)[m @ [36mrss-internal-client[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.7:resources[m [1m(default-resources)[m @ [36mrss-internal-client[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] skip non existing resourceDirectory /home/java8-flakesync/scripts/projects-For-Delta/apache/incubator-uniffle/internal-client/src/main/resources
+[[1;34mINFO[m] Copying 4 resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.7.0:compile[m [1m(default-compile)[m @ [36mrss-internal-client[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;34mINFO[m] Compiling 55 source files to /home/java8-flakesync/scripts/projects-For-Delta/apache/incubator-uniffle/internal-client/target/classes
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-antrun-plugin:1.8:run[m [1m(pre-test-clean)[m @ [36mrss-internal-client[0;1m ---[m
+[[1;34mINFO[m] Executing tasks
+
+main:
+[[1;34mINFO[m] Executed tasks
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-antrun-plugin:1.8:run[m [1m(create-tmp-dir)[m @ [36mrss-internal-client[0;1m ---[m
+[[1;34mINFO[m] Executing tasks
+
+main:
+    [mkdir] Created dir: /home/java8-flakesync/scripts/projects-For-Delta/apache/incubator-uniffle/internal-client/target/tmp
+[[1;34mINFO[m] Executed tasks
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.7:testResources[m [1m(default-testResources)[m @ [36mrss-internal-client[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] skip non existing resourceDirectory /home/java8-flakesync/scripts/projects-For-Delta/apache/incubator-uniffle/internal-client/src/test/resources
+[[1;34mINFO[m] Copying 4 resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.7.0:testCompile[m [1m(default-testCompile)[m @ [36mrss-internal-client[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;34mINFO[m] Compiling 1 source file to /home/java8-flakesync/scripts/projects-For-Delta/apache/incubator-uniffle/internal-client/target/test-classes
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-surefire-plugin:2.22.2:test[m [1m(default-test)[m @ [36mrss-internal-client[0;1m ---[m
+[[1;34mINFO[m] Tests are skipped.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mjacoco-maven-plugin:0.8.3:report[m [1m(report)[m @ [36mrss-internal-client[0;1m ---[m
+[[1;34mINFO[m] Skipping JaCoCo execution due to missing execution data file.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-dependency-plugin:2.10:copy-dependencies[m [1m(copy-dependencies)[m @ [36mrss-internal-client[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-jar-plugin:2.3.2:jar[m [1m(default-jar)[m @ [36mrss-internal-client[0;1m ---[m
+[[1;34mINFO[m] Building jar: /home/java8-flakesync/scripts/projects-For-Delta/apache/incubator-uniffle/internal-client/target/rss-internal-client-0.8.0-SNAPSHOT.jar
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-site-plugin:3.5.1:attach-descriptor[m [1m(attach-descriptor)[m @ [36mrss-internal-client[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-jar-plugin:2.3.2:test-jar[m [1m(default)[m @ [36mrss-internal-client[0;1m ---[m
+[[1;34mINFO[m] Building jar: /home/java8-flakesync/scripts/projects-For-Delta/apache/incubator-uniffle/internal-client/target/rss-internal-client-0.8.0-SNAPSHOT-tests.jar
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-install-plugin:2.5.2:install[m [1m(default-install)[m @ [36mrss-internal-client[0;1m ---[m
+[[1;34mINFO[m] Installing /home/java8-flakesync/scripts/projects-For-Delta/apache/incubator-uniffle/internal-client/target/rss-internal-client-0.8.0-SNAPSHOT.jar to /home/java8-flakesync/.m2/repository/org/apache/uniffle/rss-internal-client/0.8.0-SNAPSHOT/rss-internal-client-0.8.0-SNAPSHOT.jar
+[[1;34mINFO[m] Installing /home/java8-flakesync/scripts/projects-For-Delta/apache/incubator-uniffle/internal-client/pom.xml to /home/java8-flakesync/.m2/repository/org/apache/uniffle/rss-internal-client/0.8.0-SNAPSHOT/rss-internal-client-0.8.0-SNAPSHOT.pom
+[[1;34mINFO[m] Installing /home/java8-flakesync/scripts/projects-For-Delta/apache/incubator-uniffle/internal-client/target/rss-internal-client-0.8.0-SNAPSHOT-tests.jar to /home/java8-flakesync/.m2/repository/org/apache/uniffle/rss-internal-client/0.8.0-SNAPSHOT/rss-internal-client-0.8.0-SNAPSHOT-tests.jar
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m-------------------< [0;36morg.apache.uniffle:coordinator[0;1m >-------------------[m
+[[1;34mINFO[m] [1mBuilding Apache Uniffle Coordinator 0.8.0-SNAPSHOT                [5/10][m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-shade-plugin/3.4.1/maven-shade-plugin-3.4.1.pom
+Progress (1): 763 BProgress (1): 1.7 kBProgress (1): 3.4 kBProgress (1): 7.5 kBProgress (1): 7.6 kBProgress (1): 9.1 kBProgress (1): 13 kB Progress (1): 13 kB                   Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-shade-plugin/3.4.1/maven-shade-plugin-3.4.1.pom (13 kB at 19 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-shade-plugin/3.4.1/maven-shade-plugin-3.4.1.jar
+Progress (1): 0.9/143 kBProgress (1): 2.3/143 kBProgress (1): 3.6/143 kBProgress (1): 5.0/143 kBProgress (1): 6.4/143 kBProgress (1): 7.7/143 kBProgress (1): 9.1/143 kBProgress (1): 10/143 kB Progress (1): 11/143 kBProgress (1): 13/143 kBProgress (1): 14/143 kBProgress (1): 15/143 kBProgress (1): 17/143 kBProgress (1): 18/143 kBProgress (1): 20/143 kBProgress (1): 21/143 kBProgress (1): 22/143 kBProgress (1): 24/143 kBProgress (1): 25/143 kBProgress (1): 26/143 kBProgress (1): 28/143 kBProgress (1): 29/143 kBProgress (1): 31/143 kBProgress (1): 32/143 kBProgress (1): 33/143 kBProgress (1): 35/143 kBProgress (1): 36/143 kBProgress (1): 37/143 kBProgress (1): 39/143 kBProgress (1): 40/143 kBProgress (1): 41/143 kBProgress (1): 43/143 kBProgress (1): 44/143 kBProgress (1): 46/143 kBProgress (1): 47/143 kBProgress (1): 48/143 kBProgress (1): 52/143 kBProgress (1): 53/143 kBProgress (1): 57/143 kBProgress (1): 57/143 kBProgress (1): 61/143 kBProgress (1): 61/143 kBProgress (1): 65/143 kBProgress (1): 65/143 kBProgress (1): 66/143 kBProgress (1): 70/143 kBProgress (1): 70/143 kBProgress (1): 74/143 kBProgress (1): 74/143 kBProgress (1): 78/143 kBProgress (1): 78/143 kBProgress (1): 82/143 kBProgress (1): 82/143 kBProgress (1): 87/143 kBProgress (1): 87/143 kBProgress (1): 91/143 kBProgress (1): 91/143 kBProgress (1): 95/143 kBProgress (1): 95/143 kBProgress (1): 98/143 kBProgress (1): 102/143 kBProgress (1): 103/143 kBProgress (1): 107/143 kBProgress (1): 107/143 kBProgress (1): 111/143 kBProgress (1): 111/143 kBProgress (1): 115/143 kBProgress (1): 115/143 kBProgress (1): 119/143 kBProgress (1): 119/143 kBProgress (1): 124/143 kBProgress (1): 124/143 kBProgress (1): 128/143 kBProgress (1): 128/143 kBProgress (1): 132/143 kBProgress (1): 132/143 kBProgress (1): 136/143 kBProgress (1): 136/143 kBProgress (1): 140/143 kBProgress (1): 141/143 kBProgress (1): 143 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-shade-plugin/3.4.1/maven-shade-plugin-3.4.1.jar (143 kB at 1.2 MB/s)
+Downloading from central: https://repo1.maven.org/maven2/io/grpc/grpc-testing/1.47.0/grpc-testing-1.47.0.pom
+Progress (1): 1.3 kBProgress (1): 1.9 kB                    Downloaded from central: https://repo1.maven.org/maven2/io/grpc/grpc-testing/1.47.0/grpc-testing-1.47.0.pom (1.9 kB at 2.7 kB/s)
+Downloading from central: https://repo1.maven.org/maven2/com/google/protobuf/protobuf-java/2.5.0/protobuf-java-2.5.0.pom
+Progress (1): 1.1 kBProgress (1): 2.7 kBProgress (1): 6.7 kBProgress (1): 8.4 kB                    Downloaded from central: https://repo1.maven.org/maven2/com/google/protobuf/protobuf-java/2.5.0/protobuf-java-2.5.0.pom (8.4 kB at 24 kB/s)
+Downloading from central: https://repo1.maven.org/maven2/io/grpc/grpc-testing/1.47.0/grpc-testing-1.47.0.jar
+Progress (1): 0.9/71 kBProgress (1): 2.3/71 kBProgress (1): 3.2/71 kBProgress (1): 4.5/71 kBProgress (1): 5.9/71 kBProgress (1): 7.3/71 kBProgress (1): 8.6/71 kBProgress (1): 10/71 kB Progress (1): 11/71 kBProgress (1): 13/71 kBProgress (1): 14/71 kBProgress (1): 15/71 kBProgress (1): 17/71 kBProgress (1): 18/71 kBProgress (1): 20/71 kBProgress (1): 21/71 kBProgress (1): 22/71 kBProgress (1): 24/71 kBProgress (1): 25/71 kBProgress (1): 26/71 kBProgress (1): 28/71 kBProgress (1): 29/71 kBProgress (1): 31/71 kBProgress (1): 32/71 kBProgress (1): 33/71 kBProgress (1): 35/71 kBProgress (1): 36/71 kBProgress (1): 37/71 kBProgress (1): 39/71 kBProgress (1): 40/71 kBProgress (1): 41/71 kBProgress (1): 43/71 kBProgress (1): 44/71 kBProgress (1): 46/71 kBProgress (1): 49/71 kBProgress (1): 53/71 kBProgress (1): 53/71 kBProgress (1): 57/71 kBProgress (1): 58/71 kBProgress (1): 62/71 kBProgress (1): 62/71 kBProgress (1): 66/71 kBProgress (1): 66/71 kBProgress (1): 70/71 kBProgress (1): 70/71 kBProgress (1): 71 kB                      Downloaded from central: https://repo1.maven.org/maven2/io/grpc/grpc-testing/1.47.0/grpc-testing-1.47.0.jar (71 kB at 287 kB/s)
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-enforcer-plugin:1.4.1:enforce[m [1m(enforce)[m @ [36mcoordinator[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mjacoco-maven-plugin:0.8.3:prepare-agent[m [1m(default-prepare-agent)[m @ [36mcoordinator[0;1m ---[m
+[[1;34mINFO[m] argLine set to -javaagent:/home/java8-flakesync/.m2/repository/org/jacoco/org.jacoco.agent/0.8.3/org.jacoco.agent-0.8.3-runtime.jar=destfile=/home/java8-flakesync/scripts/projects-For-Delta/apache/incubator-uniffle/coordinator/target/jacoco.exec
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mprotobuf-maven-plugin:0.6.1:compile[m [1m(default)[m @ [36mcoordinator[0;1m ---[m
+[[1;34mINFO[m] /home/java8-flakesync/scripts/projects-For-Delta/apache/incubator-uniffle/coordinator/src/main/proto does not exist. Review the configuration or consider disabling the plugin.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mprotobuf-maven-plugin:0.6.1:compile-custom[m [1m(default)[m @ [36mcoordinator[0;1m ---[m
+[[1;34mINFO[m] /home/java8-flakesync/scripts/projects-For-Delta/apache/incubator-uniffle/coordinator/src/main/proto does not exist. Review the configuration or consider disabling the plugin.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-remote-resources-plugin:1.5:process[m [1m(process-resource-bundles)[m @ [36mcoordinator[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.7:resources[m [1m(default-resources)[m @ [36mcoordinator[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] skip non existing resourceDirectory /home/java8-flakesync/scripts/projects-For-Delta/apache/incubator-uniffle/coordinator/src/main/resources
+[[1;34mINFO[m] Copying 4 resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.7.0:compile[m [1m(default-compile)[m @ [36mcoordinator[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;34mINFO[m] Compiling 47 source files to /home/java8-flakesync/scripts/projects-For-Delta/apache/incubator-uniffle/coordinator/target/classes
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-antrun-plugin:1.8:run[m [1m(pre-test-clean)[m @ [36mcoordinator[0;1m ---[m
+[[1;34mINFO[m] Executing tasks
+
+main:
+[[1;34mINFO[m] Executed tasks
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-antrun-plugin:1.8:run[m [1m(create-tmp-dir)[m @ [36mcoordinator[0;1m ---[m
+[[1;34mINFO[m] Executing tasks
+
+main:
+    [mkdir] Created dir: /home/java8-flakesync/scripts/projects-For-Delta/apache/incubator-uniffle/coordinator/target/tmp
+[[1;34mINFO[m] Executed tasks
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.7:testResources[m [1m(default-testResources)[m @ [36mcoordinator[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] Copying 3 resources
+[[1;34mINFO[m] Copying 4 resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.7.0:testCompile[m [1m(default-testCompile)[m @ [36mcoordinator[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;34mINFO[m] Compiling 20 source files to /home/java8-flakesync/scripts/projects-For-Delta/apache/incubator-uniffle/coordinator/target/test-classes
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-surefire-plugin:2.22.2:test[m [1m(default-test)[m @ [36mcoordinator[0;1m ---[m
+[[1;34mINFO[m] Tests are skipped.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mjacoco-maven-plugin:0.8.3:report[m [1m(report)[m @ [36mcoordinator[0;1m ---[m
+[[1;34mINFO[m] Skipping JaCoCo execution due to missing execution data file.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-dependency-plugin:2.10:copy-dependencies[m [1m(copy-dependencies)[m @ [36mcoordinator[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-jar-plugin:2.3.2:jar[m [1m(default-jar)[m @ [36mcoordinator[0;1m ---[m
+[[1;34mINFO[m] Building jar: /home/java8-flakesync/scripts/projects-For-Delta/apache/incubator-uniffle/coordinator/target/coordinator-0.8.0-SNAPSHOT.jar
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-shade-plugin:3.4.1:shade[m [1m(rss-jar)[m @ [36mcoordinator[0;1m ---[m
+Downloading from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-commons/9.4/asm-commons-9.4.pom
+Progress (1): 1.1 kBProgress (1): 2.8 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-commons/9.4/asm-commons-9.4.pom (2.8 kB at 40 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-tree/9.4/asm-tree-9.4.pom
+Progress (1): 1.1 kBProgress (1): 2.6 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-tree/9.4/asm-tree-9.4.pom (2.6 kB at 45 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-dependency-tree/3.2.0/maven-dependency-tree-3.2.0.pom
+Progress (1): 790 BProgress (1): 2.2 kBProgress (1): 4.4 kBProgress (1): 6.2 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-dependency-tree/3.2.0/maven-dependency-tree-3.2.0.pom (6.2 kB at 108 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/vafer/jdependency/2.8.0/jdependency-2.8.0.pom
+Progress (1): 1.1 kBProgress (1): 5.0 kBProgress (1): 8.6 kBProgress (1): 13 kB Progress (1): 14 kB                   Downloaded from central: https://repo.maven.apache.org/maven2/org/vafer/jdependency/2.8.0/jdependency-2.8.0.pom (14 kB at 214 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-collections4/4.2/commons-collections4-4.2.pom
+Progress (1): 755 BProgress (1): 2.2 kBProgress (1): 5.1 kBProgress (1): 8.9 kBProgress (1): 12 kB Progress (1): 14 kBProgress (1): 16 kBProgress (1): 17 kBProgress (1): 19 kBProgress (1): 23 kBProgress (1): 23 kB                   Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-collections4/4.2/commons-collections4-4.2.pom (23 kB at 67 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-common-artifact-filters/3.1.0/maven-common-artifact-filters-3.1.0.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-commons/9.4/asm-commons-9.4.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-tree/9.4/asm-tree-9.4.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-dependency-tree/3.2.0/maven-dependency-tree-3.2.0.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/vafer/jdependency/2.8.0/jdependency-2.8.0.jar
+Progress (1): 4.1/73 kBProgress (1): 7.7/73 kBProgress (1): 11/73 kB Progress (1): 15/73 kBProgress (1): 20/73 kBProgress (1): 24/73 kBProgress (1): 28/73 kBProgress (1): 32/73 kBProgress (1): 36/73 kBProgress (1): 40/73 kBProgress (1): 44/73 kBProgress (1): 48/73 kBProgress (1): 52/73 kBProgress (1): 56/73 kBProgress (1): 61/73 kBProgress (1): 65/73 kBProgress (1): 69/73 kBProgress (1): 73 kB   Progress (2): 73 kB | 0.9/61 kBProgress (2): 73 kB | 2.3/61 kBProgress (2): 73 kB | 3.6/61 kBProgress (2): 73 kB | 5.0/61 kBProgress (2): 73 kB | 6.4/61 kBProgress (2): 73 kB | 7.7/61 kBProgress (2): 73 kB | 9.1/61 kBProgress (3): 73 kB | 9.1/61 kB | 0.9/41 kBProgress (3): 73 kB | 9.1/61 kB | 2.3/41 kBProgress (3): 73 kB | 10/61 kB | 2.3/41 kB Progress (3): 73 kB | 10/61 kB | 3.6/41 kBProgress (3): 73 kB | 10/61 kB | 5.0/41 kBProgress (3): 73 kB | 12/61 kB | 5.0/41 kBProgress (3): 73 kB | 12/61 kB | 6.4/41 kBProgress (3): 73 kB | 13/61 kB | 6.4/41 kBProgress (3): 73 kB | 15/61 kB | 6.4/41 kBProgress (3): 73 kB | 16/61 kB | 6.4/41 kBProgress (3): 73 kB | 17/61 kB | 6.4/41 kBProgress (3): 73 kB | 19/61 kB | 6.4/41 kBProgress (3): 73 kB | 20/61 kB | 6.4/41 kBProgress (3): 73 kB | 21/61 kB | 6.4/41 kBProgress (3): 73 kB | 23/61 kB | 6.4/41 kBProgress (4): 73 kB | 23/61 kB | 6.4/41 kB | 0.9/233 kBProgress (4): 73 kB | 23/61 kB | 7.7/41 kB | 0.9/233 kBProgress (4): 73 kB | 24/61 kB | 7.7/41 kB | 0.9/233 kBProgress (5): 73 kB | 24/61 kB | 7.7/41 kB | 0.9/233 kB | 0.9/53 kBProgress (5): 73 kB | 26/61 kB | 7.7/41 kB | 0.9/233 kB | 0.9/53 kBProgress (5): 73 kB | 27/61 kB | 7.7/41 kB | 0.9/233 kB | 0.9/53 kBProgress (5): 73 kB | 28/61 kB | 7.7/41 kB | 0.9/233 kB | 0.9/53 kBProgress (5): 73 kB | 28/61 kB | 7.7/41 kB | 0.9/233 kB | 2.3/53 kBProgress (5): 73 kB | 28/61 kB | 9.1/41 kB | 0.9/233 kB | 2.3/53 kBProgress (5): 73 kB | 28/61 kB | 9.1/41 kB | 2.3/233 kB | 2.3/53 kBProgress (5): 73 kB | 28/61 kB | 10/41 kB | 2.3/233 kB | 2.3/53 kB Progress (5): 73 kB | 28/61 kB | 11/41 kB | 2.3/233 kB | 2.3/53 kBProgress (5): 73 kB | 30/61 kB | 11/41 kB | 2.3/233 kB | 2.3/53 kBProgress (5): 73 kB | 30/61 kB | 11/41 kB | 2.3/233 kB | 3.6/53 kBProgress (5): 73 kB | 31/61 kB | 11/41 kB | 2.3/233 kB | 3.6/53 kBProgress (5): 73 kB | 31/61 kB | 11/41 kB | 3.6/233 kB | 3.6/53 kBProgress (5): 73 kB | 31/61 kB | 13/41 kB | 3.6/233 kB | 3.6/53 kBProgress (5): 73 kB | 32/61 kB | 13/41 kB | 3.6/233 kB | 3.6/53 kBProgress (5): 73 kB | 32/61 kB | 13/41 kB | 3.6/233 kB | 5.0/53 kBProgress (5): 73 kB | 34/61 kB | 13/41 kB | 3.6/233 kB | 5.0/53 kBProgress (5): 73 kB | 34/61 kB | 14/41 kB | 3.6/233 kB | 5.0/53 kBProgress (5): 73 kB | 34/61 kB | 14/41 kB | 5.0/233 kB | 5.0/53 kBProgress (5): 73 kB | 34/61 kB | 15/41 kB | 5.0/233 kB | 5.0/53 kBProgress (5): 73 kB | 35/61 kB | 15/41 kB | 5.0/233 kB | 5.0/53 kBProgress (5): 73 kB | 35/61 kB | 15/41 kB | 5.0/233 kB | 6.4/53 kBProgress (5): 73 kB | 36/61 kB | 15/41 kB | 5.0/233 kB | 6.4/53 kBProgress (5): 73 kB | 36/61 kB | 17/41 kB | 5.0/233 kB | 6.4/53 kBProgress (5): 73 kB | 36/61 kB | 17/41 kB | 6.4/233 kB | 6.4/53 kBProgress (5): 73 kB | 36/61 kB | 18/41 kB | 6.4/233 kB | 6.4/53 kBProgress (5): 73 kB | 36/61 kB | 20/41 kB | 6.4/233 kB | 6.4/53 kBProgress (5): 73 kB | 36/61 kB | 21/41 kB | 6.4/233 kB | 6.4/53 kBProgress (5): 73 kB | 36/61 kB | 22/41 kB | 6.4/233 kB | 6.4/53 kBProgress (5): 73 kB | 36/61 kB | 24/41 kB | 6.4/233 kB | 6.4/53 kBProgress (5): 73 kB | 36/61 kB | 25/41 kB | 6.4/233 kB | 6.4/53 kBProgress (5): 73 kB | 36/61 kB | 26/41 kB | 6.4/233 kB | 6.4/53 kBProgress (5): 73 kB | 36/61 kB | 28/41 kB | 6.4/233 kB | 6.4/53 kBProgress (5): 73 kB | 36/61 kB | 29/41 kB | 6.4/233 kB | 6.4/53 kBProgress (5): 73 kB | 36/61 kB | 31/41 kB | 6.4/233 kB | 6.4/53 kBProgress (5): 73 kB | 36/61 kB | 32/41 kB | 6.4/233 kB | 6.4/53 kBProgress (5): 73 kB | 36/61 kB | 33/41 kB | 6.4/233 kB | 6.4/53 kBProgress (5): 73 kB | 36/61 kB | 33/41 kB | 7.7/233 kB | 6.4/53 kBProgress (5): 73 kB | 36/61 kB | 33/41 kB | 9.1/233 kB | 6.4/53 kBProgress (5): 73 kB | 36/61 kB | 33/41 kB | 10/233 kB | 6.4/53 kB Progress (5): 73 kB | 36/61 kB | 33/41 kB | 12/233 kB | 6.4/53 kBProgress (5): 73 kB | 36/61 kB | 33/41 kB | 13/233 kB | 6.4/53 kBProgress (5): 73 kB | 36/61 kB | 33/41 kB | 15/233 kB | 6.4/53 kBProgress (5): 73 kB | 36/61 kB | 33/41 kB | 16/233 kB | 6.4/53 kBProgress (5): 73 kB | 36/61 kB | 33/41 kB | 16/233 kB | 6.4/53 kBProgress (5): 73 kB | 36/61 kB | 33/41 kB | 18/233 kB | 6.4/53 kBProgress (5): 73 kB | 36/61 kB | 33/41 kB | 19/233 kB | 6.4/53 kBProgress (5): 73 kB | 36/61 kB | 33/41 kB | 20/233 kB | 6.4/53 kBProgress (5): 73 kB | 36/61 kB | 33/41 kB | 22/233 kB | 6.4/53 kBProgress (5): 73 kB | 36/61 kB | 33/41 kB | 23/233 kB | 6.4/53 kBProgress (5): 73 kB | 38/61 kB | 33/41 kB | 23/233 kB | 6.4/53 kBProgress (5): 73 kB | 38/61 kB | 33/41 kB | 23/233 kB | 7.7/53 kBProgress (5): 73 kB | 38/61 kB | 33/41 kB | 25/233 kB | 7.7/53 kBProgress (5): 73 kB | 38/61 kB | 33/41 kB | 25/233 kB | 8.2/53 kBProgress (5): 73 kB | 38/61 kB | 35/41 kB | 25/233 kB | 8.2/53 kB                                                                 Downloaded from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-commons/9.4/asm-commons-9.4.jar (73 kB at 622 kB/s)
+Progress (4): 38/61 kB | 36/41 kB | 25/233 kB | 8.2/53 kBProgress (4): 38/61 kB | 37/41 kB | 25/233 kB | 8.2/53 kBProgress (4): 38/61 kB | 39/41 kB | 25/233 kB | 8.2/53 kBProgress (4): 38/61 kB | 40/41 kB | 25/233 kB | 8.2/53 kBProgress (4): 38/61 kB | 41 kB | 25/233 kB | 8.2/53 kB   Progress (4): 38/61 kB | 41 kB | 25/233 kB | 9.6/53 kBProgress (4): 38/61 kB | 41 kB | 26/233 kB | 9.6/53 kBProgress (4): 38/61 kB | 41 kB | 27/233 kB | 9.6/53 kBProgress (4): 38/61 kB | 41 kB | 29/233 kB | 9.6/53 kBProgress (4): 38/61 kB | 41 kB | 30/233 kB | 9.6/53 kBProgress (4): 38/61 kB | 41 kB | 31/233 kB | 9.6/53 kBProgress (4): 38/61 kB | 41 kB | 33/233 kB | 9.6/53 kBProgress (4): 38/61 kB | 41 kB | 34/233 kB | 9.6/53 kBProgress (4): 39/61 kB | 41 kB | 34/233 kB | 9.6/53 kBProgress (4): 39/61 kB | 41 kB | 36/233 kB | 9.6/53 kBProgress (4): 39/61 kB | 41 kB | 37/233 kB | 9.6/53 kBProgress (4): 39/61 kB | 41 kB | 38/233 kB | 9.6/53 kBProgress (4): 41/61 kB | 41 kB | 38/233 kB | 9.6/53 kBProgress (4): 42/61 kB | 41 kB | 38/233 kB | 9.6/53 kBProgress (4): 43/61 kB | 41 kB | 38/233 kB | 9.6/53 kBProgress (4): 43/61 kB | 41 kB | 38/233 kB | 11/53 kB Progress (4): 43/61 kB | 41 kB | 38/233 kB | 12/53 kBProgress (4): 43/61 kB | 41 kB | 38/233 kB | 14/53 kBProgress (4): 43/61 kB | 41 kB | 38/233 kB | 15/53 kBProgress (4): 43/61 kB | 41 kB | 38/233 kB | 16/53 kBProgress (4): 43/61 kB | 41 kB | 38/233 kB | 18/53 kBProgress (4): 43/61 kB | 41 kB | 38/233 kB | 19/53 kBProgress (4): 43/61 kB | 41 kB | 38/233 kB | 21/53 kBProgress (4): 43/61 kB | 41 kB | 38/233 kB | 22/53 kBProgress (4): 43/61 kB | 41 kB | 38/233 kB | 23/53 kBProgress (4): 43/61 kB | 41 kB | 38/233 kB | 25/53 kB                                                     Downloading from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-collections4/4.2/commons-collections4-4.2.jar
+Progress (4): 45/61 kB | 41 kB | 38/233 kB | 25/53 kBProgress (4): 45/61 kB | 41 kB | 40/233 kB | 25/53 kBProgress (4): 45/61 kB | 41 kB | 40/233 kB | 26/53 kBProgress (4): 46/61 kB | 41 kB | 40/233 kB | 26/53 kBProgress (4): 47/61 kB | 41 kB | 40/233 kB | 26/53 kBProgress (4): 49/61 kB | 41 kB | 40/233 kB | 26/53 kBProgress (4): 50/61 kB | 41 kB | 40/233 kB | 26/53 kBProgress (4): 50/61 kB | 41 kB | 40/233 kB | 27/53 kBProgress (4): 52/61 kB | 41 kB | 40/233 kB | 27/53 kBProgress (4): 52/61 kB | 41 kB | 40/233 kB | 29/53 kBProgress (4): 52/61 kB | 41 kB | 40/233 kB | 30/53 kBProgress (4): 52/61 kB | 41 kB | 40/233 kB | 31/53 kBProgress (4): 52/61 kB | 41 kB | 40/233 kB | 33/53 kBProgress (4): 52/61 kB | 41 kB | 40/233 kB | 34/53 kBProgress (4): 52/61 kB | 41 kB | 41/233 kB | 34/53 kBProgress (4): 52/61 kB | 41 kB | 41/233 kB | 36/53 kBProgress (4): 53/61 kB | 41 kB | 41/233 kB | 36/53 kBProgress (4): 53/61 kB | 41 kB | 41/233 kB | 37/53 kBProgress (4): 54/61 kB | 41 kB | 41/233 kB | 37/53 kBProgress (4): 54/61 kB | 41 kB | 41/233 kB | 38/53 kBProgress (4): 54/61 kB | 41 kB | 42/233 kB | 38/53 kBProgress (4): 54/61 kB | 41 kB | 42/233 kB | 40/53 kBProgress (4): 56/61 kB | 41 kB | 42/233 kB | 40/53 kBProgress (4): 56/61 kB | 41 kB | 42/233 kB | 41/53 kBProgress (4): 56/61 kB | 41 kB | 44/233 kB | 41/53 kBProgress (4): 57/61 kB | 41 kB | 44/233 kB | 41/53 kBProgress (4): 57/61 kB | 41 kB | 45/233 kB | 41/53 kBProgress (4): 57/61 kB | 41 kB | 45/233 kB | 42/53 kBProgress (4): 61 kB | 41 kB | 45/233 kB | 42/53 kB   Progress (4): 61 kB | 41 kB | 45/233 kB | 44/53 kBProgress (4): 61 kB | 41 kB | 45/233 kB | 45/53 kBProgress (4): 61 kB | 41 kB | 45/233 kB | 47/53 kBProgress (4): 61 kB | 41 kB | 45/233 kB | 48/53 kBProgress (4): 61 kB | 41 kB | 45/233 kB | 49/53 kBProgress (4): 61 kB | 41 kB | 45/233 kB | 51/53 kBProgress (4): 61 kB | 41 kB | 45/233 kB | 52/53 kBProgress (4): 61 kB | 41 kB | 47/233 kB | 52/53 kBProgress (4): 61 kB | 41 kB | 47/233 kB | 53 kB   Progress (4): 61 kB | 41 kB | 48/233 kB | 53 kBProgress (4): 61 kB | 41 kB | 49/233 kB | 53 kBProgress (4): 61 kB | 41 kB | 51/233 kB | 53 kBProgress (4): 61 kB | 41 kB | 52/233 kB | 53 kBProgress (4): 61 kB | 41 kB | 53/233 kB | 53 kBProgress (4): 61 kB | 41 kB | 55/233 kB | 53 kBProgress (4): 61 kB | 41 kB | 59/233 kB | 53 kBProgress (4): 61 kB | 41 kB | 59/233 kB | 53 kBProgress (4): 61 kB | 41 kB | 63/233 kB | 53 kBProgress (4): 61 kB | 41 kB | 63/233 kB | 53 kBProgress (4): 61 kB | 41 kB | 67/233 kB | 53 kBProgress (4): 61 kB | 41 kB | 67/233 kB | 53 kBProgress (4): 61 kB | 41 kB | 71/233 kB | 53 kBProgress (4): 61 kB | 41 kB | 72/233 kB | 53 kBProgress (4): 61 kB | 41 kB | 76/233 kB | 53 kB                                               Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-dependency-tree/3.2.0/maven-dependency-tree-3.2.0.jar (41 kB at 273 kB/s)
+Progress (3): 61 kB | 76/233 kB | 53 kBProgress (3): 61 kB | 80/233 kB | 53 kBProgress (3): 61 kB | 80/233 kB | 53 kBProgress (3): 61 kB | 84/233 kB | 53 kBProgress (3): 61 kB | 84/233 kB | 53 kBProgress (3): 61 kB | 88/233 kB | 53 kBProgress (3): 61 kB | 88/233 kB | 53 kBProgress (3): 61 kB | 93/233 kB | 53 kBProgress (3): 61 kB | 93/233 kB | 53 kBProgress (3): 61 kB | 97/233 kB | 53 kBProgress (3): 61 kB | 97/233 kB | 53 kBProgress (3): 61 kB | 101/233 kB | 53 kBProgress (3): 61 kB | 101/233 kB | 53 kBProgress (3): 61 kB | 105/233 kB | 53 kBProgress (3): 61 kB | 105/233 kB | 53 kBProgress (3): 61 kB | 109/233 kB | 53 kBProgress (3): 61 kB | 110/233 kB | 53 kBProgress (3): 61 kB | 114/233 kB | 53 kBProgress (3): 61 kB | 114/233 kB | 53 kBProgress (3): 61 kB | 118/233 kB | 53 kBProgress (3): 61 kB | 118/233 kB | 53 kBProgress (3): 61 kB | 122/233 kB | 53 kBProgress (3): 61 kB | 122/233 kB | 53 kBProgress (3): 61 kB | 126/233 kB | 53 kBProgress (3): 61 kB | 127/233 kB | 53 kBProgress (3): 61 kB | 131/233 kB | 53 kBProgress (3): 61 kB | 131/233 kB | 53 kBProgress (3): 61 kB | 131/233 kB | 53 kBProgress (3): 61 kB | 135/233 kB | 53 kBProgress (3): 61 kB | 135/233 kB | 53 kBProgress (3): 61 kB | 139/233 kB | 53 kBProgress (3): 61 kB | 143/233 kB | 53 kBProgress (3): 61 kB | 143/233 kB | 53 kBProgress (3): 61 kB | 148/233 kB | 53 kBProgress (3): 61 kB | 148/233 kB | 53 kBProgress (3): 61 kB | 152/233 kB | 53 kBProgress (3): 61 kB | 152/233 kB | 53 kBProgress (3): 61 kB | 156/233 kB | 53 kBProgress (3): 61 kB | 156/233 kB | 53 kBProgress (3): 61 kB | 160/233 kB | 53 kBProgress (3): 61 kB | 160/233 kB | 53 kBProgress (3): 61 kB | 164/233 kB | 53 kBProgress (3): 61 kB | 168/233 kB | 53 kBProgress (3): 61 kB | 168/233 kB | 53 kBProgress (3): 61 kB | 172/233 kB | 53 kBProgress (3): 61 kB | 172/233 kB | 53 kBProgress (3): 61 kB | 176/233 kB | 53 kBProgress (3): 61 kB | 177/233 kB | 53 kBProgress (3): 61 kB | 181/233 kB | 53 kBProgress (3): 61 kB | 181/233 kB | 53 kBProgress (3): 61 kB | 185/233 kB | 53 kBProgress (3): 61 kB | 185/233 kB | 53 kBProgress (3): 61 kB | 189/233 kB | 53 kBProgress (3): 61 kB | 189/233 kB | 53 kBProgress (3): 61 kB | 193/233 kB | 53 kBProgress (3): 61 kB | 193/233 kB | 53 kB                                        Downloaded from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-tree/9.4/asm-tree-9.4.jar (53 kB at 288 kB/s)
+Progress (2): 61 kB | 198/233 kBProgress (2): 61 kB | 198/233 kBProgress (2): 61 kB | 202/233 kBProgress (2): 61 kB | 202/233 kB                                Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-common-artifact-filters/3.1.0/maven-common-artifact-filters-3.1.0.jar (61 kB at 322 kB/s)
+Progress (1): 206/233 kBProgress (1): 206/233 kBProgress (1): 210/233 kBProgress (1): 210/233 kBProgress (1): 214/233 kBProgress (1): 215/233 kBProgress (1): 219/233 kBProgress (1): 219/233 kBProgress (1): 223/233 kBProgress (1): 227/233 kBProgress (1): 231/233 kBProgress (1): 233 kB    Progress (2): 233 kB | 4.1/753 kBProgress (2): 233 kB | 7.7/753 kBProgress (2): 233 kB | 11/753 kB Progress (2): 233 kB | 15/753 kBProgress (2): 233 kB | 20/753 kBProgress (2): 233 kB | 24/753 kBProgress (2): 233 kB | 28/753 kBProgress (2): 233 kB | 32/753 kBProgress (2): 233 kB | 36/753 kBProgress (2): 233 kB | 40/753 kBProgress (2): 233 kB | 44/753 kBProgress (2): 233 kB | 48/753 kBProgress (2): 233 kB | 52/753 kBProgress (2): 233 kB | 56/753 kBProgress (2): 233 kB | 61/753 kBProgress (2): 233 kB | 65/753 kBProgress (2): 233 kB | 66/753 kBProgress (2): 233 kB | 70/753 kBProgress (2): 233 kB | 74/753 kBProgress (2): 233 kB | 78/753 kBProgress (2): 233 kB | 82/753 kB                                Downloaded from central: https://repo.maven.apache.org/maven2/org/vafer/jdependency/2.8.0/jdependency-2.8.0.jar (233 kB at 960 kB/s)
+Progress (1): 86/753 kBProgress (1): 90/753 kBProgress (1): 94/753 kBProgress (1): 98/753 kBProgress (1): 102/753 kBProgress (1): 106/753 kBProgress (1): 111/753 kBProgress (1): 115/753 kBProgress (1): 119/753 kBProgress (1): 123/753 kBProgress (1): 127/753 kBProgress (1): 131/753 kBProgress (1): 135/753 kBProgress (1): 139/753 kBProgress (1): 143/753 kBProgress (1): 147/753 kBProgress (1): 152/753 kBProgress (1): 156/753 kBProgress (1): 160/753 kBProgress (1): 164/753 kBProgress (1): 168/753 kBProgress (1): 172/753 kBProgress (1): 176/753 kBProgress (1): 180/753 kBProgress (1): 184/753 kBProgress (1): 188/753 kBProgress (1): 193/753 kBProgress (1): 197/753 kBProgress (1): 201/753 kBProgress (1): 205/753 kBProgress (1): 209/753 kBProgress (1): 213/753 kBProgress (1): 217/753 kBProgress (1): 221/753 kBProgress (1): 225/753 kBProgress (1): 229/753 kBProgress (1): 233/753 kBProgress (1): 238/753 kBProgress (1): 242/753 kBProgress (1): 246/753 kBProgress (1): 250/753 kBProgress (1): 254/753 kBProgress (1): 258/753 kBProgress (1): 262/753 kBProgress (1): 266/753 kBProgress (1): 270/753 kBProgress (1): 274/753 kBProgress (1): 279/753 kBProgress (1): 283/753 kBProgress (1): 287/753 kBProgress (1): 291/753 kBProgress (1): 295/753 kBProgress (1): 299/753 kBProgress (1): 303/753 kBProgress (1): 307/753 kBProgress (1): 311/753 kBProgress (1): 315/753 kBProgress (1): 319/753 kBProgress (1): 324/753 kBProgress (1): 328/753 kBProgress (1): 332/753 kBProgress (1): 336/753 kBProgress (1): 340/753 kBProgress (1): 344/753 kBProgress (1): 348/753 kBProgress (1): 352/753 kBProgress (1): 356/753 kBProgress (1): 360/753 kBProgress (1): 365/753 kBProgress (1): 369/753 kBProgress (1): 373/753 kBProgress (1): 377/753 kBProgress (1): 381/753 kBProgress (1): 385/753 kBProgress (1): 389/753 kBProgress (1): 393/753 kBProgress (1): 397/753 kBProgress (1): 401/753 kBProgress (1): 406/753 kBProgress (1): 410/753 kBProgress (1): 414/753 kBProgress (1): 418/753 kBProgress (1): 422/753 kBProgress (1): 426/753 kBProgress (1): 430/753 kBProgress (1): 434/753 kBProgress (1): 438/753 kBProgress (1): 442/753 kBProgress (1): 446/753 kBProgress (1): 451/753 kBProgress (1): 455/753 kBProgress (1): 459/753 kBProgress (1): 463/753 kBProgress (1): 467/753 kBProgress (1): 471/753 kBProgress (1): 475/753 kBProgress (1): 479/753 kBProgress (1): 483/753 kBProgress (1): 487/753 kBProgress (1): 492/753 kBProgress (1): 496/753 kBProgress (1): 500/753 kBProgress (1): 504/753 kBProgress (1): 508/753 kBProgress (1): 512/753 kBProgress (1): 516/753 kBProgress (1): 520/753 kBProgress (1): 524/753 kBProgress (1): 528/753 kBProgress (1): 532/753 kBProgress (1): 537/753 kBProgress (1): 541/753 kBProgress (1): 545/753 kBProgress (1): 549/753 kBProgress (1): 553/753 kBProgress (1): 557/753 kBProgress (1): 561/753 kBProgress (1): 565/753 kBProgress (1): 569/753 kBProgress (1): 573/753 kBProgress (1): 578/753 kBProgress (1): 582/753 kBProgress (1): 586/753 kBProgress (1): 590/753 kBProgress (1): 594/753 kBProgress (1): 598/753 kBProgress (1): 602/753 kBProgress (1): 606/753 kBProgress (1): 610/753 kBProgress (1): 614/753 kBProgress (1): 618/753 kBProgress (1): 623/753 kBProgress (1): 627/753 kBProgress (1): 631/753 kBProgress (1): 635/753 kBProgress (1): 639/753 kBProgress (1): 643/753 kBProgress (1): 647/753 kBProgress (1): 651/753 kBProgress (1): 655/753 kBProgress (1): 659/753 kBProgress (1): 664/753 kBProgress (1): 668/753 kBProgress (1): 672/753 kBProgress (1): 676/753 kBProgress (1): 680/753 kBProgress (1): 684/753 kBProgress (1): 688/753 kBProgress (1): 692/753 kBProgress (1): 696/753 kBProgress (1): 700/753 kBProgress (1): 705/753 kBProgress (1): 709/753 kBProgress (1): 713/753 kBProgress (1): 717/753 kBProgress (1): 721/753 kBProgress (1): 725/753 kBProgress (1): 729/753 kBProgress (1): 733/753 kBProgress (1): 737/753 kBProgress (1): 741/753 kBProgress (1): 745/753 kBProgress (1): 750/753 kBProgress (1): 753 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-collections4/4.2/commons-collections4-4.2.jar (753 kB at 1.6 MB/s)
+[[1;34mINFO[m] Including com.fasterxml.jackson.core:jackson-databind:jar:2.10.0 in the shaded jar.
+[[1;34mINFO[m] Including com.fasterxml.jackson.core:jackson-core:jar:2.10.0 in the shaded jar.
+[[1;34mINFO[m] Including com.google.protobuf:protobuf-java-util:jar:3.19.6 in the shaded jar.
+[[1;34mINFO[m] Including com.google.guava:guava:jar:31.0.1-jre in the shaded jar.
+[[1;34mINFO[m] Including com.google.guava:failureaccess:jar:1.0.1 in the shaded jar.
+[[1;34mINFO[m] Excluding org.apache.uniffle:rss-common:jar:0.8.0-SNAPSHOT from the shaded jar.
+[[1;34mINFO[m] Excluding org.apache.uniffle:rss-proto:jar:0.8.0-SNAPSHOT from the shaded jar.
+[[1;34mINFO[m] Excluding javax.annotation:javax.annotation-api:jar:1.3.2 from the shaded jar.
+[[1;34mINFO[m] Excluding info.picocli:picocli:jar:4.5.2 from the shaded jar.
+[[1;34mINFO[m] Excluding io.prometheus:simpleclient:jar:0.9.0 from the shaded jar.
+[[1;34mINFO[m] Excluding io.prometheus:simpleclient_hotspot:jar:0.9.0 from the shaded jar.
+[[1;34mINFO[m] Excluding io.prometheus:simpleclient_httpserver:jar:0.9.0 from the shaded jar.
+[[1;34mINFO[m] Excluding io.prometheus:simpleclient_common:jar:0.9.0 from the shaded jar.
+[[1;34mINFO[m] Excluding io.prometheus:simpleclient_jetty:jar:0.9.0 from the shaded jar.
+[[1;34mINFO[m] Excluding io.prometheus:simpleclient_servlet:jar:0.9.0 from the shaded jar.
+[[1;34mINFO[m] Excluding io.prometheus:simpleclient_pushgateway:jar:0.9.0 from the shaded jar.
+[[1;34mINFO[m] Excluding javax.xml.bind:jaxb-api:jar:2.3.0 from the shaded jar.
+[[1;34mINFO[m] Excluding com.fasterxml.jackson.core:jackson-annotations:jar:2.10.0 from the shaded jar.
+[[1;34mINFO[m] Excluding org.roaringbitmap:RoaringBitmap:jar:0.9.15 from the shaded jar.
+[[1;34mINFO[m] Excluding org.roaringbitmap:shims:jar:0.9.15 from the shaded jar.
+[[1;34mINFO[m] Excluding net.jpountz.lz4:lz4:jar:1.3.0 from the shaded jar.
+[[1;34mINFO[m] Excluding io.netty:netty-all:jar:4.1.68.Final from the shaded jar.
+[[1;34mINFO[m] Excluding org.slf4j:slf4j-api:jar:1.7.36 from the shaded jar.
+[[1;34mINFO[m] Excluding org.eclipse.jetty:jetty-servlet:jar:9.3.24.v20180605 from the shaded jar.
+[[1;34mINFO[m] Excluding org.eclipse.jetty:jetty-security:jar:9.3.24.v20180605 from the shaded jar.
+[[1;34mINFO[m] Excluding org.eclipse.jetty:jetty-server:jar:9.3.24.v20180605 from the shaded jar.
+[[1;34mINFO[m] Excluding javax.servlet:javax.servlet-api:jar:3.1.0 from the shaded jar.
+[[1;34mINFO[m] Excluding org.eclipse.jetty:jetty-http:jar:9.3.24.v20180605 from the shaded jar.
+[[1;34mINFO[m] Excluding org.eclipse.jetty:jetty-io:jar:9.3.24.v20180605 from the shaded jar.
+[[1;34mINFO[m] Excluding org.eclipse.jetty:jetty-util:jar:9.3.24.v20180605 from the shaded jar.
+[[1;34mINFO[m] Excluding org.apache.hbase.thirdparty:hbase-shaded-jersey:jar:4.1.4 from the shaded jar.
+[[1;34mINFO[m] Excluding jakarta.annotation:jakarta.annotation-api:jar:1.3.5 from the shaded jar.
+[[1;34mINFO[m] Excluding jakarta.validation:jakarta.validation-api:jar:2.0.2 from the shaded jar.
+[[1;34mINFO[m] Excluding org.glassfish.hk2.external:jakarta.inject:jar:2.6.1 from the shaded jar.
+[[1;34mINFO[m] Excluding org.javassist:javassist:jar:3.25.0-GA from the shaded jar.
+[[1;34mINFO[m] Excluding org.apache.uniffle:rss-internal-client:jar:0.8.0-SNAPSHOT from the shaded jar.
+[[1;34mINFO[m] Excluding com.google.protobuf:protobuf-java:jar:3.19.6 from the shaded jar.
+[[1;34mINFO[m] Excluding com.google.guava:listenablefuture:jar:9999.0-empty-to-avoid-conflict-with-guava from the shaded jar.
+[[1;34mINFO[m] Excluding org.checkerframework:checker-qual:jar:3.12.0 from the shaded jar.
+[[1;34mINFO[m] Excluding com.google.j2objc:j2objc-annotations:jar:1.3 from the shaded jar.
+[[1;34mINFO[m] Excluding com.google.code.findbugs:jsr305:jar:3.0.2 from the shaded jar.
+[[1;34mINFO[m] Excluding com.google.code.gson:gson:jar:2.9.0 from the shaded jar.
+[[1;34mINFO[m] Excluding io.grpc:grpc-netty-shaded:jar:1.47.0 from the shaded jar.
+[[1;34mINFO[m] Excluding io.perfmark:perfmark-api:jar:0.25.0 from the shaded jar.
+[[1;34mINFO[m] Excluding io.grpc:grpc-core:jar:1.47.0 from the shaded jar.
+[[1;34mINFO[m] Excluding com.google.android:annotations:jar:4.1.1.4 from the shaded jar.
+[[1;34mINFO[m] Excluding org.codehaus.mojo:animal-sniffer-annotations:jar:1.19 from the shaded jar.
+[[1;34mINFO[m] Excluding io.grpc:grpc-protobuf:jar:1.47.0 from the shaded jar.
+[[1;34mINFO[m] Excluding io.grpc:grpc-api:jar:1.47.0 from the shaded jar.
+[[1;34mINFO[m] Excluding com.google.api.grpc:proto-google-common-protos:jar:2.0.1 from the shaded jar.
+[[1;34mINFO[m] Excluding io.grpc:grpc-protobuf-lite:jar:1.47.0 from the shaded jar.
+[[1;34mINFO[m] Excluding io.grpc:grpc-stub:jar:1.47.0 from the shaded jar.
+[[1;34mINFO[m] Excluding io.grpc:grpc-context:jar:1.47.0 from the shaded jar.
+[[1;34mINFO[m] Excluding org.apache.commons:commons-lang3:jar:3.10 from the shaded jar.
+[[1;34mINFO[m] Excluding org.slf4j:slf4j-reload4j:jar:1.7.36 from the shaded jar.
+[[1;34mINFO[m] Excluding ch.qos.reload4j:reload4j:jar:1.2.19 from the shaded jar.
+[[1;34mINFO[m] Excluding com.google.errorprone:error_prone_annotations:jar:2.10.0 from the shaded jar.
+[[1;34mINFO[m] Dependency-reduced POM written at: /home/java8-flakesync/scripts/projects-For-Delta/apache/incubator-uniffle/coordinator/dependency-reduced-pom.xml
+[[1;33mWARNING[m] Discovered module-info.class. Shading will break its strong encapsulation.
+[[1;33mWARNING[m] Discovered module-info.class. Shading will break its strong encapsulation.
+[[1;33mWARNING[m] coordinator-0.8.0-SNAPSHOT.jar, failureaccess-1.0.1.jar, guava-31.0.1-jre.jar, jackson-core-2.10.0.jar, jackson-databind-2.10.0.jar, protobuf-java-util-3.19.6.jar define 1 overlapping resource: 
+[[1;33mWARNING[m]   - META-INF/MANIFEST.MF
+[[1;33mWARNING[m] maven-shade-plugin has detected that some class files are
+[[1;33mWARNING[m] present in two or more JARs. When this happens, only one
+[[1;33mWARNING[m] single version of the class is copied to the uber jar.
+[[1;33mWARNING[m] Usually this is not harmful and you can skip these warnings,
+[[1;33mWARNING[m] otherwise try to manually exclude artifacts based on
+[[1;33mWARNING[m] mvn dependency:tree -Ddetail=true and the above output.
+[[1;33mWARNING[m] See https://maven.apache.org/plugins/maven-shade-plugin/
+[[1;34mINFO[m] Replacing original artifact with shaded artifact.
+[[1;34mINFO[m] Replacing /home/java8-flakesync/scripts/projects-For-Delta/apache/incubator-uniffle/coordinator/target/coordinator-0.8.0-SNAPSHOT.jar with /home/java8-flakesync/scripts/projects-For-Delta/apache/incubator-uniffle/coordinator/target/coordinator-0.8.0-SNAPSHOT-shaded.jar
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-site-plugin:3.5.1:attach-descriptor[m [1m(attach-descriptor)[m @ [36mcoordinator[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-jar-plugin:2.3.2:test-jar[m [1m(default)[m @ [36mcoordinator[0;1m ---[m
+[[1;34mINFO[m] Building jar: /home/java8-flakesync/scripts/projects-For-Delta/apache/incubator-uniffle/coordinator/target/coordinator-0.8.0-SNAPSHOT-tests.jar
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-install-plugin:2.5.2:install[m [1m(default-install)[m @ [36mcoordinator[0;1m ---[m
+[[1;34mINFO[m] Installing /home/java8-flakesync/scripts/projects-For-Delta/apache/incubator-uniffle/coordinator/target/coordinator-0.8.0-SNAPSHOT.jar to /home/java8-flakesync/.m2/repository/org/apache/uniffle/coordinator/0.8.0-SNAPSHOT/coordinator-0.8.0-SNAPSHOT.jar
+[[1;34mINFO[m] Installing /home/java8-flakesync/scripts/projects-For-Delta/apache/incubator-uniffle/coordinator/dependency-reduced-pom.xml to /home/java8-flakesync/.m2/repository/org/apache/uniffle/coordinator/0.8.0-SNAPSHOT/coordinator-0.8.0-SNAPSHOT.pom
+[[1;34mINFO[m] Installing /home/java8-flakesync/scripts/projects-For-Delta/apache/incubator-uniffle/coordinator/target/coordinator-0.8.0-SNAPSHOT-tests.jar to /home/java8-flakesync/.m2/repository/org/apache/uniffle/coordinator/0.8.0-SNAPSHOT/coordinator-0.8.0-SNAPSHOT-tests.jar
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m-----------------< [0;36morg.apache.uniffle:shuffle-storage[0;1m >-----------------[m
+[[1;34mINFO[m] [1mBuilding Apache Uniffle Storage 0.8.0-SNAPSHOT                    [6/10][m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+Downloading from central: https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-client/2.8.5/hadoop-client-2.8.5.pom
+Progress (1): 823 BProgress (1): 4.9 kBProgress (1): 5.0 kBProgress (1): 9.1 kBProgress (1): 10 kB                    Downloaded from central: https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-client/2.8.5/hadoop-client-2.8.5.pom (10 kB at 52 kB/s)
+Downloading from central: https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-client/2.8.5/hadoop-client-2.8.5.jar
+Progress (1): 4.1/30 kBProgress (1): 4.2/30 kBProgress (1): 8.2/30 kBProgress (1): 12/30 kB Progress (1): 12/30 kBProgress (1): 17/30 kBProgress (1): 17/30 kBProgress (1): 21/30 kBProgress (1): 21/30 kBProgress (1): 25/30 kBProgress (1): 25/30 kBProgress (1): 29/30 kBProgress (1): 29/30 kBProgress (1): 30 kB                      Downloaded from central: https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-client/2.8.5/hadoop-client-2.8.5.jar (30 kB at 135 kB/s)
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-enforcer-plugin:1.4.1:enforce[m [1m(enforce)[m @ [36mshuffle-storage[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mjacoco-maven-plugin:0.8.3:prepare-agent[m [1m(default-prepare-agent)[m @ [36mshuffle-storage[0;1m ---[m
+[[1;34mINFO[m] argLine set to -javaagent:/home/java8-flakesync/.m2/repository/org/jacoco/org.jacoco.agent/0.8.3/org.jacoco.agent-0.8.3-runtime.jar=destfile=/home/java8-flakesync/scripts/projects-For-Delta/apache/incubator-uniffle/storage/target/jacoco.exec
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-remote-resources-plugin:1.5:process[m [1m(process-resource-bundles)[m @ [36mshuffle-storage[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.7:resources[m [1m(default-resources)[m @ [36mshuffle-storage[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] skip non existing resourceDirectory /home/java8-flakesync/scripts/projects-For-Delta/apache/incubator-uniffle/storage/src/main/resources
+[[1;34mINFO[m] Copying 4 resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.7.0:compile[m [1m(default-compile)[m @ [36mshuffle-storage[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;34mINFO[m] Compiling 46 source files to /home/java8-flakesync/scripts/projects-For-Delta/apache/incubator-uniffle/storage/target/classes
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-antrun-plugin:1.8:run[m [1m(pre-test-clean)[m @ [36mshuffle-storage[0;1m ---[m
+[[1;34mINFO[m] Executing tasks
+
+main:
+[[1;34mINFO[m] Executed tasks
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-antrun-plugin:1.8:run[m [1m(create-tmp-dir)[m @ [36mshuffle-storage[0;1m ---[m
+[[1;34mINFO[m] Executing tasks
+
+main:
+    [mkdir] Created dir: /home/java8-flakesync/scripts/projects-For-Delta/apache/incubator-uniffle/storage/target/tmp
+[[1;34mINFO[m] Executed tasks
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.7:testResources[m [1m(default-testResources)[m @ [36mshuffle-storage[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] skip non existing resourceDirectory /home/java8-flakesync/scripts/projects-For-Delta/apache/incubator-uniffle/storage/src/test/resources
+[[1;34mINFO[m] Copying 4 resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.7.0:testCompile[m [1m(default-testCompile)[m @ [36mshuffle-storage[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;34mINFO[m] Compiling 20 source files to /home/java8-flakesync/scripts/projects-For-Delta/apache/incubator-uniffle/storage/target/test-classes
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-surefire-plugin:2.22.2:test[m [1m(default-test)[m @ [36mshuffle-storage[0;1m ---[m
+[[1;34mINFO[m] Tests are skipped.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mjacoco-maven-plugin:0.8.3:report[m [1m(report)[m @ [36mshuffle-storage[0;1m ---[m
+[[1;34mINFO[m] Skipping JaCoCo execution due to missing execution data file.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-dependency-plugin:2.10:copy-dependencies[m [1m(copy-dependencies)[m @ [36mshuffle-storage[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-jar-plugin:2.3.2:jar[m [1m(default-jar)[m @ [36mshuffle-storage[0;1m ---[m
+[[1;34mINFO[m] Building jar: /home/java8-flakesync/scripts/projects-For-Delta/apache/incubator-uniffle/storage/target/shuffle-storage-0.8.0-SNAPSHOT.jar
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-jar-plugin:2.3.2:test-jar[m [1m(default)[m @ [36mshuffle-storage[0;1m ---[m
+[[1;34mINFO[m] Building jar: /home/java8-flakesync/scripts/projects-For-Delta/apache/incubator-uniffle/storage/target/shuffle-storage-0.8.0-SNAPSHOT-tests.jar
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-site-plugin:3.5.1:attach-descriptor[m [1m(attach-descriptor)[m @ [36mshuffle-storage[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-install-plugin:2.5.2:install[m [1m(default-install)[m @ [36mshuffle-storage[0;1m ---[m
+[[1;34mINFO[m] Installing /home/java8-flakesync/scripts/projects-For-Delta/apache/incubator-uniffle/storage/target/shuffle-storage-0.8.0-SNAPSHOT.jar to /home/java8-flakesync/.m2/repository/org/apache/uniffle/shuffle-storage/0.8.0-SNAPSHOT/shuffle-storage-0.8.0-SNAPSHOT.jar
+[[1;34mINFO[m] Installing /home/java8-flakesync/scripts/projects-For-Delta/apache/incubator-uniffle/storage/pom.xml to /home/java8-flakesync/.m2/repository/org/apache/uniffle/shuffle-storage/0.8.0-SNAPSHOT/shuffle-storage-0.8.0-SNAPSHOT.pom
+[[1;34mINFO[m] Installing /home/java8-flakesync/scripts/projects-For-Delta/apache/incubator-uniffle/storage/target/shuffle-storage-0.8.0-SNAPSHOT-tests.jar to /home/java8-flakesync/.m2/repository/org/apache/uniffle/shuffle-storage/0.8.0-SNAPSHOT/shuffle-storage-0.8.0-SNAPSHOT-tests.jar
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m-----------------< [0;36morg.apache.uniffle:shuffle-server[0;1m >------------------[m
+[[1;34mINFO[m] [1mBuilding Apache Uniffle Server 0.8.0-SNAPSHOT                     [7/10][m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+Downloading from central: https://repo1.maven.org/maven2/com/github/stefanbirkner/system-rules/1.19.0/system-rules-1.19.0.pom
+Progress (1): 1.1 kBProgress (1): 2.3 kB                    Downloaded from central: https://repo1.maven.org/maven2/com/github/stefanbirkner/system-rules/1.19.0/system-rules-1.19.0.pom (2.3 kB at 7.6 kB/s)
+Downloading from central: https://repo1.maven.org/maven2/com/github/stefanbirkner/system-rules/1.19.0/system-rules-1.19.0.jar
+Progress (1): 3.8/39 kBProgress (1): 7.8/39 kBProgress (1): 8.0/39 kBProgress (1): 11/39 kB Progress (1): 15/39 kBProgress (1): 16/39 kBProgress (1): 20/39 kBProgress (1): 20/39 kBProgress (1): 24/39 kBProgress (1): 24/39 kBProgress (1): 28/39 kBProgress (1): 28/39 kBProgress (1): 32/39 kBProgress (1): 32/39 kBProgress (1): 37/39 kBProgress (1): 37/39 kBProgress (1): 39 kB                      Downloaded from central: https://repo1.maven.org/maven2/com/github/stefanbirkner/system-rules/1.19.0/system-rules-1.19.0.jar (39 kB at 155 kB/s)
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-enforcer-plugin:1.4.1:enforce[m [1m(enforce)[m @ [36mshuffle-server[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mjacoco-maven-plugin:0.8.3:prepare-agent[m [1m(default-prepare-agent)[m @ [36mshuffle-server[0;1m ---[m
+[[1;34mINFO[m] argLine set to -javaagent:/home/java8-flakesync/.m2/repository/org/jacoco/org.jacoco.agent/0.8.3/org.jacoco.agent-0.8.3-runtime.jar=destfile=/home/java8-flakesync/scripts/projects-For-Delta/apache/incubator-uniffle/server/target/jacoco.exec
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mprotobuf-maven-plugin:0.6.1:compile[m [1m(default)[m @ [36mshuffle-server[0;1m ---[m
+[[1;34mINFO[m] /home/java8-flakesync/scripts/projects-For-Delta/apache/incubator-uniffle/server/src/main/proto does not exist. Review the configuration or consider disabling the plugin.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mprotobuf-maven-plugin:0.6.1:compile-custom[m [1m(default)[m @ [36mshuffle-server[0;1m ---[m
+[[1;34mINFO[m] /home/java8-flakesync/scripts/projects-For-Delta/apache/incubator-uniffle/server/src/main/proto does not exist. Review the configuration or consider disabling the plugin.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-remote-resources-plugin:1.5:process[m [1m(process-resource-bundles)[m @ [36mshuffle-server[0;1m ---[m
+Downloading from central: https://repo1.maven.org/maven2/javax/xml/bind/jaxb-api/2.2.2/jaxb-api-2.2.2.jar
+Progress (1): 3.2/105 kBProgress (1): 7.3/105 kBProgress (1): 7.4/105 kBProgress (1): 11/105 kB Progress (1): 15/105 kBProgress (1): 16/105 kBProgress (1): 20/105 kBProgress (1): 20/105 kBProgress (1): 24/105 kBProgress (1): 28/105 kBProgress (1): 32/105 kBProgress (1): 36/105 kBProgress (1): 40/105 kBProgress (1): 44/105 kBProgress (1): 48/105 kBProgress (1): 52/105 kBProgress (1): 56/105 kBProgress (1): 61/105 kBProgress (1): 65/105 kBProgress (1): 69/105 kBProgress (1): 73/105 kBProgress (1): 77/105 kBProgress (1): 81/105 kBProgress (1): 85/105 kBProgress (1): 89/105 kBProgress (1): 93/105 kBProgress (1): 97/105 kBProgress (1): 101/105 kBProgress (1): 105 kB                        Downloaded from central: https://repo1.maven.org/maven2/javax/xml/bind/jaxb-api/2.2.2/jaxb-api-2.2.2.jar (105 kB at 320 kB/s)
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.7:resources[m [1m(default-resources)[m @ [36mshuffle-server[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] Copying 1 resource
+[[1;34mINFO[m] Copying 4 resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.7.0:compile[m [1m(default-compile)[m @ [36mshuffle-server[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;34mINFO[m] Compiling 42 source files to /home/java8-flakesync/scripts/projects-For-Delta/apache/incubator-uniffle/server/target/classes
+[[1;33mWARNING[m] /home/java8-flakesync/scripts/projects-For-Delta/apache/incubator-uniffle/server/src/main/java/org/apache/uniffle/server/ShuffleServer.java:[91,55] [unchecked] unchecked call to AtomicReference(V) as a member of the raw type AtomicReference
+  where V is a type-variable:
+    V extends Object declared in class AtomicReference
+[[1;33mWARNING[m] /home/java8-flakesync/scripts/projects-For-Delta/apache/incubator-uniffle/server/src/main/java/org/apache/uniffle/server/ShuffleServer.java:[91,55] [unchecked] unchecked conversion
+  required: AtomicReference<ServerStatus>
+  found:    AtomicReference
+[[1;33mWARNING[m] /home/java8-flakesync/scripts/projects-For-Delta/apache/incubator-uniffle/server/src/main/java/org/apache/uniffle/server/storage/StorageMediaFromEnvProvider.java:[66,49] [unchecked] unchecked conversion
+  required: Map<String,String>
+  found:    Map
+[[1;33mWARNING[m] /home/java8-flakesync/scripts/projects-For-Delta/apache/incubator-uniffle/server/src/main/java/org/apache/uniffle/server/storage/LocalStorageManagerFallbackStrategy.java:[30,21] [unchecked] unchecked generic array creation for varargs parameter of type Class<? extends StorageManager>[]
+[[1;33mWARNING[m] /home/java8-flakesync/scripts/projects-For-Delta/apache/incubator-uniffle/server/src/main/java/org/apache/uniffle/server/storage/HadoopStorageManagerFallbackStrategy.java:[30,21] [unchecked] unchecked generic array creation for varargs parameter of type Class<? extends StorageManager>[]
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-antrun-plugin:1.8:run[m [1m(pre-test-clean)[m @ [36mshuffle-server[0;1m ---[m
+[[1;34mINFO[m] Executing tasks
+
+main:
+[[1;34mINFO[m] Executed tasks
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-antrun-plugin:1.8:run[m [1m(create-tmp-dir)[m @ [36mshuffle-server[0;1m ---[m
+[[1;34mINFO[m] Executing tasks
+
+main:
+    [mkdir] Created dir: /home/java8-flakesync/scripts/projects-For-Delta/apache/incubator-uniffle/server/target/tmp
+[[1;34mINFO[m] Executed tasks
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.7:testResources[m [1m(default-testResources)[m @ [36mshuffle-server[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] Copying 4 resources
+[[1;34mINFO[m] Copying 4 resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.7.0:testCompile[m [1m(default-testCompile)[m @ [36mshuffle-server[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;34mINFO[m] Compiling 23 source files to /home/java8-flakesync/scripts/projects-For-Delta/apache/incubator-uniffle/server/target/test-classes
+[[1;33mWARNING[m] /home/java8-flakesync/scripts/projects-For-Delta/apache/incubator-uniffle/server/src/test/java/org/apache/uniffle/server/ShuffleServerMetricsTest.java:[124,31] [unchecked] unchecked conversion
+  required: List<String>
+  found:    ArrayList
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-surefire-plugin:2.22.2:test[m [1m(default-test)[m @ [36mshuffle-server[0;1m ---[m
+[[1;34mINFO[m] Tests are skipped.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mjacoco-maven-plugin:0.8.3:report[m [1m(report)[m @ [36mshuffle-server[0;1m ---[m
+[[1;34mINFO[m] Skipping JaCoCo execution due to missing execution data file.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-dependency-plugin:2.10:copy-dependencies[m [1m(copy-dependencies)[m @ [36mshuffle-server[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-jar-plugin:2.3.2:jar[m [1m(default-jar)[m @ [36mshuffle-server[0;1m ---[m
+[[1;34mINFO[m] Building jar: /home/java8-flakesync/scripts/projects-For-Delta/apache/incubator-uniffle/server/target/shuffle-server-0.8.0-SNAPSHOT.jar
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-shade-plugin:3.4.1:shade[m [1m(rss-jar)[m @ [36mshuffle-server[0;1m ---[m
+[[1;34mINFO[m] Including com.google.protobuf:protobuf-java-util:jar:3.19.6 in the shaded jar.
+[[1;34mINFO[m] Including com.google.guava:guava:jar:31.0.1-jre in the shaded jar.
+[[1;34mINFO[m] Including com.fasterxml.jackson.core:jackson-databind:jar:2.10.0 in the shaded jar.
+[[1;34mINFO[m] Including com.fasterxml.jackson.core:jackson-core:jar:2.10.0 in the shaded jar.
+[[1;34mINFO[m] Excluding org.apache.uniffle:shuffle-storage:jar:0.8.0-SNAPSHOT from the shaded jar.
+[[1;34mINFO[m] Excluding org.apache.uniffle:rss-internal-client:jar:0.8.0-SNAPSHOT from the shaded jar.
+[[1;34mINFO[m] Excluding org.apache.uniffle:rss-common:jar:0.8.0-SNAPSHOT from the shaded jar.
+[[1;34mINFO[m] Excluding io.prometheus:simpleclient_jetty:jar:0.9.0 from the shaded jar.
+[[1;34mINFO[m] Excluding com.google.protobuf:protobuf-java:jar:3.19.6 from the shaded jar.
+[[1;34mINFO[m] Excluding com.google.j2objc:j2objc-annotations:jar:1.3 from the shaded jar.
+[[1;34mINFO[m] Excluding com.google.code.findbugs:jsr305:jar:3.0.2 from the shaded jar.
+[[1;34mINFO[m] Excluding com.google.code.gson:gson:jar:2.9.0 from the shaded jar.
+[[1;34mINFO[m] Excluding io.grpc:grpc-netty-shaded:jar:1.47.0 from the shaded jar.
+[[1;34mINFO[m] Excluding io.perfmark:perfmark-api:jar:0.25.0 from the shaded jar.
+[[1;34mINFO[m] Excluding io.grpc:grpc-core:jar:1.47.0 from the shaded jar.
+[[1;34mINFO[m] Excluding com.google.android:annotations:jar:4.1.1.4 from the shaded jar.
+[[1;34mINFO[m] Excluding org.codehaus.mojo:animal-sniffer-annotations:jar:1.19 from the shaded jar.
+[[1;34mINFO[m] Excluding io.grpc:grpc-protobuf:jar:1.47.0 from the shaded jar.
+[[1;34mINFO[m] Excluding io.grpc:grpc-api:jar:1.47.0 from the shaded jar.
+[[1;34mINFO[m] Excluding com.google.api.grpc:proto-google-common-protos:jar:2.0.1 from the shaded jar.
+[[1;34mINFO[m] Excluding io.grpc:grpc-protobuf-lite:jar:1.47.0 from the shaded jar.
+[[1;34mINFO[m] Excluding io.grpc:grpc-stub:jar:1.47.0 from the shaded jar.
+[[1;34mINFO[m] Excluding com.google.guava:failureaccess:jar:1.0.1 from the shaded jar.
+[[1;34mINFO[m] Excluding com.google.guava:listenablefuture:jar:9999.0-empty-to-avoid-conflict-with-guava from the shaded jar.
+[[1;34mINFO[m] Excluding org.checkerframework:checker-qual:jar:3.12.0 from the shaded jar.
+[[1;34mINFO[m] Excluding io.grpc:grpc-context:jar:1.47.0 from the shaded jar.
+[[1;34mINFO[m] Excluding org.apache.uniffle:rss-proto:jar:0.8.0-SNAPSHOT from the shaded jar.
+[[1;34mINFO[m] Excluding javax.annotation:javax.annotation-api:jar:1.3.2 from the shaded jar.
+[[1;34mINFO[m] Excluding info.picocli:picocli:jar:4.5.2 from the shaded jar.
+[[1;34mINFO[m] Excluding io.prometheus:simpleclient:jar:0.9.0 from the shaded jar.
+[[1;34mINFO[m] Excluding io.prometheus:simpleclient_hotspot:jar:0.9.0 from the shaded jar.
+[[1;34mINFO[m] Excluding io.prometheus:simpleclient_httpserver:jar:0.9.0 from the shaded jar.
+[[1;34mINFO[m] Excluding io.prometheus:simpleclient_common:jar:0.9.0 from the shaded jar.
+[[1;34mINFO[m] Excluding io.prometheus:simpleclient_servlet:jar:0.9.0 from the shaded jar.
+[[1;34mINFO[m] Excluding io.prometheus:simpleclient_pushgateway:jar:0.9.0 from the shaded jar.
+[[1;34mINFO[m] Excluding javax.xml.bind:jaxb-api:jar:2.3.0 from the shaded jar.
+[[1;34mINFO[m] Excluding com.fasterxml.jackson.core:jackson-annotations:jar:2.10.0 from the shaded jar.
+[[1;34mINFO[m] Excluding org.roaringbitmap:RoaringBitmap:jar:0.9.15 from the shaded jar.
+[[1;34mINFO[m] Excluding org.roaringbitmap:shims:jar:0.9.15 from the shaded jar.
+[[1;34mINFO[m] Excluding net.jpountz.lz4:lz4:jar:1.3.0 from the shaded jar.
+[[1;34mINFO[m] Excluding org.slf4j:slf4j-api:jar:1.7.36 from the shaded jar.
+[[1;34mINFO[m] Excluding org.eclipse.jetty:jetty-servlet:jar:9.3.24.v20180605 from the shaded jar.
+[[1;34mINFO[m] Excluding org.eclipse.jetty:jetty-security:jar:9.3.24.v20180605 from the shaded jar.
+[[1;34mINFO[m] Excluding org.eclipse.jetty:jetty-server:jar:9.3.24.v20180605 from the shaded jar.
+[[1;34mINFO[m] Excluding javax.servlet:javax.servlet-api:jar:3.1.0 from the shaded jar.
+[[1;34mINFO[m] Excluding org.eclipse.jetty:jetty-http:jar:9.3.24.v20180605 from the shaded jar.
+[[1;34mINFO[m] Excluding org.eclipse.jetty:jetty-io:jar:9.3.24.v20180605 from the shaded jar.
+[[1;34mINFO[m] Excluding org.eclipse.jetty:jetty-util:jar:9.3.24.v20180605 from the shaded jar.
+[[1;34mINFO[m] Excluding org.apache.hbase.thirdparty:hbase-shaded-jersey:jar:4.1.4 from the shaded jar.
+[[1;34mINFO[m] Excluding jakarta.annotation:jakarta.annotation-api:jar:1.3.5 from the shaded jar.
+[[1;34mINFO[m] Excluding jakarta.validation:jakarta.validation-api:jar:2.0.2 from the shaded jar.
+[[1;34mINFO[m] Excluding org.glassfish.hk2.external:jakarta.inject:jar:2.6.1 from the shaded jar.
+[[1;34mINFO[m] Excluding org.javassist:javassist:jar:3.25.0-GA from the shaded jar.
+[[1;34mINFO[m] Excluding org.apache.commons:commons-lang3:jar:3.10 from the shaded jar.
+[[1;34mINFO[m] Excluding io.netty:netty-all:jar:4.1.68.Final from the shaded jar.
+[[1;34mINFO[m] Excluding org.slf4j:slf4j-reload4j:jar:1.7.36 from the shaded jar.
+[[1;34mINFO[m] Excluding ch.qos.reload4j:reload4j:jar:1.2.19 from the shaded jar.
+[[1;34mINFO[m] Excluding com.google.errorprone:error_prone_annotations:jar:2.10.0 from the shaded jar.
+[[1;34mINFO[m] Dependency-reduced POM written at: /home/java8-flakesync/scripts/projects-For-Delta/apache/incubator-uniffle/server/dependency-reduced-pom.xml
+[[1;33mWARNING[m] Discovered module-info.class. Shading will break its strong encapsulation.
+[[1;33mWARNING[m] Discovered module-info.class. Shading will break its strong encapsulation.
+[[1;33mWARNING[m] guava-31.0.1-jre.jar, jackson-core-2.10.0.jar, jackson-databind-2.10.0.jar, protobuf-java-util-3.19.6.jar, shuffle-server-0.8.0-SNAPSHOT.jar define 1 overlapping resource: 
+[[1;33mWARNING[m]   - META-INF/MANIFEST.MF
+[[1;33mWARNING[m] maven-shade-plugin has detected that some class files are
+[[1;33mWARNING[m] present in two or more JARs. When this happens, only one
+[[1;33mWARNING[m] single version of the class is copied to the uber jar.
+[[1;33mWARNING[m] Usually this is not harmful and you can skip these warnings,
+[[1;33mWARNING[m] otherwise try to manually exclude artifacts based on
+[[1;33mWARNING[m] mvn dependency:tree -Ddetail=true and the above output.
+[[1;33mWARNING[m] See https://maven.apache.org/plugins/maven-shade-plugin/
+[[1;34mINFO[m] Replacing original artifact with shaded artifact.
+[[1;34mINFO[m] Replacing /home/java8-flakesync/scripts/projects-For-Delta/apache/incubator-uniffle/server/target/shuffle-server-0.8.0-SNAPSHOT.jar with /home/java8-flakesync/scripts/projects-For-Delta/apache/incubator-uniffle/server/target/shuffle-server-0.8.0-SNAPSHOT-shaded.jar
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-site-plugin:3.5.1:attach-descriptor[m [1m(attach-descriptor)[m @ [36mshuffle-server[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-jar-plugin:2.3.2:test-jar[m [1m(default)[m @ [36mshuffle-server[0;1m ---[m
+[[1;34mINFO[m] Building jar: /home/java8-flakesync/scripts/projects-For-Delta/apache/incubator-uniffle/server/target/shuffle-server-0.8.0-SNAPSHOT-tests.jar
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-install-plugin:2.5.2:install[m [1m(default-install)[m @ [36mshuffle-server[0;1m ---[m
+[[1;34mINFO[m] Installing /home/java8-flakesync/scripts/projects-For-Delta/apache/incubator-uniffle/server/target/shuffle-server-0.8.0-SNAPSHOT.jar to /home/java8-flakesync/.m2/repository/org/apache/uniffle/shuffle-server/0.8.0-SNAPSHOT/shuffle-server-0.8.0-SNAPSHOT.jar
+[[1;34mINFO[m] Installing /home/java8-flakesync/scripts/projects-For-Delta/apache/incubator-uniffle/server/dependency-reduced-pom.xml to /home/java8-flakesync/.m2/repository/org/apache/uniffle/shuffle-server/0.8.0-SNAPSHOT/shuffle-server-0.8.0-SNAPSHOT.pom
+[[1;34mINFO[m] Installing /home/java8-flakesync/scripts/projects-For-Delta/apache/incubator-uniffle/server/target/shuffle-server-0.8.0-SNAPSHOT-tests.jar to /home/java8-flakesync/.m2/repository/org/apache/uniffle/shuffle-server/0.8.0-SNAPSHOT/shuffle-server-0.8.0-SNAPSHOT-tests.jar
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m-------------------< [0;36morg.apache.uniffle:rss-client[0;1m >--------------------[m
+[[1;34mINFO[m] [1mBuilding Apache Uniffle Client 0.8.0-SNAPSHOT                     [8/10][m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+Downloading from central: https://repo1.maven.org/maven2/javax/xml/stream/stax-api/1.0-2/stax-api-1.0-2.jar
+Progress (1): 4.1/23 kBProgress (1): 7.7/23 kBProgress (1): 7.7/23 kBProgress (1): 12/23 kB Progress (1): 16/23 kBProgress (1): 20/23 kBProgress (1): 23 kB                      Downloaded from central: https://repo1.maven.org/maven2/javax/xml/stream/stax-api/1.0-2/stax-api-1.0-2.jar (23 kB at 68 kB/s)
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mjacoco-maven-plugin:0.8.3:prepare-agent[m [1m(default-prepare-agent)[m @ [36mrss-client[0;1m ---[m
+[[1;34mINFO[m] argLine set to -javaagent:/home/java8-flakesync/.m2/repository/org/jacoco/org.jacoco.agent/0.8.3/org.jacoco.agent-0.8.3-runtime.jar=destfile=/home/java8-flakesync/scripts/projects-For-Delta/apache/incubator-uniffle/client/target/jacoco.exec
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-remote-resources-plugin:1.5:process[m [1m(process-resource-bundles)[m @ [36mrss-client[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.7:resources[m [1m(default-resources)[m @ [36mrss-client[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] skip non existing resourceDirectory /home/java8-flakesync/scripts/projects-For-Delta/apache/incubator-uniffle/client/src/main/resources
+[[1;34mINFO[m] Copying 4 resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.7.0:compile[m [1m(default-compile)[m @ [36mrss-client[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;34mINFO[m] Compiling 11 source files to /home/java8-flakesync/scripts/projects-For-Delta/apache/incubator-uniffle/client/target/classes
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-antrun-plugin:1.8:run[m [1m(pre-test-clean)[m @ [36mrss-client[0;1m ---[m
+[[1;34mINFO[m] Executing tasks
+
+main:
+[[1;34mINFO[m] Executed tasks
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-antrun-plugin:1.8:run[m [1m(create-tmp-dir)[m @ [36mrss-client[0;1m ---[m
+[[1;34mINFO[m] Executing tasks
+
+main:
+    [mkdir] Created dir: /home/java8-flakesync/scripts/projects-For-Delta/apache/incubator-uniffle/client/target/tmp
+[[1;34mINFO[m] Executed tasks
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.7:testResources[m [1m(default-testResources)[m @ [36mrss-client[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] skip non existing resourceDirectory /home/java8-flakesync/scripts/projects-For-Delta/apache/incubator-uniffle/client/src/test/resources
+[[1;34mINFO[m] Copying 4 resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.7.0:testCompile[m [1m(default-testCompile)[m @ [36mrss-client[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;34mINFO[m] Compiling 4 source files to /home/java8-flakesync/scripts/projects-For-Delta/apache/incubator-uniffle/client/target/test-classes
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-surefire-plugin:2.22.2:test[m [1m(default-test)[m @ [36mrss-client[0;1m ---[m
+[[1;34mINFO[m] Tests are skipped.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mjacoco-maven-plugin:0.8.3:report[m [1m(report)[m @ [36mrss-client[0;1m ---[m
+[[1;34mINFO[m] Skipping JaCoCo execution due to missing execution data file.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-dependency-plugin:2.10:copy-dependencies[m [1m(copy-dependencies)[m @ [36mrss-client[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-jar-plugin:2.3.2:jar[m [1m(default-jar)[m @ [36mrss-client[0;1m ---[m
+[[1;34mINFO[m] Building jar: /home/java8-flakesync/scripts/projects-For-Delta/apache/incubator-uniffle/client/target/rss-client-0.8.0-SNAPSHOT.jar
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-site-plugin:3.5.1:attach-descriptor[m [1m(attach-descriptor)[m @ [36mrss-client[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-jar-plugin:2.3.2:test-jar[m [1m(default)[m @ [36mrss-client[0;1m ---[m
+[[1;34mINFO[m] Building jar: /home/java8-flakesync/scripts/projects-For-Delta/apache/incubator-uniffle/client/target/rss-client-0.8.0-SNAPSHOT-tests.jar
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-install-plugin:2.5.2:install[m [1m(default-install)[m @ [36mrss-client[0;1m ---[m
+[[1;34mINFO[m] Installing /home/java8-flakesync/scripts/projects-For-Delta/apache/incubator-uniffle/client/target/rss-client-0.8.0-SNAPSHOT.jar to /home/java8-flakesync/.m2/repository/org/apache/uniffle/rss-client/0.8.0-SNAPSHOT/rss-client-0.8.0-SNAPSHOT.jar
+[[1;34mINFO[m] Installing /home/java8-flakesync/scripts/projects-For-Delta/apache/incubator-uniffle/client/pom.xml to /home/java8-flakesync/.m2/repository/org/apache/uniffle/rss-client/0.8.0-SNAPSHOT/rss-client-0.8.0-SNAPSHOT.pom
+[[1;34mINFO[m] Installing /home/java8-flakesync/scripts/projects-For-Delta/apache/incubator-uniffle/client/target/rss-client-0.8.0-SNAPSHOT-tests.jar to /home/java8-flakesync/.m2/repository/org/apache/uniffle/rss-client/0.8.0-SNAPSHOT/rss-client-0.8.0-SNAPSHOT-tests.jar
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m-----------------------< [0;36morg.apache.uniffle:cli[0;1m >-----------------------[m
+[[1;34mINFO[m] [1mBuilding Apache Uniffle CLI 0.8.0-SNAPSHOT                        [9/10][m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mjacoco-maven-plugin:0.8.3:prepare-agent[m [1m(default-prepare-agent)[m @ [36mcli[0;1m ---[m
+[[1;34mINFO[m] argLine set to -javaagent:/home/java8-flakesync/.m2/repository/org/jacoco/org.jacoco.agent/0.8.3/org.jacoco.agent-0.8.3-runtime.jar=destfile=/home/java8-flakesync/scripts/projects-For-Delta/apache/incubator-uniffle/cli/target/jacoco.exec
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-remote-resources-plugin:1.5:process[m [1m(process-resource-bundles)[m @ [36mcli[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.7:resources[m [1m(default-resources)[m @ [36mcli[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] skip non existing resourceDirectory /home/java8-flakesync/scripts/projects-For-Delta/apache/incubator-uniffle/cli/src/main/resources
+[[1;34mINFO[m] Copying 4 resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.7.0:compile[m [1m(default-compile)[m @ [36mcli[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;34mINFO[m] Compiling 13 source files to /home/java8-flakesync/scripts/projects-For-Delta/apache/incubator-uniffle/cli/target/classes
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-antrun-plugin:1.8:run[m [1m(pre-test-clean)[m @ [36mcli[0;1m ---[m
+[[1;34mINFO[m] Executing tasks
+
+main:
+[[1;34mINFO[m] Executed tasks
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-antrun-plugin:1.8:run[m [1m(create-tmp-dir)[m @ [36mcli[0;1m ---[m
+[[1;34mINFO[m] Executing tasks
+
+main:
+    [mkdir] Created dir: /home/java8-flakesync/scripts/projects-For-Delta/apache/incubator-uniffle/cli/target/tmp
+[[1;34mINFO[m] Executed tasks
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.7:testResources[m [1m(default-testResources)[m @ [36mcli[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] Copying 1 resource
+[[1;34mINFO[m] Copying 4 resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.7.0:testCompile[m [1m(default-testCompile)[m @ [36mcli[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;34mINFO[m] Compiling 4 source files to /home/java8-flakesync/scripts/projects-For-Delta/apache/incubator-uniffle/cli/target/test-classes
+[[1;33mWARNING[m] /home/java8-flakesync/scripts/projects-For-Delta/apache/incubator-uniffle/cli/src/test/java/org/apache/uniffle/cli/AdminRestApiTest.java:[43,22] [deprecation] initMocks(Object) in MockitoAnnotations has been deprecated
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-surefire-plugin:2.22.2:test[m [1m(default-test)[m @ [36mcli[0;1m ---[m
+[[1;34mINFO[m] Tests are skipped.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mjacoco-maven-plugin:0.8.3:report[m [1m(report)[m @ [36mcli[0;1m ---[m
+[[1;34mINFO[m] Skipping JaCoCo execution due to missing execution data file.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-dependency-plugin:2.10:copy-dependencies[m [1m(copy-dependencies)[m @ [36mcli[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-jar-plugin:2.3.2:jar[m [1m(default-jar)[m @ [36mcli[0;1m ---[m
+[[1;34mINFO[m] Building jar: /home/java8-flakesync/scripts/projects-For-Delta/apache/incubator-uniffle/cli/target/cli-0.8.0-SNAPSHOT.jar
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-site-plugin:3.5.1:attach-descriptor[m [1m(attach-descriptor)[m @ [36mcli[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-jar-plugin:2.3.2:test-jar[m [1m(default)[m @ [36mcli[0;1m ---[m
+[[1;34mINFO[m] Building jar: /home/java8-flakesync/scripts/projects-For-Delta/apache/incubator-uniffle/cli/target/cli-0.8.0-SNAPSHOT-tests.jar
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-install-plugin:2.5.2:install[m [1m(default-install)[m @ [36mcli[0;1m ---[m
+[[1;34mINFO[m] Installing /home/java8-flakesync/scripts/projects-For-Delta/apache/incubator-uniffle/cli/target/cli-0.8.0-SNAPSHOT.jar to /home/java8-flakesync/.m2/repository/org/apache/uniffle/cli/0.8.0-SNAPSHOT/cli-0.8.0-SNAPSHOT.jar
+[[1;34mINFO[m] Installing /home/java8-flakesync/scripts/projects-For-Delta/apache/incubator-uniffle/cli/pom.xml to /home/java8-flakesync/.m2/repository/org/apache/uniffle/cli/0.8.0-SNAPSHOT/cli-0.8.0-SNAPSHOT.pom
+[[1;34mINFO[m] Installing /home/java8-flakesync/scripts/projects-For-Delta/apache/incubator-uniffle/cli/target/cli-0.8.0-SNAPSHOT-tests.jar to /home/java8-flakesync/.m2/repository/org/apache/uniffle/cli/0.8.0-SNAPSHOT/cli-0.8.0-SNAPSHOT-tests.jar
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m-----------< [0;36morg.apache.uniffle:rss-integration-common-test[0;1m >-----------[m
+[[1;34mINFO[m] [1mBuilding Apache Uniffle Integration Test (Common) 0.8.0-SNAPSHOT [10/10][m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-enforcer-plugin:1.4.1:enforce[m [1m(enforce)[m @ [36mrss-integration-common-test[0;1m ---[m
+[[1;33mWARNING[m] Rule 0: org.apache.maven.plugins.enforcer.RequireUpperBoundDeps failed with message:
+Failed while enforcing RequireUpperBoundDeps. The error(s) are [
+Require upper bound dependencies error for com.google.protobuf:protobuf-java:3.19.2 paths to dependency are:
++-org.apache.uniffle:rss-integration-common-test:0.8.0-SNAPSHOT
+  +-org.apache.uniffle:shuffle-server:0.8.0-SNAPSHOT
+    +-io.grpc:grpc-protobuf:1.47.0
+      +-com.google.protobuf:protobuf-java:3.19.2
+and
++-org.apache.uniffle:rss-integration-common-test:0.8.0-SNAPSHOT
+  +-org.apache.uniffle:rss-common:0.8.0-SNAPSHOT
+    +-org.apache.uniffle:rss-proto:0.8.0-SNAPSHOT
+      +-com.google.protobuf:protobuf-java-util:3.19.6
+        +-com.google.protobuf:protobuf-java:3.19.6
+and
++-org.apache.uniffle:rss-integration-common-test:0.8.0-SNAPSHOT
+  +-org.apache.uniffle:shuffle-server:0.8.0-SNAPSHOT
+    +-io.grpc:grpc-protobuf:1.47.0
+      +-com.google.api.grpc:proto-google-common-protos:2.0.1
+        +-com.google.protobuf:protobuf-java:3.13.0
+]
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1mReactor Summary for Apache Uniffle 0.8.0-SNAPSHOT:[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] Apache Uniffle ..................................... [1;32mSUCCESS[m [  3.673 s]
+[[1;34mINFO[m] Apache Uniffle Protocols ........................... [1;32mSUCCESS[m [ 11.490 s]
+[[1;34mINFO[m] Apache Uniffle Common .............................. [1;32mSUCCESS[m [  6.915 s]
+[[1;34mINFO[m] Apache Uniffle Internal Client ..................... [1;32mSUCCESS[m [  4.981 s]
+[[1;34mINFO[m] Apache Uniffle Coordinator ......................... [1;32mSUCCESS[m [ 19.622 s]
+[[1;34mINFO[m] Apache Uniffle Storage ............................. [1;32mSUCCESS[m [  9.061 s]
+[[1;34mINFO[m] Apache Uniffle Server .............................. [1;32mSUCCESS[m [ 15.606 s]
+[[1;34mINFO[m] Apache Uniffle Client .............................. [1;32mSUCCESS[m [  5.208 s]
+[[1;34mINFO[m] Apache Uniffle CLI ................................. [1;32mSUCCESS[m [  4.089 s]
+[[1;34mINFO[m] Apache Uniffle Integration Test (Common) ........... [1;31mFAILURE[m [  0.930 s]
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;31mBUILD FAILURE[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  01:22 min
+[[1;34mINFO[m] Finished at: 2026-09-01T01:40:22Z
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;31mERROR[m] Failed to execute goal [32morg.apache.maven.plugins:maven-enforcer-plugin:1.4.1:enforce[m [1m(enforce)[m on project [36mrss-integration-common-test[m: [1;31mSome Enforcer rules have failed. Look above for specific messages explaining why the rule failed.[m -> [1m[Help 1][m
+[[1;31mERROR[m] 
+[[1;31mERROR[m] To see the full stack trace of the errors, re-run Maven with the [1m-e[m switch.
+[[1;31mERROR[m] Re-run Maven using the [1m-X[m switch to enable full debug logging.
+[[1;31mERROR[m] 
+[[1;31mERROR[m] For more information about the errors and possible solutions, please read the following articles:
+[[1;31mERROR[m] [1m[Help 1][m http://cwiki.apache.org/confluence/display/MAVEN/MojoExecutionException
+[[1;31mERROR[m] 
+[[1;31mERROR[m] After correcting the problems, you can resume the build with the command
+[[1;31mERROR[m]   [1mmvn <goals> -rf :rss-integration-common-test[m
+Seq size= 17 
+STARTING ELEMENTS: 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17
+*********** len = 17
+1  8
+STARTING ELEMENTS: 9 10 11 12 13 14 15 16 17
+*********** len = 9
+1  4
+STARTING ELEMENTS: 9 10 11 12
+*********** len = 4
+1  2
+STARTING ELEMENTS: 9 10
+*********** len = 2
+1  1
+STARTING ELEMENTS: 10
+*********** len = 1
+/home/java8-flakesync/scripts/Results-Minimizer/org.apache.uniffle.common.rpc.GrpcServerTest#testGrpcExecutorPool.csv
+org.apache.uniffle.common.rpc.GrpcServerTest#testGrpcExecutorPool
+****1
+HI Results-Minimizer/org.apache.uniffle.common.rpc.GrpcServerTest#testGrpcExecutorPool_Actual_Location.csv

@@ -1,0 +1,487 @@
+com/alibaba/wasp/executor/ExecutorService$TrackingThreadPoolExecutor#308
+1
+Cloning into '/home/java8-flakesync/scripts/projects/alibaba/wasp'...
+Note: checking out 'b2593d8'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by performing another checkout.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -b with the checkout command again. Example:
+
+  git checkout -b <new-branch-name>
+
+HEAD is now at b2593d8 Merge pull request #24 from haosdent/master
+/home/java8-flakesync/scripts/projects/alibaba/wasp
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--------------------------< [0;36mcom.alibaba:wasp[0;1m >--------------------------[m
+[[1;34mINFO[m] [1mBuilding wasp 0.11[m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-clean-plugin:2.5:clean[m [1m(default-clean)[m @ [36mwasp[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-antrun-plugin:1.6:run[m [1m(generate)[m @ [36mwasp[0;1m ---[m
+[[1;34mINFO[m] Executing tasks
+
+main:
+[[1;34mINFO[m] Logging to org.slf4j.impl.MavenSimpleLogger(org.mortbay.log) via org.mortbay.log.Slf4jLog
+    [mkdir] Created dir: /home/java8-flakesync/scripts/projects/alibaba/wasp/target/wasp-webapps/master/WEB-INF
+    [mkdir] Created dir: /home/java8-flakesync/scripts/projects/alibaba/wasp/target/wasp-webapps/fserver/WEB-INF
+[[1;34mINFO[m] Executed tasks
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mbuild-helper-maven-plugin:1.5:add-source[m [1m(add-source)[m @ [36mwasp[0;1m ---[m
+[[1;34mINFO[m] Source directory: /home/java8-flakesync/scripts/projects/alibaba/wasp/target/generated-sources/java added.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.6:resources[m [1m(default-resources)[m @ [36mwasp[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] Copying 2 resources
+[[1;34mINFO[m] Copying 18 resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:2.5.1:compile[m [1m(default-compile)[m @ [36mwasp[0;1m ---[m
+[[1;34mINFO[m] Compiling 513 source files to /home/java8-flakesync/scripts/projects/alibaba/wasp/target/classes
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.6:testResources[m [1m(default-testResources)[m @ [36mwasp[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] skip non existing resourceDirectory /home/java8-flakesync/scripts/projects/alibaba/wasp/src/test/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:2.5.1:testCompile[m [1m(default-testCompile)[m @ [36mwasp[0;1m ---[m
+[[1;34mINFO[m] Compiling 83 source files to /home/java8-flakesync/scripts/projects/alibaba/wasp/target/test-classes
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-surefire-plugin:2.13:test[m [1m(default-test)[m @ [36mwasp[0;1m ---[m
+[[1;34mINFO[m] Tests are skipped.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-jar-plugin:2.4:test-jar[m [1m(default)[m @ [36mwasp[0;1m ---[m
+[[1;34mINFO[m] Building jar: /home/java8-flakesync/scripts/projects/alibaba/wasp/target/wasp-0.11-tests.jar
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-jar-plugin:2.4:jar[m [1m(default-jar)[m @ [36mwasp[0;1m ---[m
+[[1;34mINFO[m] Building jar: /home/java8-flakesync/scripts/projects/alibaba/wasp/target/wasp-0.11.jar
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-dependency-plugin:2.8:copy-dependencies[m [1m(copy-dependencies)[m @ [36mwasp[0;1m ---[m
+[[1;34mINFO[m] Copying netty-3.5.0.Final.jar to /home/java8-flakesync/scripts/projects/alibaba/wasp/lib/netty-3.5.0.Final.jar
+[[1;34mINFO[m] Copying protobuf-java-format-1.2.jar to /home/java8-flakesync/scripts/projects/alibaba/wasp/lib/protobuf-java-format-1.2.jar
+[[1;34mINFO[m] Copying httpcore-4.1.3.jar to /home/java8-flakesync/scripts/projects/alibaba/wasp/lib/httpcore-4.1.3.jar
+[[1;34mINFO[m] Copying commons-el-1.0.jar to /home/java8-flakesync/scripts/projects/alibaba/wasp/lib/commons-el-1.0.jar
+[[1;34mINFO[m] Copying hbase-0.94.7.jar to /home/java8-flakesync/scripts/projects/alibaba/wasp/lib/hbase-0.94.7.jar
+[[1;34mINFO[m] Copying jettison-1.3.1.jar to /home/java8-flakesync/scripts/projects/alibaba/wasp/lib/jettison-1.3.1.jar
+[[1;34mINFO[m] Copying log4j-1.2.17.jar to /home/java8-flakesync/scripts/projects/alibaba/wasp/lib/log4j-1.2.17.jar
+[[1;34mINFO[m] Copying commons-net-1.4.1.jar to /home/java8-flakesync/scripts/projects/alibaba/wasp/lib/commons-net-1.4.1.jar
+[[1;34mINFO[m] Copying aopalliance-1.0.jar to /home/java8-flakesync/scripts/projects/alibaba/wasp/lib/aopalliance-1.0.jar
+[[1;34mINFO[m] Copying jackson-mapper-asl-1.8.8.jar to /home/java8-flakesync/scripts/projects/alibaba/wasp/lib/jackson-mapper-asl-1.8.8.jar
+[[1;34mINFO[m] Copying jasper-compiler-5.5.23.jar to /home/java8-flakesync/scripts/projects/alibaba/wasp/lib/jasper-compiler-5.5.23.jar
+[[1;34mINFO[m] Copying hbase-0.94.7-tests.jar to /home/java8-flakesync/scripts/projects/alibaba/wasp/lib/hbase-0.94.7-tests.jar
+[[1;34mINFO[m] Copying core-3.1.1.jar to /home/java8-flakesync/scripts/projects/alibaba/wasp/lib/core-3.1.1.jar
+[[1;34mINFO[m] Copying ftplet-api-1.0.0.jar to /home/java8-flakesync/scripts/projects/alibaba/wasp/lib/ftplet-api-1.0.0.jar
+[[1;34mINFO[m] Copying jackson-jaxrs-1.8.8.jar to /home/java8-flakesync/scripts/projects/alibaba/wasp/lib/jackson-jaxrs-1.8.8.jar
+[[1;34mINFO[m] Copying avro-1.5.3.jar to /home/java8-flakesync/scripts/projects/alibaba/wasp/lib/avro-1.5.3.jar
+[[1;34mINFO[m] Copying ftpserver-core-1.0.0.jar to /home/java8-flakesync/scripts/projects/alibaba/wasp/lib/ftpserver-core-1.0.0.jar
+[[1;34mINFO[m] Copying ftpserver-deprecated-1.0.0-M2.jar to /home/java8-flakesync/scripts/projects/alibaba/wasp/lib/ftpserver-deprecated-1.0.0-M2.jar
+[[1;34mINFO[m] Copying jaxb-impl-2.2.3-1.jar to /home/java8-flakesync/scripts/projects/alibaba/wasp/lib/jaxb-impl-2.2.3-1.jar
+[[1;34mINFO[m] Copying high-scale-lib-1.1.1.jar to /home/java8-flakesync/scripts/projects/alibaba/wasp/lib/high-scale-lib-1.1.1.jar
+[[1;34mINFO[m] Copying hadoop-test-1.0.4.jar to /home/java8-flakesync/scripts/projects/alibaba/wasp/lib/hadoop-test-1.0.4.jar
+[[1;34mINFO[m] Copying jsp-2.1-6.1.14.jar to /home/java8-flakesync/scripts/projects/alibaba/wasp/lib/jsp-2.1-6.1.14.jar
+[[1;34mINFO[m] Copying mina-core-2.0.0-M5.jar to /home/java8-flakesync/scripts/projects/alibaba/wasp/lib/mina-core-2.0.0-M5.jar
+[[1;34mINFO[m] Copying jets3t-0.7.1.jar to /home/java8-flakesync/scripts/projects/alibaba/wasp/lib/jets3t-0.7.1.jar
+[[1;34mINFO[m] Copying jetty-util-6.1.26.jar to /home/java8-flakesync/scripts/projects/alibaba/wasp/lib/jetty-util-6.1.26.jar
+[[1;34mINFO[m] Copying jruby-complete-1.6.8.jar to /home/java8-flakesync/scripts/projects/alibaba/wasp/lib/jruby-complete-1.6.8.jar
+[[1;34mINFO[m] Copying spring-expression-3.0.5.RELEASE.jar to /home/java8-flakesync/scripts/projects/alibaba/wasp/lib/spring-expression-3.0.5.RELEASE.jar
+[[1;34mINFO[m] Copying spring-beans-3.0.5.RELEASE.jar to /home/java8-flakesync/scripts/projects/alibaba/wasp/lib/spring-beans-3.0.5.RELEASE.jar
+[[1;34mINFO[m] Copying commons-io-2.4.jar to /home/java8-flakesync/scripts/projects/alibaba/wasp/lib/commons-io-2.4.jar
+[[1;34mINFO[m] Copying commons-logging-1.1.1.jar to /home/java8-flakesync/scripts/projects/alibaba/wasp/lib/commons-logging-1.1.1.jar
+[[1;34mINFO[m] Copying slf4j-api-1.4.3.jar to /home/java8-flakesync/scripts/projects/alibaba/wasp/lib/slf4j-api-1.4.3.jar
+[[1;34mINFO[m] Copying metrics-core-2.1.2.jar to /home/java8-flakesync/scripts/projects/alibaba/wasp/lib/metrics-core-2.1.2.jar
+[[1;34mINFO[m] Copying slf4j-log4j12-1.4.3.jar to /home/java8-flakesync/scripts/projects/alibaba/wasp/lib/slf4j-log4j12-1.4.3.jar
+[[1;34mINFO[m] Copying hsqldb-1.8.0.10.jar to /home/java8-flakesync/scripts/projects/alibaba/wasp/lib/hsqldb-1.8.0.10.jar
+[[1;34mINFO[m] Copying spring-aop-3.0.5.RELEASE.jar to /home/java8-flakesync/scripts/projects/alibaba/wasp/lib/spring-aop-3.0.5.RELEASE.jar
+[[1;34mINFO[m] Copying xmlenc-0.52.jar to /home/java8-flakesync/scripts/projects/alibaba/wasp/lib/xmlenc-0.52.jar
+[[1;34mINFO[m] Copying zookeeper-3.4.5.jar to /home/java8-flakesync/scripts/projects/alibaba/wasp/lib/zookeeper-3.4.5.jar
+[[1;34mINFO[m] Copying mockito-all-1.9.0.jar to /home/java8-flakesync/scripts/projects/alibaba/wasp/lib/mockito-all-1.9.0.jar
+[[1;34mINFO[m] Copying protobuf-rpc-pro-duplex-2.0.1.jar to /home/java8-flakesync/scripts/projects/alibaba/wasp/lib/protobuf-rpc-pro-duplex-2.0.1.jar
+[[1;34mINFO[m] Copying jasper-runtime-5.5.23.jar to /home/java8-flakesync/scripts/projects/alibaba/wasp/lib/jasper-runtime-5.5.23.jar
+[[1;34mINFO[m] Copying httpclient-4.1.2.jar to /home/java8-flakesync/scripts/projects/alibaba/wasp/lib/httpclient-4.1.2.jar
+[[1;34mINFO[m] Copying junit-4.10.jar to /home/java8-flakesync/scripts/projects/alibaba/wasp/lib/junit-4.10.jar
+[[1;34mINFO[m] Copying jaxb-api-2.1.jar to /home/java8-flakesync/scripts/projects/alibaba/wasp/lib/jaxb-api-2.1.jar
+[[1;34mINFO[m] Copying protobuf-rpc-pro-demo-2.0.1.jar to /home/java8-flakesync/scripts/projects/alibaba/wasp/lib/protobuf-rpc-pro-demo-2.0.1.jar
+[[1;34mINFO[m] Copying htrace-1.49.jar to /home/java8-flakesync/scripts/projects/alibaba/wasp/lib/htrace-1.49.jar
+[[1;34mINFO[m] Copying snappy-java-1.0.3.2.jar to /home/java8-flakesync/scripts/projects/alibaba/wasp/lib/snappy-java-1.0.3.2.jar
+[[1;34mINFO[m] Copying jamon-runtime-2.3.1.jar to /home/java8-flakesync/scripts/projects/alibaba/wasp/lib/jamon-runtime-2.3.1.jar
+[[1;34mINFO[m] Copying libthrift-0.8.0.jar to /home/java8-flakesync/scripts/projects/alibaba/wasp/lib/libthrift-0.8.0.jar
+[[1;34mINFO[m] Copying commons-math-2.1.jar to /home/java8-flakesync/scripts/projects/alibaba/wasp/lib/commons-math-2.1.jar
+[[1;34mINFO[m] Copying jackson-xc-1.8.8.jar to /home/java8-flakesync/scripts/projects/alibaba/wasp/lib/jackson-xc-1.8.8.jar
+[[1;34mINFO[m] Copying jsr305-1.3.9.jar to /home/java8-flakesync/scripts/projects/alibaba/wasp/lib/jsr305-1.3.9.jar
+[[1;34mINFO[m] Copying commons-configuration-1.6.jar to /home/java8-flakesync/scripts/projects/alibaba/wasp/lib/commons-configuration-1.6.jar
+[[1;34mINFO[m] Copying commons-digester-1.8.jar to /home/java8-flakesync/scripts/projects/alibaba/wasp/lib/commons-digester-1.8.jar
+[[1;34mINFO[m] Copying avro-ipc-1.5.3.jar to /home/java8-flakesync/scripts/projects/alibaba/wasp/lib/avro-ipc-1.5.3.jar
+[[1;34mINFO[m] Copying protobuf-java-2.4.1.jar to /home/java8-flakesync/scripts/projects/alibaba/wasp/lib/protobuf-java-2.4.1.jar
+[[1;34mINFO[m] Copying jersey-core-1.8.jar to /home/java8-flakesync/scripts/projects/alibaba/wasp/lib/jersey-core-1.8.jar
+[[1;34mINFO[m] Copying commons-beanutils-1.7.0.jar to /home/java8-flakesync/scripts/projects/alibaba/wasp/lib/commons-beanutils-1.7.0.jar
+[[1;34mINFO[m] Copying druid-0.2.9.jar to /home/java8-flakesync/scripts/projects/alibaba/wasp/lib/druid-0.2.9.jar
+[[1;34mINFO[m] Copying commons-httpclient-3.0.1.jar to /home/java8-flakesync/scripts/projects/alibaba/wasp/lib/commons-httpclient-3.0.1.jar
+[[1;34mINFO[m] Copying kfs-0.3.jar to /home/java8-flakesync/scripts/projects/alibaba/wasp/lib/kfs-0.3.jar
+[[1;34mINFO[m] Copying commons-collections-3.2.1.jar to /home/java8-flakesync/scripts/projects/alibaba/wasp/lib/commons-collections-3.2.1.jar
+[[1;34mINFO[m] Copying netty-3.2.4.Final.jar to /home/java8-flakesync/scripts/projects/alibaba/wasp/lib/netty-3.2.4.Final.jar
+[[1;34mINFO[m] Copying commons-codec-1.7.jar to /home/java8-flakesync/scripts/projects/alibaba/wasp/lib/commons-codec-1.7.jar
+[[1;34mINFO[m] Copying spring-core-3.0.5.RELEASE.jar to /home/java8-flakesync/scripts/projects/alibaba/wasp/lib/spring-core-3.0.5.RELEASE.jar
+[[1;34mINFO[m] Copying commons-lang-2.6.jar to /home/java8-flakesync/scripts/projects/alibaba/wasp/lib/commons-lang-2.6.jar
+[[1;34mINFO[m] Copying protobuf-streamer-pro-1.2.3.jar to /home/java8-flakesync/scripts/projects/alibaba/wasp/lib/protobuf-streamer-pro-1.2.3.jar
+[[1;34mINFO[m] Copying activation-1.1.jar to /home/java8-flakesync/scripts/projects/alibaba/wasp/lib/activation-1.1.jar
+[[1;34mINFO[m] Copying hadoop-core-1.0.4.jar to /home/java8-flakesync/scripts/projects/alibaba/wasp/lib/hadoop-core-1.0.4.jar
+[[1;34mINFO[m] Copying asm-3.1.jar to /home/java8-flakesync/scripts/projects/alibaba/wasp/lib/asm-3.1.jar
+[[1;34mINFO[m] Copying commons-cli-1.2.jar to /home/java8-flakesync/scripts/projects/alibaba/wasp/lib/commons-cli-1.2.jar
+[[1;34mINFO[m] Copying commons-beanutils-core-1.8.0.jar to /home/java8-flakesync/scripts/projects/alibaba/wasp/lib/commons-beanutils-core-1.8.0.jar
+[[1;34mINFO[m] Copying jersey-server-1.8.jar to /home/java8-flakesync/scripts/projects/alibaba/wasp/lib/jersey-server-1.8.jar
+[[1;34mINFO[m] Copying jetty-6.1.26.jar to /home/java8-flakesync/scripts/projects/alibaba/wasp/lib/jetty-6.1.26.jar
+[[1;34mINFO[m] Copying servlet-api-2.5-6.1.14.jar to /home/java8-flakesync/scripts/projects/alibaba/wasp/lib/servlet-api-2.5-6.1.14.jar
+[[1;34mINFO[m] Copying spring-context-3.0.5.RELEASE.jar to /home/java8-flakesync/scripts/projects/alibaba/wasp/lib/spring-context-3.0.5.RELEASE.jar
+[[1;34mINFO[m] Copying jersey-json-1.8.jar to /home/java8-flakesync/scripts/projects/alibaba/wasp/lib/jersey-json-1.8.jar
+[[1;34mINFO[m] Copying oro-2.0.8.jar to /home/java8-flakesync/scripts/projects/alibaba/wasp/lib/oro-2.0.8.jar
+[[1;34mINFO[m] Copying jackson-core-asl-1.8.8.jar to /home/java8-flakesync/scripts/projects/alibaba/wasp/lib/jackson-core-asl-1.8.8.jar
+[[1;34mINFO[m] Copying guava-12.0.1.jar to /home/java8-flakesync/scripts/projects/alibaba/wasp/lib/guava-12.0.1.jar
+[[1;34mINFO[m] Copying velocity-1.7.jar to /home/java8-flakesync/scripts/projects/alibaba/wasp/lib/velocity-1.7.jar
+[[1;34mINFO[m] Copying spring-asm-3.0.5.RELEASE.jar to /home/java8-flakesync/scripts/projects/alibaba/wasp/lib/spring-asm-3.0.5.RELEASE.jar
+[[1;34mINFO[m] Copying jsp-api-2.1-6.1.14.jar to /home/java8-flakesync/scripts/projects/alibaba/wasp/lib/jsp-api-2.1-6.1.14.jar
+[[1;34mINFO[m] Copying hamcrest-core-1.1.jar to /home/java8-flakesync/scripts/projects/alibaba/wasp/lib/hamcrest-core-1.1.jar
+[[1;34mINFO[m] Copying stax-api-1.0.1.jar to /home/java8-flakesync/scripts/projects/alibaba/wasp/lib/stax-api-1.0.1.jar
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-install-plugin:2.4:install[m [1m(default-install)[m @ [36mwasp[0;1m ---[m
+[[1;34mINFO[m] Installing /home/java8-flakesync/scripts/projects/alibaba/wasp/target/wasp-0.11.jar to /home/java8-flakesync/.m2/repository/com/alibaba/wasp/0.11/wasp-0.11.jar
+[[1;34mINFO[m] Installing /home/java8-flakesync/scripts/projects/alibaba/wasp/pom.xml to /home/java8-flakesync/.m2/repository/com/alibaba/wasp/0.11/wasp-0.11.pom
+[[1;34mINFO[m] Installing /home/java8-flakesync/scripts/projects/alibaba/wasp/target/wasp-0.11-tests.jar to /home/java8-flakesync/.m2/repository/com/alibaba/wasp/0.11/wasp-0.11-tests.jar
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;32mBUILD SUCCESS[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  18.687 s
+[[1;34mINFO[m] Finished at: 2026-08-31T09:38:32Z
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+./StackTrace-com.alibaba.wasp.executor.TestExecutorService#testExecutorService.txt
+I am from mvn-run-and-find-stack-trace
+From parseScript, Arr =  com/alibaba/wasp/executor/ExecutorService$TrackingThreadPoolExecutor#308, 12
+From parseScript, Arr =  com/alibaba/wasp/executor/ExecutorService$TrackingThreadPoolExecutor#308, 11
+From parseScript, Arr =  com/alibaba/wasp/executor/ExecutorService$TrackingThreadPoolExecutor#308, 14
+From parseScript, Arr =  com/alibaba/wasp/executor/ExecutorService$TrackingThreadPoolExecutor#308, 13
+From parseScript, Arr =  com/alibaba/wasp/executor/ExecutorService$TrackingThreadPoolExecutor#308, 15
+grep: /home/java8-flakesync/scripts/Locations/already_covered_line-wasp-com.alibaba.wasp.executor.TestExecutorService#testExecutorService: No such file or directory
+exists=0, com/alibaba/wasp/executor/ExecutorService$TrackingThreadPoolExecutor#308
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--------------------------< [0;36mcom.alibaba:wasp[0;1m >--------------------------[m
+[[1;34mINFO[m] [1mBuilding wasp 0.11[m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-clean-plugin:2.5:clean[m [1m(default-clean)[m @ [36mwasp[0;1m ---[m
+[[1;34mINFO[m] Deleting /home/java8-flakesync/scripts/projects/alibaba/wasp/target
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-antrun-plugin:1.6:run[m [1m(generate)[m @ [36mwasp[0;1m ---[m
+[[1;34mINFO[m] Executing tasks
+
+main:
+[[1;34mINFO[m] Logging to org.slf4j.impl.MavenSimpleLogger(org.mortbay.log) via org.mortbay.log.Slf4jLog
+    [mkdir] Created dir: /home/java8-flakesync/scripts/projects/alibaba/wasp/target/wasp-webapps/master/WEB-INF
+    [mkdir] Created dir: /home/java8-flakesync/scripts/projects/alibaba/wasp/target/wasp-webapps/fserver/WEB-INF
+[[1;34mINFO[m] Executed tasks
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mbuild-helper-maven-plugin:1.5:add-source[m [1m(add-source)[m @ [36mwasp[0;1m ---[m
+[[1;34mINFO[m] Source directory: /home/java8-flakesync/scripts/projects/alibaba/wasp/target/generated-sources/java added.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.6:resources[m [1m(default-resources)[m @ [36mwasp[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] Copying 2 resources
+[[1;34mINFO[m] Copying 18 resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:2.5.1:compile[m [1m(default-compile)[m @ [36mwasp[0;1m ---[m
+[[1;34mINFO[m] Compiling 513 source files to /home/java8-flakesync/scripts/projects/alibaba/wasp/target/classes
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.6:testResources[m [1m(default-testResources)[m @ [36mwasp[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] skip non existing resourceDirectory /home/java8-flakesync/scripts/projects/alibaba/wasp/src/test/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:2.5.1:testCompile[m [1m(default-testCompile)[m @ [36mwasp[0;1m ---[m
+[[1;34mINFO[m] Compiling 83 source files to /home/java8-flakesync/scripts/projects/alibaba/wasp/target/test-classes
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-surefire-plugin:2.13:test[m [1m(default-test)[m @ [36mwasp[0;1m ---[m
+[[1;34mINFO[m] Tests are skipped.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-jar-plugin:2.4:test-jar[m [1m(default)[m @ [36mwasp[0;1m ---[m
+[[1;34mINFO[m] Building jar: /home/java8-flakesync/scripts/projects/alibaba/wasp/target/wasp-0.11-tests.jar
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-jar-plugin:2.4:jar[m [1m(default-jar)[m @ [36mwasp[0;1m ---[m
+[[1;34mINFO[m] Building jar: /home/java8-flakesync/scripts/projects/alibaba/wasp/target/wasp-0.11.jar
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-dependency-plugin:2.8:copy-dependencies[m [1m(copy-dependencies)[m @ [36mwasp[0;1m ---[m
+[[1;34mINFO[m] netty-3.5.0.Final.jar already exists in destination.
+[[1;34mINFO[m] protobuf-java-format-1.2.jar already exists in destination.
+[[1;34mINFO[m] httpcore-4.1.3.jar already exists in destination.
+[[1;34mINFO[m] commons-el-1.0.jar already exists in destination.
+[[1;34mINFO[m] hbase-0.94.7.jar already exists in destination.
+[[1;34mINFO[m] jettison-1.3.1.jar already exists in destination.
+[[1;34mINFO[m] log4j-1.2.17.jar already exists in destination.
+[[1;34mINFO[m] commons-net-1.4.1.jar already exists in destination.
+[[1;34mINFO[m] aopalliance-1.0.jar already exists in destination.
+[[1;34mINFO[m] jackson-mapper-asl-1.8.8.jar already exists in destination.
+[[1;34mINFO[m] jasper-compiler-5.5.23.jar already exists in destination.
+[[1;34mINFO[m] hbase-0.94.7-tests.jar already exists in destination.
+[[1;34mINFO[m] core-3.1.1.jar already exists in destination.
+[[1;34mINFO[m] ftplet-api-1.0.0.jar already exists in destination.
+[[1;34mINFO[m] jackson-jaxrs-1.8.8.jar already exists in destination.
+[[1;34mINFO[m] avro-1.5.3.jar already exists in destination.
+[[1;34mINFO[m] ftpserver-core-1.0.0.jar already exists in destination.
+[[1;34mINFO[m] ftpserver-deprecated-1.0.0-M2.jar already exists in destination.
+[[1;34mINFO[m] jaxb-impl-2.2.3-1.jar already exists in destination.
+[[1;34mINFO[m] high-scale-lib-1.1.1.jar already exists in destination.
+[[1;34mINFO[m] hadoop-test-1.0.4.jar already exists in destination.
+[[1;34mINFO[m] jsp-2.1-6.1.14.jar already exists in destination.
+[[1;34mINFO[m] mina-core-2.0.0-M5.jar already exists in destination.
+[[1;34mINFO[m] jets3t-0.7.1.jar already exists in destination.
+[[1;34mINFO[m] jetty-util-6.1.26.jar already exists in destination.
+[[1;34mINFO[m] jruby-complete-1.6.8.jar already exists in destination.
+[[1;34mINFO[m] spring-expression-3.0.5.RELEASE.jar already exists in destination.
+[[1;34mINFO[m] spring-beans-3.0.5.RELEASE.jar already exists in destination.
+[[1;34mINFO[m] commons-io-2.4.jar already exists in destination.
+[[1;34mINFO[m] commons-logging-1.1.1.jar already exists in destination.
+[[1;34mINFO[m] slf4j-api-1.4.3.jar already exists in destination.
+[[1;34mINFO[m] metrics-core-2.1.2.jar already exists in destination.
+[[1;34mINFO[m] slf4j-log4j12-1.4.3.jar already exists in destination.
+[[1;34mINFO[m] hsqldb-1.8.0.10.jar already exists in destination.
+[[1;34mINFO[m] spring-aop-3.0.5.RELEASE.jar already exists in destination.
+[[1;34mINFO[m] xmlenc-0.52.jar already exists in destination.
+[[1;34mINFO[m] zookeeper-3.4.5.jar already exists in destination.
+[[1;34mINFO[m] mockito-all-1.9.0.jar already exists in destination.
+[[1;34mINFO[m] protobuf-rpc-pro-duplex-2.0.1.jar already exists in destination.
+[[1;34mINFO[m] jasper-runtime-5.5.23.jar already exists in destination.
+[[1;34mINFO[m] httpclient-4.1.2.jar already exists in destination.
+[[1;34mINFO[m] junit-4.10.jar already exists in destination.
+[[1;34mINFO[m] jaxb-api-2.1.jar already exists in destination.
+[[1;34mINFO[m] protobuf-rpc-pro-demo-2.0.1.jar already exists in destination.
+[[1;34mINFO[m] htrace-1.49.jar already exists in destination.
+[[1;34mINFO[m] snappy-java-1.0.3.2.jar already exists in destination.
+[[1;34mINFO[m] jamon-runtime-2.3.1.jar already exists in destination.
+[[1;34mINFO[m] libthrift-0.8.0.jar already exists in destination.
+[[1;34mINFO[m] commons-math-2.1.jar already exists in destination.
+[[1;34mINFO[m] jackson-xc-1.8.8.jar already exists in destination.
+[[1;34mINFO[m] jsr305-1.3.9.jar already exists in destination.
+[[1;34mINFO[m] commons-configuration-1.6.jar already exists in destination.
+[[1;34mINFO[m] commons-digester-1.8.jar already exists in destination.
+[[1;34mINFO[m] avro-ipc-1.5.3.jar already exists in destination.
+[[1;34mINFO[m] protobuf-java-2.4.1.jar already exists in destination.
+[[1;34mINFO[m] jersey-core-1.8.jar already exists in destination.
+[[1;34mINFO[m] commons-beanutils-1.7.0.jar already exists in destination.
+[[1;34mINFO[m] druid-0.2.9.jar already exists in destination.
+[[1;34mINFO[m] commons-httpclient-3.0.1.jar already exists in destination.
+[[1;34mINFO[m] kfs-0.3.jar already exists in destination.
+[[1;34mINFO[m] commons-collections-3.2.1.jar already exists in destination.
+[[1;34mINFO[m] netty-3.2.4.Final.jar already exists in destination.
+[[1;34mINFO[m] commons-codec-1.7.jar already exists in destination.
+[[1;34mINFO[m] spring-core-3.0.5.RELEASE.jar already exists in destination.
+[[1;34mINFO[m] commons-lang-2.6.jar already exists in destination.
+[[1;34mINFO[m] protobuf-streamer-pro-1.2.3.jar already exists in destination.
+[[1;34mINFO[m] activation-1.1.jar already exists in destination.
+[[1;34mINFO[m] hadoop-core-1.0.4.jar already exists in destination.
+[[1;34mINFO[m] asm-3.1.jar already exists in destination.
+[[1;34mINFO[m] commons-cli-1.2.jar already exists in destination.
+[[1;34mINFO[m] commons-beanutils-core-1.8.0.jar already exists in destination.
+[[1;34mINFO[m] jersey-server-1.8.jar already exists in destination.
+[[1;34mINFO[m] jetty-6.1.26.jar already exists in destination.
+[[1;34mINFO[m] servlet-api-2.5-6.1.14.jar already exists in destination.
+[[1;34mINFO[m] spring-context-3.0.5.RELEASE.jar already exists in destination.
+[[1;34mINFO[m] jersey-json-1.8.jar already exists in destination.
+[[1;34mINFO[m] oro-2.0.8.jar already exists in destination.
+[[1;34mINFO[m] jackson-core-asl-1.8.8.jar already exists in destination.
+[[1;34mINFO[m] guava-12.0.1.jar already exists in destination.
+[[1;34mINFO[m] velocity-1.7.jar already exists in destination.
+[[1;34mINFO[m] spring-asm-3.0.5.RELEASE.jar already exists in destination.
+[[1;34mINFO[m] jsp-api-2.1-6.1.14.jar already exists in destination.
+[[1;34mINFO[m] hamcrest-core-1.1.jar already exists in destination.
+[[1;34mINFO[m] stax-api-1.0.1.jar already exists in destination.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-install-plugin:2.4:install[m [1m(default-install)[m @ [36mwasp[0;1m ---[m
+[[1;34mINFO[m] Installing /home/java8-flakesync/scripts/projects/alibaba/wasp/target/wasp-0.11.jar to /home/java8-flakesync/.m2/repository/com/alibaba/wasp/0.11/wasp-0.11.jar
+[[1;34mINFO[m] Installing /home/java8-flakesync/scripts/projects/alibaba/wasp/pom.xml to /home/java8-flakesync/.m2/repository/com/alibaba/wasp/0.11/wasp-0.11.pom
+[[1;34mINFO[m] Installing /home/java8-flakesync/scripts/projects/alibaba/wasp/target/wasp-0.11-tests.jar to /home/java8-flakesync/.m2/repository/com/alibaba/wasp/0.11/wasp-0.11-tests.jar
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;32mBUILD SUCCESS[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  20.095 s
+[[1;34mINFO[m] Finished at: 2026-08-31T09:39:02Z
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+./StackTrace-com.alibaba.wasp.executor.TestExecutorService#testExecutorService.txt
+rootLine=11,com/alibaba/wasp/executor/ExecutorService<TrackingThreadPoolExecutor/beforeExecute=ExecutorService/java:308![100]
+****************11,com/alibaba/wasp/executor/ExecutorService<TrackingThreadPoolExecutor/beforeExecute=ExecutorService/java:308![100]****
+exists=1, com/alibaba/wasp/executor/ExecutorService$TrackingThreadPoolExecutor#308
+rootLine=11,com/alibaba/wasp/executor/ExecutorService<TrackingThreadPoolExecutor/beforeExecute=ExecutorService/java:308![100]
+****************11,com/alibaba/wasp/executor/ExecutorService<TrackingThreadPoolExecutor/beforeExecute=ExecutorService/java:308![100]****
+exists=1, com/alibaba/wasp/executor/ExecutorService$TrackingThreadPoolExecutor#308
+rootLine=11,com/alibaba/wasp/executor/ExecutorService<TrackingThreadPoolExecutor/beforeExecute=ExecutorService/java:308![100]
+****************11,com/alibaba/wasp/executor/ExecutorService<TrackingThreadPoolExecutor/beforeExecute=ExecutorService/java:308![100]****
+exists=1, com/alibaba/wasp/executor/ExecutorService$TrackingThreadPoolExecutor#308
+rootLine=11,com/alibaba/wasp/executor/ExecutorService<TrackingThreadPoolExecutor/beforeExecute=ExecutorService/java:308![100]
+****************11,com/alibaba/wasp/executor/ExecutorService<TrackingThreadPoolExecutor/beforeExecute=ExecutorService/java:308![100]****
+exists=1, com/alibaba/wasp/executor/ExecutorService$TrackingThreadPoolExecutor#308
+rootLine=11,com/alibaba/wasp/executor/ExecutorService<TrackingThreadPoolExecutor/beforeExecute=ExecutorService/java:308![100]
+****************11,com/alibaba/wasp/executor/ExecutorService<TrackingThreadPoolExecutor/beforeExecute=ExecutorService/java:308![100]****
+*****combined location= com/alibaba/wasp/executor/ExecutorService$TrackingThreadPoolExecutor#beforeExecute
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--------------------------< [0;36mcom.alibaba:wasp[0;1m >--------------------------[m
+[[1;34mINFO[m] [1mBuilding wasp 0.11[m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-clean-plugin:2.5:clean[m [1m(default-clean)[m @ [36mwasp[0;1m ---[m
+[[1;34mINFO[m] Deleting /home/java8-flakesync/scripts/projects/alibaba/wasp/target
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-antrun-plugin:1.6:run[m [1m(generate)[m @ [36mwasp[0;1m ---[m
+[[1;34mINFO[m] Executing tasks
+
+main:
+[[1;34mINFO[m] Logging to org.slf4j.impl.MavenSimpleLogger(org.mortbay.log) via org.mortbay.log.Slf4jLog
+    [mkdir] Created dir: /home/java8-flakesync/scripts/projects/alibaba/wasp/target/wasp-webapps/master/WEB-INF
+    [mkdir] Created dir: /home/java8-flakesync/scripts/projects/alibaba/wasp/target/wasp-webapps/fserver/WEB-INF
+[[1;34mINFO[m] Executed tasks
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mbuild-helper-maven-plugin:1.5:add-source[m [1m(add-source)[m @ [36mwasp[0;1m ---[m
+[[1;34mINFO[m] Source directory: /home/java8-flakesync/scripts/projects/alibaba/wasp/target/generated-sources/java added.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.6:resources[m [1m(default-resources)[m @ [36mwasp[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] Copying 2 resources
+[[1;34mINFO[m] Copying 18 resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:2.5.1:compile[m [1m(default-compile)[m @ [36mwasp[0;1m ---[m
+[[1;34mINFO[m] Compiling 513 source files to /home/java8-flakesync/scripts/projects/alibaba/wasp/target/classes
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.6:testResources[m [1m(default-testResources)[m @ [36mwasp[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] skip non existing resourceDirectory /home/java8-flakesync/scripts/projects/alibaba/wasp/src/test/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:2.5.1:testCompile[m [1m(default-testCompile)[m @ [36mwasp[0;1m ---[m
+[[1;34mINFO[m] Compiling 83 source files to /home/java8-flakesync/scripts/projects/alibaba/wasp/target/test-classes
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-surefire-plugin:2.13:test[m [1m(default-test)[m @ [36mwasp[0;1m ---[m
+[[1;34mINFO[m] Tests are skipped.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-jar-plugin:2.4:test-jar[m [1m(default)[m @ [36mwasp[0;1m ---[m
+[[1;34mINFO[m] Building jar: /home/java8-flakesync/scripts/projects/alibaba/wasp/target/wasp-0.11-tests.jar
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-jar-plugin:2.4:jar[m [1m(default-jar)[m @ [36mwasp[0;1m ---[m
+[[1;34mINFO[m] Building jar: /home/java8-flakesync/scripts/projects/alibaba/wasp/target/wasp-0.11.jar
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-dependency-plugin:2.8:copy-dependencies[m [1m(copy-dependencies)[m @ [36mwasp[0;1m ---[m
+[[1;34mINFO[m] netty-3.5.0.Final.jar already exists in destination.
+[[1;34mINFO[m] protobuf-java-format-1.2.jar already exists in destination.
+[[1;34mINFO[m] httpcore-4.1.3.jar already exists in destination.
+[[1;34mINFO[m] commons-el-1.0.jar already exists in destination.
+[[1;34mINFO[m] hbase-0.94.7.jar already exists in destination.
+[[1;34mINFO[m] jettison-1.3.1.jar already exists in destination.
+[[1;34mINFO[m] log4j-1.2.17.jar already exists in destination.
+[[1;34mINFO[m] commons-net-1.4.1.jar already exists in destination.
+[[1;34mINFO[m] aopalliance-1.0.jar already exists in destination.
+[[1;34mINFO[m] jackson-mapper-asl-1.8.8.jar already exists in destination.
+[[1;34mINFO[m] jasper-compiler-5.5.23.jar already exists in destination.
+[[1;34mINFO[m] hbase-0.94.7-tests.jar already exists in destination.
+[[1;34mINFO[m] core-3.1.1.jar already exists in destination.
+[[1;34mINFO[m] ftplet-api-1.0.0.jar already exists in destination.
+[[1;34mINFO[m] jackson-jaxrs-1.8.8.jar already exists in destination.
+[[1;34mINFO[m] avro-1.5.3.jar already exists in destination.
+[[1;34mINFO[m] ftpserver-core-1.0.0.jar already exists in destination.
+[[1;34mINFO[m] ftpserver-deprecated-1.0.0-M2.jar already exists in destination.
+[[1;34mINFO[m] jaxb-impl-2.2.3-1.jar already exists in destination.
+[[1;34mINFO[m] high-scale-lib-1.1.1.jar already exists in destination.
+[[1;34mINFO[m] hadoop-test-1.0.4.jar already exists in destination.
+[[1;34mINFO[m] jsp-2.1-6.1.14.jar already exists in destination.
+[[1;34mINFO[m] mina-core-2.0.0-M5.jar already exists in destination.
+[[1;34mINFO[m] jets3t-0.7.1.jar already exists in destination.
+[[1;34mINFO[m] jetty-util-6.1.26.jar already exists in destination.
+[[1;34mINFO[m] jruby-complete-1.6.8.jar already exists in destination.
+[[1;34mINFO[m] spring-expression-3.0.5.RELEASE.jar already exists in destination.
+[[1;34mINFO[m] spring-beans-3.0.5.RELEASE.jar already exists in destination.
+[[1;34mINFO[m] commons-io-2.4.jar already exists in destination.
+[[1;34mINFO[m] commons-logging-1.1.1.jar already exists in destination.
+[[1;34mINFO[m] slf4j-api-1.4.3.jar already exists in destination.
+[[1;34mINFO[m] metrics-core-2.1.2.jar already exists in destination.
+[[1;34mINFO[m] slf4j-log4j12-1.4.3.jar already exists in destination.
+[[1;34mINFO[m] hsqldb-1.8.0.10.jar already exists in destination.
+[[1;34mINFO[m] spring-aop-3.0.5.RELEASE.jar already exists in destination.
+[[1;34mINFO[m] xmlenc-0.52.jar already exists in destination.
+[[1;34mINFO[m] zookeeper-3.4.5.jar already exists in destination.
+[[1;34mINFO[m] mockito-all-1.9.0.jar already exists in destination.
+[[1;34mINFO[m] protobuf-rpc-pro-duplex-2.0.1.jar already exists in destination.
+[[1;34mINFO[m] jasper-runtime-5.5.23.jar already exists in destination.
+[[1;34mINFO[m] httpclient-4.1.2.jar already exists in destination.
+[[1;34mINFO[m] junit-4.10.jar already exists in destination.
+[[1;34mINFO[m] jaxb-api-2.1.jar already exists in destination.
+[[1;34mINFO[m] protobuf-rpc-pro-demo-2.0.1.jar already exists in destination.
+[[1;34mINFO[m] htrace-1.49.jar already exists in destination.
+[[1;34mINFO[m] snappy-java-1.0.3.2.jar already exists in destination.
+[[1;34mINFO[m] jamon-runtime-2.3.1.jar already exists in destination.
+[[1;34mINFO[m] libthrift-0.8.0.jar already exists in destination.
+[[1;34mINFO[m] commons-math-2.1.jar already exists in destination.
+[[1;34mINFO[m] jackson-xc-1.8.8.jar already exists in destination.
+[[1;34mINFO[m] jsr305-1.3.9.jar already exists in destination.
+[[1;34mINFO[m] commons-configuration-1.6.jar already exists in destination.
+[[1;34mINFO[m] commons-digester-1.8.jar already exists in destination.
+[[1;34mINFO[m] avro-ipc-1.5.3.jar already exists in destination.
+[[1;34mINFO[m] protobuf-java-2.4.1.jar already exists in destination.
+[[1;34mINFO[m] jersey-core-1.8.jar already exists in destination.
+[[1;34mINFO[m] commons-beanutils-1.7.0.jar already exists in destination.
+[[1;34mINFO[m] druid-0.2.9.jar already exists in destination.
+[[1;34mINFO[m] commons-httpclient-3.0.1.jar already exists in destination.
+[[1;34mINFO[m] kfs-0.3.jar already exists in destination.
+[[1;34mINFO[m] commons-collections-3.2.1.jar already exists in destination.
+[[1;34mINFO[m] netty-3.2.4.Final.jar already exists in destination.
+[[1;34mINFO[m] commons-codec-1.7.jar already exists in destination.
+[[1;34mINFO[m] spring-core-3.0.5.RELEASE.jar already exists in destination.
+[[1;34mINFO[m] commons-lang-2.6.jar already exists in destination.
+[[1;34mINFO[m] protobuf-streamer-pro-1.2.3.jar already exists in destination.
+[[1;34mINFO[m] activation-1.1.jar already exists in destination.
+[[1;34mINFO[m] hadoop-core-1.0.4.jar already exists in destination.
+[[1;34mINFO[m] asm-3.1.jar already exists in destination.
+[[1;34mINFO[m] commons-cli-1.2.jar already exists in destination.
+[[1;34mINFO[m] commons-beanutils-core-1.8.0.jar already exists in destination.
+[[1;34mINFO[m] jersey-server-1.8.jar already exists in destination.
+[[1;34mINFO[m] jetty-6.1.26.jar already exists in destination.
+[[1;34mINFO[m] servlet-api-2.5-6.1.14.jar already exists in destination.
+[[1;34mINFO[m] spring-context-3.0.5.RELEASE.jar already exists in destination.
+[[1;34mINFO[m] jersey-json-1.8.jar already exists in destination.
+[[1;34mINFO[m] oro-2.0.8.jar already exists in destination.
+[[1;34mINFO[m] jackson-core-asl-1.8.8.jar already exists in destination.
+[[1;34mINFO[m] guava-12.0.1.jar already exists in destination.
+[[1;34mINFO[m] velocity-1.7.jar already exists in destination.
+[[1;34mINFO[m] spring-asm-3.0.5.RELEASE.jar already exists in destination.
+[[1;34mINFO[m] jsp-api-2.1-6.1.14.jar already exists in destination.
+[[1;34mINFO[m] hamcrest-core-1.1.jar already exists in destination.
+[[1;34mINFO[m] stax-api-1.0.1.jar already exists in destination.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-install-plugin:2.4:install[m [1m(default-install)[m @ [36mwasp[0;1m ---[m
+[[1;34mINFO[m] Installing /home/java8-flakesync/scripts/projects/alibaba/wasp/target/wasp-0.11.jar to /home/java8-flakesync/.m2/repository/com/alibaba/wasp/0.11/wasp-0.11.jar
+[[1;34mINFO[m] Installing /home/java8-flakesync/scripts/projects/alibaba/wasp/pom.xml to /home/java8-flakesync/.m2/repository/com/alibaba/wasp/0.11/wasp-0.11.pom
+[[1;34mINFO[m] Installing /home/java8-flakesync/scripts/projects/alibaba/wasp/target/wasp-0.11-tests.jar to /home/java8-flakesync/.m2/repository/com/alibaba/wasp/0.11/wasp-0.11-tests.jar
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;32mBUILD SUCCESS[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  20.101 s
+[[1;34mINFO[m] Finished at: 2026-08-31T09:39:32Z
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+locationCount===>1
+com/alibaba/wasp/executor/ExecutorService$TrackingThreadPoolExecutor#308-com/alibaba/wasp/executor/ExecutorService$TrackingThreadPoolExecutor#311
+EROOR / Failure Found at the beginning***********************************
+*************beginning fail true=com/alibaba/wasp/executor/ExecutorService$TrackingThreadPoolExecutor#308
+lower_line_num=308; and upper_line_num=311;
+***I am sequential jjj=308
+Sequential EROOR / Failure Found at Line 308
+***I am sequential jjj=309
+STORING into myCluster for Line 309 and map, com/alibaba/wasp/executor/ExecutorService$TrackingThreadPoolExecutor#308
+***I am sequential jjj=310
+Sequential EROOR / Failure Found at Line 310
+End fails...
+Work with myCluster=======
+totalKeys=2
+Key: 1
+KEY and Value pair=1, com/alibaba/wasp/executor/ExecutorService$TrackingThreadPoolExecutor#308
+com/alibaba/wasp/executor/ExecutorService$TrackingThreadPoolExecutor#308
+first_item and end_item= com/alibaba/wasp/executor/ExecutorService$TrackingThreadPoolExecutor#308 and com/alibaba/wasp/executor/ExecutorService$TrackingThreadPoolExecutor#308
+Key: 2
+KEY and Value pair=2, com/alibaba/wasp/executor/ExecutorService$TrackingThreadPoolExecutor#310
+com/alibaba/wasp/executor/ExecutorService$TrackingThreadPoolExecutor#310
+first_item and end_item= com/alibaba/wasp/executor/ExecutorService$TrackingThreadPoolExecutor#310 and com/alibaba/wasp/executor/ExecutorService$TrackingThreadPoolExecutor#310
+/home/java8-flakesync/scripts NOW GOING to remove rootProj========= alibaba
+STAGE2_SECONDS=143.355

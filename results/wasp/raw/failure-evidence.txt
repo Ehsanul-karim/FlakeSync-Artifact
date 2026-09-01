@@ -1,0 +1,60 @@
+35--------------------------------------------------------
+36- T E S T S
+37--------------------------------------------------------
+38-visitMethodInsn.....,Need to inject delay,locationcom.alibaba.wasp.executor.ExecutorService$TrackingThreadPoolExecutor#310delay=100
+39-Running com.alibaba.wasp.executor.TestExecutorService
+40:Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.893 sec <<< FAILURE!
+41:testExecutorService(com.alibaba.wasp.executor.TestExecutorService)  Time elapsed: 0.432 sec  <<< FAILURE!
+42:java.lang.AssertionError: expected:<10> but was:<5>
+43-	at org.junit.Assert.fail(Assert.java:93)
+44-	at org.junit.Assert.failNotEquals(Assert.java:647)
+45-	at org.junit.Assert.assertEquals(Assert.java:128)
+46-	at org.junit.Assert.assertEquals(Assert.java:472)
+47-	at org.junit.Assert.assertEquals(Assert.java:456)
+48:	at com.alibaba.wasp.executor.TestExecutorService.testExecutorService(TestExecutorService.java:109)
+49-
+50-
+51-Results :
+52-
+53-Failed tests: 
+54-  TestExecutorService.testExecutorService:109 expected:<10> but was:<5>
+55-
+56:Tests run: 1, Failures: 1, Errors: 0, Skipped: 0
+57-
+58-[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+59:[[1;34mINFO[m] [1;31mBUILD FAILURE[m
+60-[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+61-[[1;34mINFO[m] Total time:  5.440 s
+62-[[1;34mINFO[m] Finished at: 2026-08-31T09:42:25Z
+63-[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+64-[[1;31mERROR[m] Failed to execute goal [32morg.apache.maven.plugins:maven-surefire-plugin:2.13:test[m [1m(default-test)[m on project [36mwasp[m: [1;31mThere are test failures.[m
+65-[[1;31mERROR[m] [1;31m[m
+66-[[1;31mERROR[m] [1;31mPlease refer to /home/java8-flakesync/scripts/projects/alibaba/wasp/target/surefire-reports for the individual test results.[m
+67-[[1;31mERROR[m] -> [1m[Help 1][m
+68-[[1;31mERROR[m] 
+69-[[1;31mERROR[m] To see the full stack trace of the errors, re-run Maven with the [1m-e[m switch.
+70-[[1;31mERROR[m] Re-run Maven using the [1m-X[m switch to enable full debug logging.
+71-[[1;31mERROR[m] 
+72-[[1;31mERROR[m] For more information about the errors and possible solutions, please read the following articles:
+73-[[1;31mERROR[m] [1m[Help 1][m http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+74:at org.junit.Assert.fail(Assert.java:93) at org.junit.Assert.failNotEquals(Assert.java:647) at org.junit.Assert.assertEquals(Assert.java:128) at org.junit.Assert.assertEquals(Assert.java:472) at org.junit.Assert.assertEquals(Assert.java:456) at com.alibaba.wasp.executor.TestExecutorService.testExecutorService(TestExecutorService.java:109) java.lang.Object.wait(Object.java:502) com.alibaba.wasp.executor.TestExecutorService$TestEventHandler.process(TestExecutorService.java:167) com.alibaba.wasp.executor.EventHandler.run(EventHandler.java:198) java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) java.lang.Thread.run(Thread.java:750) java.lang.Object.wait(Object.java:502) com.alibaba.wasp.executor.TestExecutorService$TestEventHandler.process(TestExecutorService.java:167) com.alibaba.wasp.executor.EventHandler.run(EventHandler.java:198) java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) java.lang.Thread.run(Thread.java:750) java.lang.Object.wait(Object.java:502) com.alibaba.wasp.executor.TestExecutorService$TestEventHandler.process(TestExecutorService.java:167) com.alibaba.wasp.executor.EventHandler.run(EventHandler.java:198) java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) java.lang.Thread.run(Thread.java:750) java.lang.Object.wait(Object.java:502) com.alibaba.wasp.executor.TestExecutorService$TestEventHandler.process(TestExecutorService.java:167) com.alibaba.wasp.executor.EventHandler.run(EventHandler.java:198) java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) java.lang.Thread.run(Thread.java:750) java.lang.Object.wait(Object.java:502) com.alibaba.wasp.executor.TestExecutorService$TestEventHandler.process(TestExecutorService.java:167) com.alibaba.wasp.executor.EventHandler.run(EventHandler.java:198) java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) java.lang.Thread.run(Thread.java:750)
+75-/home/java8-flakesync/scripts/collect_stacktrace.sh: line 23: /home/java8-flakesync/scripts/../barrierSearch-core/src/main/resources/blacklist.txt: No such file or directory
+76-/home/java8-flakesync/scripts/collect_stacktrace.sh: line 23: /home/java8-flakesync/scripts/../barrierSearch-core/src/main/resources/blacklist.txt: No such file or directory
+77-/home/java8-flakesync/scripts/collect_stacktrace.sh: line 23: /home/java8-flakesync/scripts/../barrierSearch-core/src/main/resources/blacklist.txt: No such file or directory
+78-/home/java8-flakesync/scripts/collect_stacktrace.sh: line 23: /home/java8-flakesync/scripts/../barrierSearch-core/src/main/resources/blacklist.txt: No such file or directory
+79-/home/java8-flakesync/scripts/collect_stacktrace.sh: line 23: /home/java8-flakesync/scripts/../barrierSearch-core/src/main/resources/blacklist.txt: No such file or directory
+80-/home/java8-flakesync/scripts/collect_stacktrace.sh: line 23: /home/java8-flakesync/scripts/../barrierSearch-core/src/main/resources/blacklist.txt: No such file or directory
+81-/home/java8-flakesync/scripts/collect_stacktrace.sh: line 23: /home/java8-flakesync/scripts/../barrierSearch-core/src/main/resources/blacklist.txt: No such file or directory
+82-/home/java8-flakesync/scripts/collect_stacktrace.sh: line 23: /home/java8-flakesync/scripts/../barrierSearch-core/src/main/resources/blacklist.txt: No such file or directory
+83-/home/java8-flakesync/scripts/collect_stacktrace.sh: line 23: /home/java8-flakesync/scripts/../barrierSearch-core/src/main/resources/blacklist.txt: No such file or directory
+84-/home/java8-flakesync/scripts/collect_stacktrace.sh: line 23: /home/java8-flakesync/scripts/../barrierSearch-core/src/main/resources/blacklist.txt: No such file or directory
+85-/home/java8-flakesync/scripts/collect_stacktrace.sh: line 23: /home/java8-flakesync/scripts/../barrierSearch-core/src/main/resources/blacklist.txt: No such file or directory
+86-/home/java8-flakesync/scripts/collect_stacktrace.sh: line 23: /home/java8-flakesync/scripts/../barrierSearch-core/src/main/resources/blacklist.txt: No such file or directory
+87-/home/java8-flakesync/scripts/collect_stacktrace.sh: line 23: /home/java8-flakesync/scripts/../barrierSearch-core/src/main/resources/blacklist.txt: No such file or directory
+88-/home/java8-flakesync/scripts/collect_stacktrace.sh: line 23: /home/java8-flakesync/scripts/../barrierSearch-core/src/main/resources/blacklist.txt: No such file or directory
+89-/home/java8-flakesync/scripts/collect_stacktrace.sh: line 23: /home/java8-flakesync/scripts/../barrierSearch-core/src/main/resources/blacklist.txt: No such file or directory
+90-/home/java8-flakesync/scripts/collect_stacktrace.sh: line 23: /home/java8-flakesync/scripts/../barrierSearch-core/src/main/resources/blacklist.txt: No such file or directory
+91-/home/java8-flakesync/scripts/collect_stacktrace.sh: line 23: /home/java8-flakesync/scripts/../barrierSearch-core/src/main/resources/blacklist.txt: No such file or directory
+92-/home/java8-flakesync/scripts/collect_stacktrace.sh: line 23: /home/java8-flakesync/scripts/../barrierSearch-core/src/main/resources/blacklist.txt: No such file or directory
+93-/home/java8-flakesync/scripts/collect_stacktrace.sh: line 23: /home/java8-flakesync/scripts/../barrierSearch-core/src/main/resources/blacklist.txt: No such file or directory
+94-/home/java8-flakesync/scripts/collect_stacktrace.sh: line 23: /home/java8-flakesync/scripts/../barrierSearch-core/src/main/resources/blacklist.txt: No such file or directory

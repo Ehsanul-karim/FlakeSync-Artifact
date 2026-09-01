@@ -1,0 +1,262 @@
+Line starts with Hash #Project-Name,SHA,Module,Test-Name,Boundary-Point(s),Anywhere-of-method(1)/Part-of-method(0),#Boundary-Point,Reaches-to-end(TRUE/FALSE)
+org.apache.uniffle.common.rpc.GrpcServer$GrpcThreadPoolExecutor#177
+100
+Cloning into '/home/java8-flakesync/scripts/projects/apache/incubator-uniffle'...
+Note: checking out '6fb2a9a63132ab9abbde2f1f9240f9caf2f5d0f0'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by performing another checkout.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -b with the checkout command again. Example:
+
+  git checkout -b <new-branch-name>
+
+HEAD is now at 6fb2a9a6 [#1018] test(tez) RssUnorderedPartitionedKVOutputTest add close func unit test (#1034)
+/home/java8-flakesync/scripts/projects/apache/incubator-uniffle/client-mr/core
+/home/java8-flakesync/scripts/projects/apache/incubator-uniffle/cli
+/home/java8-flakesync/scripts/projects/apache/incubator-uniffle/client-mr/hadoop2.8
+/home/java8-flakesync/scripts/projects/apache/incubator-uniffle/client
+/home/java8-flakesync/scripts/projects/apache/incubator-uniffle/integration-test/spark3
+/home/java8-flakesync/scripts/projects/apache/incubator-uniffle/coordinator
+/home/java8-flakesync/scripts/projects/apache/incubator-uniffle/client-spark/common
+/home/java8-flakesync/scripts/projects/apache/incubator-uniffle/client-tez
+/home/java8-flakesync/scripts/projects/apache/incubator-uniffle/client-mr/hadoop3.2
+/home/java8-flakesync/scripts/projects/apache/incubator-uniffle/client-spark/spark2
+/home/java8-flakesync/scripts/projects/apache/incubator-uniffle/integration-test/tez
+/home/java8-flakesync/scripts/projects/apache/incubator-uniffle/client-spark/spark3
+/home/java8-flakesync/scripts/projects/apache/incubator-uniffle/server
+/home/java8-flakesync/scripts/projects/apache/incubator-uniffle/deploy/kubernetes
+/home/java8-flakesync/scripts/projects/apache/incubator-uniffle
+/home/java8-flakesync/scripts/projects/apache/incubator-uniffle/storage
+/home/java8-flakesync/scripts/projects/apache/incubator-uniffle/integration-test/spark2
+/home/java8-flakesync/scripts/projects/apache/incubator-uniffle/common
+/home/java8-flakesync/scripts/projects/apache/incubator-uniffle/integration-test/common
+/home/java8-flakesync/scripts/projects/apache/incubator-uniffle/internal-client
+/home/java8-flakesync/scripts/projects/apache/incubator-uniffle/proto
+/home/java8-flakesync/scripts/projects/apache/incubator-uniffle/integration-test/spark-common
+/home/java8-flakesync/scripts/projects/apache/incubator-uniffle/integration-test/mr
+[[1;34mINFO[m] Scanning for projects...
+[[1;33mWARNING[m] 
+[[1;33mWARNING[m] Some problems were encountered while building the effective model for org.apache.uniffle:rss-proto:jar:0.8.0-SNAPSHOT
+[[1;33mWARNING[m] 'build.plugins.plugin.(groupId:artifactId)' must be unique but found duplicate declaration of plugin org.apache.maven.plugins:maven-surefire-plugin @ org.apache.uniffle:uniffle-parent:0.8.0-SNAPSHOT, /home/java8-flakesync/scripts/projects/apache/incubator-uniffle/pom.xml, line 1071, column 13
+[[1;33mWARNING[m] 
+[[1;33mWARNING[m] Some problems were encountered while building the effective model for org.apache.uniffle:uniffle-parent:pom:0.8.0-SNAPSHOT
+[[1;33mWARNING[m] 'build.plugins.plugin.(groupId:artifactId)' must be unique but found duplicate declaration of plugin org.apache.maven.plugins:maven-surefire-plugin @ line 1071, column 13
+[[1;33mWARNING[m] 
+[[1;33mWARNING[m] It is highly recommended to fix these problems because they threaten the stability of your build.
+[[1;33mWARNING[m] 
+[[1;33mWARNING[m] For this reason, future Maven versions might no longer support building such malformed projects.
+[[1;33mWARNING[m] 
+[[1;34mINFO[m] ------------------------------------------------------------------------
+[[1;34mINFO[m] Detecting the operating system and CPU architecture
+[[1;34mINFO[m] ------------------------------------------------------------------------
+[[1;34mINFO[m] os.detected.name: linux
+[[1;34mINFO[m] os.detected.arch: x86_64
+[[1;34mINFO[m] os.detected.version: 6.18
+[[1;34mINFO[m] os.detected.version.major: 6
+[[1;34mINFO[m] os.detected.version.minor: 18
+[[1;34mINFO[m] os.detected.release: ubuntu
+[[1;34mINFO[m] os.detected.release.version: 18.04
+[[1;34mINFO[m] os.detected.release.like.ubuntu: true
+[[1;34mINFO[m] os.detected.release.like.debian: true
+[[1;34mINFO[m] os.detected.classifier: linux-x86_64
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1mReactor Build Order:[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] Apache Uniffle                                                     [pom]
+[[1;34mINFO[m] Apache Uniffle Protocols                                           [jar]
+[[1;34mINFO[m] Apache Uniffle Common                                              [jar]
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m-----------------< [0;36morg.apache.uniffle:uniffle-parent[0;1m >------------------[m
+[[1;34mINFO[m] [1mBuilding Apache Uniffle 0.8.0-SNAPSHOT                             [1/3][m
+[[1;34mINFO[m] [1m--------------------------------[ pom ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-clean-plugin:3.0.0:clean[m [1m(default-clean)[m @ [36muniffle-parent[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mjacoco-maven-plugin:0.8.3:prepare-agent[m [1m(default-prepare-agent)[m @ [36muniffle-parent[0;1m ---[m
+[[1;34mINFO[m] argLine set to -javaagent:/home/java8-flakesync/.m2/repository/org/jacoco/org.jacoco.agent/0.8.3/org.jacoco.agent-0.8.3-runtime.jar=destfile=/home/java8-flakesync/scripts/projects/apache/incubator-uniffle/target/jacoco.exec
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-remote-resources-plugin:1.5:process[m [1m(process-resource-bundles)[m @ [36muniffle-parent[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-antrun-plugin:1.8:run[m [1m(pre-test-clean)[m @ [36muniffle-parent[0;1m ---[m
+[[1;34mINFO[m] Executing tasks
+
+main:
+[[1;34mINFO[m] Executed tasks
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-antrun-plugin:1.8:run[m [1m(create-tmp-dir)[m @ [36muniffle-parent[0;1m ---[m
+[[1;34mINFO[m] Executing tasks
+
+main:
+    [mkdir] Created dir: /home/java8-flakesync/scripts/projects/apache/incubator-uniffle/target/tmp
+[[1;34mINFO[m] Executed tasks
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mjacoco-maven-plugin:0.8.3:report[m [1m(report)[m @ [36muniffle-parent[0;1m ---[m
+[[1;34mINFO[m] Skipping JaCoCo execution due to missing execution data file.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-dependency-plugin:2.10:copy-dependencies[m [1m(copy-dependencies)[m @ [36muniffle-parent[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-site-plugin:3.5.1:attach-descriptor[m [1m(attach-descriptor)[m @ [36muniffle-parent[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-install-plugin:2.5.2:install[m [1m(default-install)[m @ [36muniffle-parent[0;1m ---[m
+[[1;34mINFO[m] Installing /home/java8-flakesync/scripts/projects/apache/incubator-uniffle/pom.xml to /home/java8-flakesync/.m2/repository/org/apache/uniffle/uniffle-parent/0.8.0-SNAPSHOT/uniffle-parent-0.8.0-SNAPSHOT.pom
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--------------------< [0;36morg.apache.uniffle:rss-proto[0;1m >--------------------[m
+[[1;34mINFO[m] [1mBuilding Apache Uniffle Protocols 0.8.0-SNAPSHOT                   [2/3][m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-clean-plugin:3.0.0:clean[m [1m(default-clean)[m @ [36mrss-proto[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mjacoco-maven-plugin:0.8.3:prepare-agent[m [1m(default-prepare-agent)[m @ [36mrss-proto[0;1m ---[m
+[[1;34mINFO[m] argLine set to -javaagent:/home/java8-flakesync/.m2/repository/org/jacoco/org.jacoco.agent/0.8.3/org.jacoco.agent-0.8.3-runtime.jar=destfile=/home/java8-flakesync/scripts/projects/apache/incubator-uniffle/proto/target/jacoco.exec
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mprotobuf-maven-plugin:0.6.1:compile[m [1m(default)[m @ [36mrss-proto[0;1m ---[m
+[[1;34mINFO[m] Compiling 1 proto file(s) to /home/java8-flakesync/scripts/projects/apache/incubator-uniffle/proto/target/generated-sources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mprotobuf-maven-plugin:0.6.1:compile-custom[m [1m(default)[m @ [36mrss-proto[0;1m ---[m
+[[1;34mINFO[m] Compiling 1 proto file(s) to /home/java8-flakesync/scripts/projects/apache/incubator-uniffle/proto/target/generated-sources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mprotobuf-maven-plugin:0.6.1:compile[m [1m(compile-protobuf)[m @ [36mrss-proto[0;1m ---[m
+[[1;34mINFO[m] Compiling 1 proto file(s) to /home/java8-flakesync/scripts/projects/apache/incubator-uniffle/proto/target/generated-sources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mprotobuf-maven-plugin:0.6.1:compile-custom[m [1m(compile-grpc)[m @ [36mrss-proto[0;1m ---[m
+[[1;34mINFO[m] Compiling 1 proto file(s) to /home/java8-flakesync/scripts/projects/apache/incubator-uniffle/proto/target/generated-sources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-remote-resources-plugin:1.5:process[m [1m(process-resource-bundles)[m @ [36mrss-proto[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.7:resources[m [1m(default-resources)[m @ [36mrss-proto[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] skip non existing resourceDirectory /home/java8-flakesync/scripts/projects/apache/incubator-uniffle/proto/src/main/resources
+[[1;34mINFO[m] Copying 1 resource
+[[1;34mINFO[m] Copying 1 resource
+[[1;34mINFO[m] Copying 1 resource
+[[1;34mINFO[m] Copying 1 resource
+[[1;34mINFO[m] Copying 4 resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.7.0:compile[m [1m(default-compile)[m @ [36mrss-proto[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;34mINFO[m] Compiling 5 source files to /home/java8-flakesync/scripts/projects/apache/incubator-uniffle/proto/target/classes
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-jar-plugin:2.3.2:jar[m [1m(default-jar)[m @ [36mrss-proto[0;1m ---[m
+[[1;34mINFO[m] Building jar: /home/java8-flakesync/scripts/projects/apache/incubator-uniffle/proto/target/rss-proto-0.8.0-SNAPSHOT.jar
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-antrun-plugin:1.8:run[m [1m(pre-test-clean)[m @ [36mrss-proto[0;1m ---[m
+[[1;34mINFO[m] Executing tasks
+
+main:
+[[1;34mINFO[m] Executed tasks
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-antrun-plugin:1.8:run[m [1m(create-tmp-dir)[m @ [36mrss-proto[0;1m ---[m
+[[1;34mINFO[m] Executing tasks
+
+main:
+    [mkdir] Created dir: /home/java8-flakesync/scripts/projects/apache/incubator-uniffle/proto/target/tmp
+[[1;34mINFO[m] Executed tasks
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.7:testResources[m [1m(default-testResources)[m @ [36mrss-proto[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] skip non existing resourceDirectory /home/java8-flakesync/scripts/projects/apache/incubator-uniffle/proto/src/test/resources
+[[1;34mINFO[m] Copying 4 resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.7.0:testCompile[m [1m(default-testCompile)[m @ [36mrss-proto[0;1m ---[m
+[[1;34mINFO[m] No sources to compile
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-surefire-plugin:2.22.2:test[m [1m(default-test)[m @ [36mrss-proto[0;1m ---[m
+[[1;34mINFO[m] Tests are skipped.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mjacoco-maven-plugin:0.8.3:report[m [1m(report)[m @ [36mrss-proto[0;1m ---[m
+[[1;34mINFO[m] Skipping JaCoCo execution due to missing execution data file.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-dependency-plugin:2.10:copy-dependencies[m [1m(copy-dependencies)[m @ [36mrss-proto[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-jar-plugin:2.3.2:test-jar[m [1m(default)[m @ [36mrss-proto[0;1m ---[m
+[[1;34mINFO[m] Building jar: /home/java8-flakesync/scripts/projects/apache/incubator-uniffle/proto/target/rss-proto-0.8.0-SNAPSHOT-tests.jar
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-site-plugin:3.5.1:attach-descriptor[m [1m(attach-descriptor)[m @ [36mrss-proto[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-install-plugin:2.5.2:install[m [1m(default-install)[m @ [36mrss-proto[0;1m ---[m
+[[1;34mINFO[m] Installing /home/java8-flakesync/scripts/projects/apache/incubator-uniffle/proto/target/rss-proto-0.8.0-SNAPSHOT.jar to /home/java8-flakesync/.m2/repository/org/apache/uniffle/rss-proto/0.8.0-SNAPSHOT/rss-proto-0.8.0-SNAPSHOT.jar
+[[1;34mINFO[m] Installing /home/java8-flakesync/scripts/projects/apache/incubator-uniffle/proto/pom.xml to /home/java8-flakesync/.m2/repository/org/apache/uniffle/rss-proto/0.8.0-SNAPSHOT/rss-proto-0.8.0-SNAPSHOT.pom
+[[1;34mINFO[m] Installing /home/java8-flakesync/scripts/projects/apache/incubator-uniffle/proto/target/rss-proto-0.8.0-SNAPSHOT-tests.jar to /home/java8-flakesync/.m2/repository/org/apache/uniffle/rss-proto/0.8.0-SNAPSHOT/rss-proto-0.8.0-SNAPSHOT-tests.jar
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m-------------------< [0;36morg.apache.uniffle:rss-common[0;1m >--------------------[m
+[[1;34mINFO[m] [1mBuilding Apache Uniffle Common 0.8.0-SNAPSHOT                      [3/3][m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-clean-plugin:3.0.0:clean[m [1m(default-clean)[m @ [36mrss-common[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mjacoco-maven-plugin:0.8.3:prepare-agent[m [1m(default-prepare-agent)[m @ [36mrss-common[0;1m ---[m
+[[1;34mINFO[m] argLine set to -javaagent:/home/java8-flakesync/.m2/repository/org/jacoco/org.jacoco.agent/0.8.3/org.jacoco.agent-0.8.3-runtime.jar=destfile=/home/java8-flakesync/scripts/projects/apache/incubator-uniffle/common/target/jacoco.exec
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-remote-resources-plugin:1.5:process[m [1m(process-resource-bundles)[m @ [36mrss-common[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.7:resources[m [1m(default-resources)[m @ [36mrss-common[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] Copying 1 resource
+[[1;34mINFO[m] Copying 4 resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.7.0:compile[m [1m(default-compile)[m @ [36mrss-common[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;34mINFO[m] Compiling 119 source files to /home/java8-flakesync/scripts/projects/apache/incubator-uniffle/common/target/classes
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-antrun-plugin:1.8:run[m [1m(pre-test-clean)[m @ [36mrss-common[0;1m ---[m
+[[1;34mINFO[m] Executing tasks
+
+main:
+[[1;34mINFO[m] Executed tasks
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-antrun-plugin:1.8:run[m [1m(create-tmp-dir)[m @ [36mrss-common[0;1m ---[m
+[[1;34mINFO[m] Executing tasks
+
+main:
+    [mkdir] Created dir: /home/java8-flakesync/scripts/projects/apache/incubator-uniffle/common/target/tmp
+[[1;34mINFO[m] Executed tasks
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.7:testResources[m [1m(default-testResources)[m @ [36mrss-common[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] Copying 2 resources
+[[1;34mINFO[m] Copying 4 resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.7.0:testCompile[m [1m(default-testCompile)[m @ [36mrss-common[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;34mINFO[m] Compiling 46 source files to /home/java8-flakesync/scripts/projects/apache/incubator-uniffle/common/target/test-classes
+[[1;33mWARNING[m] /home/java8-flakesync/scripts/projects/apache/incubator-uniffle/common/src/test/java/org/apache/uniffle/common/KerberizedHadoop.java:[220,27] [unchecked] unchecked generic array creation for varargs parameter of type Class<? extends Throwable>[]
+[[1;33mWARNING[m] /home/java8-flakesync/scripts/projects/apache/incubator-uniffle/common/src/test/java/org/apache/uniffle/common/util/RetryUtilsTest.java:[47,25] [unchecked] unchecked generic array creation for varargs parameter of type Class<? extends Throwable>[]
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-surefire-plugin:2.22.2:test[m [1m(default-test)[m @ [36mrss-common[0;1m ---[m
+[[1;34mINFO[m] Tests are skipped.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mjacoco-maven-plugin:0.8.3:report[m [1m(report)[m @ [36mrss-common[0;1m ---[m
+[[1;34mINFO[m] Skipping JaCoCo execution due to missing execution data file.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-dependency-plugin:2.10:copy-dependencies[m [1m(copy-dependencies)[m @ [36mrss-common[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-jar-plugin:2.3.2:jar[m [1m(default-jar)[m @ [36mrss-common[0;1m ---[m
+[[1;34mINFO[m] Building jar: /home/java8-flakesync/scripts/projects/apache/incubator-uniffle/common/target/rss-common-0.8.0-SNAPSHOT.jar
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-site-plugin:3.5.1:attach-descriptor[m [1m(attach-descriptor)[m @ [36mrss-common[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-jar-plugin:2.3.2:test-jar[m [1m(default)[m @ [36mrss-common[0;1m ---[m
+[[1;34mINFO[m] Building jar: /home/java8-flakesync/scripts/projects/apache/incubator-uniffle/common/target/rss-common-0.8.0-SNAPSHOT-tests.jar
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-install-plugin:2.5.2:install[m [1m(default-install)[m @ [36mrss-common[0;1m ---[m
+[[1;34mINFO[m] Installing /home/java8-flakesync/scripts/projects/apache/incubator-uniffle/common/target/rss-common-0.8.0-SNAPSHOT.jar to /home/java8-flakesync/.m2/repository/org/apache/uniffle/rss-common/0.8.0-SNAPSHOT/rss-common-0.8.0-SNAPSHOT.jar
+[[1;34mINFO[m] Installing /home/java8-flakesync/scripts/projects/apache/incubator-uniffle/common/pom.xml to /home/java8-flakesync/.m2/repository/org/apache/uniffle/rss-common/0.8.0-SNAPSHOT/rss-common-0.8.0-SNAPSHOT.pom
+[[1;34mINFO[m] Installing /home/java8-flakesync/scripts/projects/apache/incubator-uniffle/common/target/rss-common-0.8.0-SNAPSHOT-tests.jar to /home/java8-flakesync/.m2/repository/org/apache/uniffle/rss-common/0.8.0-SNAPSHOT/rss-common-0.8.0-SNAPSHOT-tests.jar
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1mReactor Summary for Apache Uniffle 0.8.0-SNAPSHOT:[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] Apache Uniffle ..................................... [1;32mSUCCESS[m [  3.406 s]
+[[1;34mINFO[m] Apache Uniffle Protocols ........................... [1;32mSUCCESS[m [ 10.647 s]
+[[1;34mINFO[m] Apache Uniffle Common .............................. [1;32mSUCCESS[m [ 13.882 s]
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;32mBUILD SUCCESS[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  29.175 s
+[[1;34mINFO[m] Finished at: 2026-09-01T01:47:20Z
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+barrier_point_search.sh: line 103: [: -eq: unary operator expected
+barrier_point_search.sh: line 105: [: -eq: unary operator expected
+rm: cannot remove '/home/java8-flakesync/scripts/YIELDING_Point_StackTrace/already_yielding_point.csv': No such file or directory

@@ -1,0 +1,46 @@
+For the tests you ran, 
+- where is most of the runtime spent—searching for critical points, root methods, individual lines, or barrier points? 
+- How many candidates are explored before the correct location is found?
+-  whether the successful critical/barrier locations have characteristics that distinguish them from the unsuccessful candidates. For example, can information from the source code, call stack, execution trace, failure log, or previously identified locations help rank them?  If you can show that such signals consistently prioritize the correct locations across multiple tests. , that would provide stronger motivation for developing a ranking technique.
+- multiple critical/barrier points. Can you identify concrete tests that FlakeSync cannot repair specifically because multiple synchronization relationships are required? -  investigate a few such cases and characterize why the current approach fails.
+
+
+
+Finding 1:
+most total runtime is spent in Stage 2: root-method + critical-point/individual-line search.
+Wasp: Barrier search dominates — 262.4 s (~48%).
+Achilles: Root + critical-line search dominates — 2698.2 s (~42%).
+Uniffle: Minimization is slightly highest (299.0 s), but among location searches, root + critical search (274.3 s) is much larger than barrier search (56.3 s).
+
+Conclusion: Overall, root-method + critical-line searching is currently the largest runtime component, but the bottleneck varies by test.
+Current timing does not yet separate root-method search from individual critical-line search, so cannot say which of those two specifically consumes more time. (TODO: Seperate root-method search from individual critical-line search)
+
+
+Finding 2:
+For the completed tests:
+
+Test	Critical-point-search	Barrier-search
+Wasp;	3 candidates total. first successful critical line 308 was candidate #1;	22 wrong candidates, correct barrier #87 was candidate #23/23
+Achilles;	6 candidates, first successful line 159 was candidate #2;	25 wrong candidates, correct barrier #207 was candidate #26/26
+Uniffle;	0 individual critical candidates, failure detected at the beginning of the root region;	No successful barrier candidate was explored
+
+Conclusion: For the tests i ran, Barrier search is inefficient as in both Wasp and Achilles cases, the correct barrier was found last—at ranks 23/23 and 26/26, respectively which fails to lead to any conclusion. (TODO: inspect some other tests completely. and then check their barrier search)
+
+
+Finding 3:
+some evidence that can help distinguish successful from unsuccessful candidates
+Wasp
+Critical location related to shared concurrent state.
+Barrier point near assertions/waiting logic checking thread progress.
+So the successful locations are semantically connected to thread execution, shared state, synchronization, and the failed assertion.
+
+Achilles
+Critical and Barrier points occur in asynchronous/concurrent execution paths rather than arbitrary statements.
+
+But, ranking features is still not find perfectly. Still i recommend these two feature:
+- candidates inside asynchronous worker/callback/root methods should rank higher.
+- a candidate appears in threads involved in the failure
+
+
+Finding 4:
+not identified a concrete case where FlakeSync fails specifically because the repair requires multiple critical–barrier synchronization relationships. completed cases such as Wasp and Achilles each yield a single critical region and a single successful barrier relationship. So, No concrete multi-synchronization failure case has yet been identified in my experiments.

@@ -1,0 +1,4 @@
+run_id,test_id,status,measurement_quality,root_method_sec,critical_line_sec,stage2_wrapper_sec,unassigned_overhead_sec,notes
+wasp-stage2-split-1,wasp,COMPLETED,RECORDED_MANUALLY,181.840,171.096,353.026,0.090,"Generated separated-timing directory was not copied back; values were transcribed from terminal output"
+achilles-stage2-split-1,achilles,INCOMPLETE,INCOMPLETE_OBSERVATION,,,,,"Root processing was observed at about 22 minutes; critical-line phase and exact timing CSV were not completed/preserved"
+

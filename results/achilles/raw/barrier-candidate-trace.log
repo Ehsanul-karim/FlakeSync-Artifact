@@ -1,0 +1,32 @@
+threshold=1
+filename,all yield_items=/home/java8-flakesync/scripts/YIELDING_Point_StackTrace/info.archinnov.achilles.it.TestDSLSimpleEntity#should_dsl_select_with_token_value
+integration-test-2_1/target/SearchedMethodANDLine.txt
+StackTrace item=com.datastax.driver.core.ControlConnection#232,START LINE, st=====192, com.datastax.driver.core.ControlConnection#232
+max_line=232, star_line=192
+integration-test-2_1/target/FlagDelayANDUpdateANDYielding.txt
+integration-test-2_1/target/FlagDelayANDUpdateANDYielding.txt
+integration-test-2_1/target/FlagDelayANDUpdateANDYielding.txt
+integration-test-2_1/target/FlagDelayANDUpdateANDYielding.txt
+integration-test-2_1/target/FlagDelayANDUpdateANDYielding.txt
+integration-test-2_1/target/FlagDelayANDUpdateANDYielding.txt
+integration-test-2_1/target/FlagDelayANDUpdateANDYielding.txt
+integration-test-2_1/target/FlagDelayANDUpdateANDYielding.txt
+integration-test-2_1/target/FlagDelayANDUpdateANDYielding.txt
+integration-test-2_1/target/FlagDelayANDUpdateANDYielding.txt
+integration-test-2_1/target/FlagDelayANDUpdateANDYielding.txt
+integration-test-2_1/target/FlagDelayANDUpdateANDYielding.txt
+integration-test-2_1/target/FlagDelayANDUpdateANDYielding.txt
+integration-test-2_1/target/FlagDelayANDUpdateANDYielding.txt
+integration-test-2_1/target/FlagDelayANDUpdateANDYielding.txt
+integration-test-2_1/target/FlagDelayANDUpdateANDYielding.txt
+integration-test-2_1/target/FlagDelayANDUpdateANDYielding.txt
+integration-test-2_1/target/FlagDelayANDUpdateANDYielding.txt
+integration-test-2_1/target/FlagDelayANDUpdateANDYielding.txt
+integration-test-2_1/target/FlagDelayANDUpdateANDYielding.txt
+integration-test-2_1/target/FlagDelayANDUpdateANDYielding.txt
+integration-test-2_1/target/FlagDelayANDUpdateANDYielding.txt
+integration-test-2_1/target/FlagDelayANDUpdateANDYielding.txt
+integration-test-2_1/target/FlagDelayANDUpdateANDYielding.txt
+integration-test-2_1/target/FlagDelayANDUpdateANDYielding.txt
+integration-test-2_1/target/FlagDelayANDUpdateANDYielding.txt
+flag=1

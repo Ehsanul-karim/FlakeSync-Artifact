@@ -1,0 +1,8 @@
+test_id,phase,candidates_tested,successful_candidates,first_success_rank,reported_location,candidate_order,result,notes
+wasp,critical_line,3,2,1,ExecutorService$TrackingThreadPoolExecutor#308,"308;309;310",SUCCESS,"Successful lines: 308 and 310"
+wasp,barrier,23,1,23,TestExecutorService#87,"109 down to 87",SUCCESS,"22 unsuccessful candidates before the successful barrier"
+achilles,critical_line,6,3,2,ServerStarter#159,"156;159;162;163;164;165",SUCCESS,"Successful lines: 159, 162, and 163; reported region 159 through 163"
+achilles,barrier,26,1,26,ControlConnection#207,"232 down to 207",SUCCESS,"25 unsuccessful candidates before the successful barrier"
+uniffle,critical_line,0,0,,GrpcThreadPoolExecutor#177,,BEGINNING_OF_ROOT_FAILURE,"Failure was detected at the beginning of the root region; no individual line sequence"
+uniffle,barrier,0,0,,,NO_VALID_REPAIR,"No successful barrier candidate was recorded"
+

@@ -1,0 +1,52 @@
+=== BARRIER AREA ===
+    80	    while (counter.get() < maxThreads && tries < maxTries) {
+    81	      LOG.info("Waiting for all event handlers to start...");
+    82	      Thread.sleep(sleepInterval);
+    83	      tries++;
+    84	    }
+    85	
+    86	    // Assert that pool is at max threads.
+    87	    assertEquals(maxThreads, counter.get());
+    88	    assertEquals(maxThreads, pool.getPoolSize());
+    89	
+    90	    ExecutorStatus status = executor.getStatus();
+    91	    assertTrue(status.queuedEvents.isEmpty());
+    92	    assertEquals(5, status.running.size());
+    93	    checkStatusDump(status);
+    94	    
+    95	    
+    96	    // Now interrupt the running Executor
+    97	    synchronized (lock) {
+    98	      lock.set(false);
+    99	      lock.notifyAll();
+   100	    }
+   101	
+   102	    // Executor increments counter again on way out so.... test that happened.
+   103	    while (counter.get() < (maxThreads * 2) && tries < maxTries) {
+   104	      System.out.println("Waiting for all event handlers to finish...");
+   105	      Thread.sleep(sleepInterval);
+   106	      tries++;
+   107	    }
+   108	
+   109	    assertEquals(maxThreads * 2, counter.get());
+   110	    assertEquals(maxThreads, pool.getPoolSize());
+   111	
+   112	    // Add more than the number of threads items.
+
+=== CRITICAL AREA ===
+   300	    @Override
+   301	    protected void afterExecute(Runnable r, Throwable t) {
+   302	      super.afterExecute(r, t);
+   303	      running.remove(Thread.currentThread());
+   304	    }
+   305	
+   306	    @Override
+   307	    protected void beforeExecute(Thread t, Runnable r) {
+   308	      Runnable oldPut = running.put(t, r);
+   309	      assert oldPut == null : "inconsistency for thread " + t;
+   310	      super.beforeExecute(t, r);
+   311	    }
+   312	
+   313	    /**
+   314	     * @return a map of the threads currently running tasks inside this
+   315	     *         executor. Each key is an active thread, and the value is the task

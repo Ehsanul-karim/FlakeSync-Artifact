@@ -1,0 +1,22 @@
+runAll.sh: line 52: cd: /home/java8-flakesync/scripts/projects-For-Delta/apache/httpcore: No such file or directory
+fatal: not a git repository (or any of the parent directories): .git
+[[1;34mINFO[m] Scanning for projects...
+[[1;31mERROR[m] [ERROR] Could not find the selected project in the reactor: httpcore @ 
+[[1;31mERROR[m] Could not find the selected project in the reactor: httpcore -> [1m[Help 1][m
+[[1;31mERROR[m] 
+[[1;31mERROR[m] To see the full stack trace of the errors, re-run Maven with the [1m-e[m switch.
+[[1;31mERROR[m] Re-run Maven using the [1m-X[m switch to enable full debug logging.
+[[1;31mERROR[m] 
+[[1;31mERROR[m] For more information about the errors and possible solutions, please read the following articles:
+[[1;31mERROR[m] [1m[Help 1][m http://cwiki.apache.org/confluence/display/MAVEN/MavenExecutionException
+grep: pom.xml: No such file or directory
+modify-project.sh: line 29: cd: /home/java8-flakesync/scripts/projects-For-Delta/apache/httpcore: No such file or directory
+javac: file not found: PomFile.java
+Usage: javac <options> <source files>
+use -help for a list of possible options
+Error: Could not find or load main class PomFile
+runAll.sh: line 109: cd: /home/java8-flakesync/scripts/projects-For-Delta/apache/httpcore: No such file or directory
+iteration_linkage_error= 0
+/home/java8-flakesync/scripts/Results-Minimizer/org.apache.http.pool.TestConnPool#testLeaseTimeout.csv
+org.apache.http.pool.TestConnPool#testLeaseTimeout
+/home/java8-flakesync/scripts/find-actual-line-to-delay-inject.sh: line 55: /home/java8-flakesync/scripts/Results-Minimizer/org.apache.http.pool.TestConnPool#testLeaseTimeout.csv: No such file or directory

@@ -1,0 +1,10 @@
+test_id,project,test,status,repair_outcome,reason_or_next_step
+wasp,alibaba/wasp,com.alibaba.wasp.executor.TestExecutorService#testExecutorService,COMPLETED,REPAIRED,"Completed three-stage and separated Stage-2 investigations"
+achilles,doanduyhai/Achilles,info.archinnov.achilles.it.TestDSLSimpleEntity#should_dsl_select_with_token_value,COMPLETED,REPAIRED,"Original run completed; later separated Stage-2 rerun remained incomplete"
+uniffle,apache/incubator-uniffle,org.apache.uniffle.common.rpc.GrpcServerTest#testGrpcExecutorPool,COMPLETED,NOT_REPAIRED,"Beginning-of-root failure; no valid barrier result"
+java-websocket,TooTallNate/Java-WebSocket,org.java_websocket.issues.Issue580Test#runNoCloseBlockingTestScenario0,ABANDONED,UNKNOWN,"Stage 1 exposed 639 initial candidates and was stopped because the run was too long"
+httpcore,apache/httpcore,org.apache.http.pool.TestConnPool#testLeaseTimeout,SETUP_FAILED,UNKNOWN,"Required checkout was missing from projects-For-Delta"
+luwak,flaxsearch/luwak,uk.co.flax.luwak.matchers.TestPartitionMatcher#testParallelSlowLog,PLANNED,NOT_RUN,"Selected for barrier-ranking validation"
+delight-nashorn-sandbox,javadelight/delight-nashorn-sandbox,delight.nashornsandbox.TestGetFunction#test,PLANNED,NOT_RUN,"Selected for barrier-ranking validation"
+rxjava2-extras,davidmoten/rxjava2-extras,com.github.davidmoten.rx2.FlowablesTest#testCache,PLANNED,NOT_RUN,"Selected for barrier-ranking validation"
+

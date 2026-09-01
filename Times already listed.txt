@@ -1,0 +1,11 @@
+1. the time needed for the delta-debugging/minimal-delay-location process.
+2. time FlakeSync took to find the root method.
+3. the number of seconds FlakeSync used to find the barrier point.
+
+So:
+T_minimization
+T_root_method
+T_barrier
+
+I instrument one additional timing point inside FlakeSync:
+- To find a separate runtime field for the line-by-line critical-point/boundary search.

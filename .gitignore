@@ -1,0 +1,15 @@
+# OS/editor files
+.DS_Store
+Thumbs.db
+*.swp
+*.tmp
+
+# Local archives and container images
+*.tar
+*.tar.gz
+*.zip
+
+# Generated timing runs (keep only curated summaries committed)
+experiment_results/
+separated_stage2_timing/
+
