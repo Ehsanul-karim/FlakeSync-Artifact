@@ -1,0 +1,106 @@
+threshold=1
+filename,all yield_items=/home/java8-flakesync/scripts/YIELDING_Point_StackTrace/uk.co.flax.luwak.matchers.TestPartitionMatcher#testParallelSlowLog
+luwak/SearchedMethodANDLine.txt
+StackTrace item=uk.co.flax.luwak.matchers.ConcurrentMatcherTestBase#113,START LINE, st=====98, uk.co.flax.luwak.matchers.ConcurrentMatcherTestBase#113
+max_line=113, star_line=98
+luwak/FlagDelayANDUpdateANDYielding.txt
+luwak/FlagDelayANDUpdateANDYielding.txt
+luwak/FlagDelayANDUpdateANDYielding.txt
+luwak/FlagDelayANDUpdateANDYielding.txt
+luwak/FlagDelayANDUpdateANDYielding.txt
+luwak/FlagDelayANDUpdateANDYielding.txt
+luwak/FlagDelayANDUpdateANDYielding.txt
+luwak/FlagDelayANDUpdateANDYielding.txt
+luwak/FlagDelayANDUpdateANDYielding.txt
+luwak/FlagDelayANDUpdateANDYielding.txt
+luwak/FlagDelayANDUpdateANDYielding.txt
+luwak/FlagDelayANDUpdateANDYielding.txt
+luwak/FlagDelayANDUpdateANDYielding.txt
+luwak/FlagDelayANDUpdateANDYielding.txt
+luwak/FlagDelayANDUpdateANDYielding.txt
+luwak/FlagDelayANDUpdateANDYielding.txt
+luwak/SearchedMethodANDLine.txt
+StackTrace item=sun.reflect.NativeMethodAccessorImpl#62,START LINE, st=====98, sun.reflect.NativeMethodAccessorImpl#62
+max_line=62, star_line=98
+luwak/SearchedMethodANDLine.txt
+StackTrace item=sun.reflect.DelegatingMethodAccessorImpl#43,START LINE, st=====98, sun.reflect.DelegatingMethodAccessorImpl#43
+max_line=43, star_line=98
+luwak/SearchedMethodANDLine.txt
+StackTrace item=java.lang.reflect.Method#498,START LINE, st=====98, java.lang.reflect.Method#498
+max_line=498, star_line=98
+luwak/FlagDelayANDUpdateANDYielding.txt
+luwak/FlagDelayANDUpdateANDYielding.txt
+luwak/FlagDelayANDUpdateANDYielding.txt
+luwak/FlagDelayANDUpdateANDYielding.txt
+luwak/FlagDelayANDUpdateANDYielding.txt
+luwak/FlagDelayANDUpdateANDYielding.txt
+luwak/FlagDelayANDUpdateANDYielding.txt
+luwak/FlagDelayANDUpdateANDYielding.txt
+luwak/FlagDelayANDUpdateANDYielding.txt
+luwak/FlagDelayANDUpdateANDYielding.txt
+luwak/FlagDelayANDUpdateANDYielding.txt
+luwak/FlagDelayANDUpdateANDYielding.txt
+luwak/FlagDelayANDUpdateANDYielding.txt
+luwak/FlagDelayANDUpdateANDYielding.txt
+luwak/FlagDelayANDUpdateANDYielding.txt
+luwak/FlagDelayANDUpdateANDYielding.txt
+luwak/FlagDelayANDUpdateANDYielding.txt
+luwak/FlagDelayANDUpdateANDYielding.txt
+luwak/FlagDelayANDUpdateANDYielding.txt
+luwak/FlagDelayANDUpdateANDYielding.txt
+luwak/FlagDelayANDUpdateANDYielding.txt
+luwak/FlagDelayANDUpdateANDYielding.txt
+luwak/FlagDelayANDUpdateANDYielding.txt
+luwak/FlagDelayANDUpdateANDYielding.txt
+luwak/FlagDelayANDUpdateANDYielding.txt
+luwak/FlagDelayANDUpdateANDYielding.txt
+luwak/FlagDelayANDUpdateANDYielding.txt
+luwak/FlagDelayANDUpdateANDYielding.txt
+luwak/FlagDelayANDUpdateANDYielding.txt
+luwak/FlagDelayANDUpdateANDYielding.txt
+luwak/FlagDelayANDUpdateANDYielding.txt
+luwak/FlagDelayANDUpdateANDYielding.txt
+luwak/FlagDelayANDUpdateANDYielding.txt
+luwak/FlagDelayANDUpdateANDYielding.txt
+luwak/FlagDelayANDUpdateANDYielding.txt
+luwak/FlagDelayANDUpdateANDYielding.txt
+luwak/FlagDelayANDUpdateANDYielding.txt
+luwak/FlagDelayANDUpdateANDYielding.txt
+luwak/FlagDelayANDUpdateANDYielding.txt
+luwak/FlagDelayANDUpdateANDYielding.txt
+luwak/FlagDelayANDUpdateANDYielding.txt
+luwak/FlagDelayANDUpdateANDYielding.txt
+luwak/FlagDelayANDUpdateANDYielding.txt
+luwak/FlagDelayANDUpdateANDYielding.txt
+luwak/FlagDelayANDUpdateANDYielding.txt
+luwak/FlagDelayANDUpdateANDYielding.txt
+luwak/FlagDelayANDUpdateANDYielding.txt
+luwak/FlagDelayANDUpdateANDYielding.txt
+luwak/FlagDelayANDUpdateANDYielding.txt
+luwak/FlagDelayANDUpdateANDYielding.txt
+luwak/FlagDelayANDUpdateANDYielding.txt
+luwak/FlagDelayANDUpdateANDYielding.txt
+luwak/FlagDelayANDUpdateANDYielding.txt
+luwak/FlagDelayANDUpdateANDYielding.txt
+luwak/FlagDelayANDUpdateANDYielding.txt
+luwak/FlagDelayANDUpdateANDYielding.txt
+luwak/FlagDelayANDUpdateANDYielding.txt
+luwak/FlagDelayANDUpdateANDYielding.txt
+luwak/FlagDelayANDUpdateANDYielding.txt
+luwak/FlagDelayANDUpdateANDYielding.txt
+luwak/FlagDelayANDUpdateANDYielding.txt
+luwak/FlagDelayANDUpdateANDYielding.txt
+luwak/FlagDelayANDUpdateANDYielding.txt
+luwak/FlagDelayANDUpdateANDYielding.txt
+luwak/FlagDelayANDUpdateANDYielding.txt
+luwak/FlagDelayANDUpdateANDYielding.txt
+luwak/FlagDelayANDUpdateANDYielding.txt
+luwak/FlagDelayANDUpdateANDYielding.txt
+luwak/FlagDelayANDUpdateANDYielding.txt
+luwak/FlagDelayANDUpdateANDYielding.txt
+luwak/FlagDelayANDUpdateANDYielding.txt
+luwak/FlagDelayANDUpdateANDYielding.txt
+luwak/FlagDelayANDUpdateANDYielding.txt
+luwak/FlagDelayANDUpdateANDYielding.txt
+luwak/FlagDelayANDUpdateANDYielding.txt
+luwak/FlagDelayANDUpdateANDYielding.txt

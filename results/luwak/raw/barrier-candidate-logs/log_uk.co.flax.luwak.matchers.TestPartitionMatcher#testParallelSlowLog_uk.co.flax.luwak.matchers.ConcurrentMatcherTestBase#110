@@ -1,0 +1,52 @@
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] Inspecting build with total of 1 modules...
+[[1;34mINFO[m] Installing Nexus Staging features:
+[[1;34mINFO[m]   ... total of 1 executions of maven-deploy-plugin replaced with nexus-staging-maven-plugin
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--------------------< [0;36mcom.github.flaxsearch:luwak[0;1m >---------------------[m
+[[1;34mINFO[m] [1mBuilding luwak 1.6.0-SNAPSHOT[m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.6:resources[m [1m(default-resources)[m @ [36mluwak[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] skip non existing resourceDirectory /home/java8-flakesync/scripts/projects/flaxsearch/luwak/luwak/src/main/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.1:compile[m [1m(default-compile)[m @ [36mluwak[0;1m ---[m
+[[1;34mINFO[m] Nothing to compile - all classes are up to date
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.6:testResources[m [1m(default-testResources)[m @ [36mluwak[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] Copying 20 resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.1:testCompile[m [1m(default-testCompile)[m @ [36mluwak[0;1m ---[m
+[[1;34mINFO[m] Nothing to compile - all classes are up to date
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-surefire-plugin:3.0.0-M9:test[m [1m(default-test)[m @ [36mluwak[0;1m ---[m
+[[1;34mINFO[m] Using auto detected provider org.apache.maven.surefire.junit4.JUnit4Provider
+[[1;34mINFO[m] 
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m]  T E S T S
+[[1;34mINFO[m] -------------------------------------------------------
+ELSE****ALLOWED CLASS=uk.co.flax.luwak.matchers.ConcurrentMatcherTestBase,yieldPointInfo=uk.co.flax.luwak.matchers.ConcurrentMatcherTestBase,codeUnderTest=uk.co.flax.luwak.matchers.PartitionMatcher$MatcherWorker
+[[1;34mINFO[m] Running uk.co.flax.luwak.matchers.[1mTestPartitionMatcher[m
+ELSE****ALLOWED CLASS=uk.co.flax.luwak.matchers.PartitionMatcher$MatcherWorker,yieldPointInfo=uk.co.flax.luwak.matchers.ConcurrentMatcherTestBase,codeUnderTest=uk.co.flax.luwak.matchers.PartitionMatcher$MatcherWorker
+DELAY***From Utility, Delay=100
+DELAY***From Utility, Delay=100
+DELAY***From Utility, Delay=100
+DELAY***From Utility, Delay=100
+DELAY***From Utility, Delay=100
+DELAY***From Utility, Delay=100
+DELAY***From Utility, Delay=100
+DELAY***From Utility, Delay=100
+DELAY***From Utility, Delay=100
+DELAY***From Utility, Delay=100
+DELAY***From Utility, Delay=100
+DELAY***From Utility, Delay=100
+DELAY***From Utility, Delay=100
+DELAY***From Utility, Delay=100
+DELAY***From Utility, Delay=100
+DELAY***From Utility, Delay=100
+DELAY***From Utility, Delay=100
+DELAY***From Utility, Delay=100
+DELAY***From Utility, Delay=100
+DELAY***From Utility, Delay=100

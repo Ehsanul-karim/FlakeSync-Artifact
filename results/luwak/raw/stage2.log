@@ -1,0 +1,666 @@
+uk/co/flax/luwak/matchers/PartitionMatcher$MatcherWorker#131
+1
+HEAD is now at c27ec08 Rename test files to be Windows-compatible (#180)
+M	benchmark/pom.xml
+M	luwak/pom.xml
+M	pom.xml
+/home/java8-flakesync/scripts/projects/flaxsearch/luwak/benchmark
+/home/java8-flakesync/scripts/projects/flaxsearch/luwak/luwak
+/home/java8-flakesync/scripts/projects/flaxsearch/luwak
+[[1;34mINFO[m] Scanning for projects...
+[[1;33mWARNING[m] 
+[[1;33mWARNING[m] Some problems were encountered while building the effective model for com.github.flaxsearch:luwak-benchmark:jar:1.6.0-SNAPSHOT
+[[1;33mWARNING[m] 'build.plugins.plugin.(groupId:artifactId)' must be unique but found duplicate declaration of plugin org.apache.maven.plugins:maven-surefire-plugin @ com.github.flaxsearch:luwak-benchmark:[unknown-version], /home/java8-flakesync/scripts/projects/flaxsearch/luwak/benchmark/pom.xml, line 40, column 17
+[[1;33mWARNING[m] 'build.plugins.plugin.(groupId:artifactId)' must be unique but found duplicate declaration of plugin org.apache.maven.plugins:maven-surefire-plugin @ com.github.flaxsearch:luwak-benchmark:[unknown-version], /home/java8-flakesync/scripts/projects/flaxsearch/luwak/benchmark/pom.xml, line 49, column 17
+[[1;33mWARNING[m] 'build.plugins.plugin.(groupId:artifactId)' must be unique but found duplicate declaration of plugin org.apache.maven.plugins:maven-surefire-plugin @ com.github.flaxsearch:luwak-benchmark:[unknown-version], /home/java8-flakesync/scripts/projects/flaxsearch/luwak/benchmark/pom.xml, line 58, column 17
+[[1;33mWARNING[m] 'build.plugins.plugin.(groupId:artifactId)' must be unique but found duplicate declaration of plugin org.apache.maven.plugins:maven-surefire-plugin @ com.github.flaxsearch:luwak-parent:1.6.0-SNAPSHOT, /home/java8-flakesync/scripts/projects/flaxsearch/luwak/pom.xml, line 214, column 17
+[[1;33mWARNING[m] 'build.plugins.plugin.(groupId:artifactId)' must be unique but found duplicate declaration of plugin org.apache.maven.plugins:maven-surefire-plugin @ com.github.flaxsearch:luwak-parent:1.6.0-SNAPSHOT, /home/java8-flakesync/scripts/projects/flaxsearch/luwak/pom.xml, line 223, column 17
+[[1;33mWARNING[m] 'build.plugins.plugin.(groupId:artifactId)' must be unique but found duplicate declaration of plugin org.apache.maven.plugins:maven-surefire-plugin @ com.github.flaxsearch:luwak-parent:1.6.0-SNAPSHOT, /home/java8-flakesync/scripts/projects/flaxsearch/luwak/pom.xml, line 232, column 17
+[[1;33mWARNING[m] 
+[[1;33mWARNING[m] Some problems were encountered while building the effective model for com.github.flaxsearch:luwak:jar:1.6.0-SNAPSHOT
+[[1;33mWARNING[m] 'build.plugins.plugin.(groupId:artifactId)' must be unique but found duplicate declaration of plugin org.apache.maven.plugins:maven-surefire-plugin @ com.github.flaxsearch:luwak:[unknown-version], /home/java8-flakesync/scripts/projects/flaxsearch/luwak/luwak/pom.xml, line 54, column 17
+[[1;33mWARNING[m] 'build.plugins.plugin.(groupId:artifactId)' must be unique but found duplicate declaration of plugin org.apache.maven.plugins:maven-surefire-plugin @ com.github.flaxsearch:luwak:[unknown-version], /home/java8-flakesync/scripts/projects/flaxsearch/luwak/luwak/pom.xml, line 63, column 17
+[[1;33mWARNING[m] 'build.plugins.plugin.(groupId:artifactId)' must be unique but found duplicate declaration of plugin org.apache.maven.plugins:maven-surefire-plugin @ com.github.flaxsearch:luwak:[unknown-version], /home/java8-flakesync/scripts/projects/flaxsearch/luwak/luwak/pom.xml, line 72, column 17
+[[1;33mWARNING[m] 
+[[1;33mWARNING[m] Some problems were encountered while building the effective model for com.github.flaxsearch:luwak-parent:pom:1.6.0-SNAPSHOT
+[[1;33mWARNING[m] 'build.plugins.plugin.(groupId:artifactId)' must be unique but found duplicate declaration of plugin org.apache.maven.plugins:maven-surefire-plugin @ line 214, column 17
+[[1;33mWARNING[m] 'build.plugins.plugin.(groupId:artifactId)' must be unique but found duplicate declaration of plugin org.apache.maven.plugins:maven-surefire-plugin @ line 223, column 17
+[[1;33mWARNING[m] 'build.plugins.plugin.(groupId:artifactId)' must be unique but found duplicate declaration of plugin org.apache.maven.plugins:maven-surefire-plugin @ line 232, column 17
+[[1;33mWARNING[m] 
+[[1;33mWARNING[m] It is highly recommended to fix these problems because they threaten the stability of your build.
+[[1;33mWARNING[m] 
+[[1;33mWARNING[m] For this reason, future Maven versions might no longer support building such malformed projects.
+[[1;33mWARNING[m] 
+[[1;34mINFO[m] Inspecting build with total of 2 modules...
+[[1;34mINFO[m] Installing Nexus Staging features:
+[[1;34mINFO[m]   ... total of 2 executions of maven-deploy-plugin replaced with nexus-staging-maven-plugin
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1mReactor Build Order:[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] Luwak                                                              [pom]
+[[1;34mINFO[m] luwak                                                              [jar]
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m-----------------< [0;36mcom.github.flaxsearch:luwak-parent[0;1m >-----------------[m
+[[1;34mINFO[m] [1mBuilding Luwak 1.6.0-SNAPSHOT                                      [1/2][m
+[[1;34mINFO[m] [1m--------------------------------[ pom ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-clean-plugin:2.5:clean[m [1m(default-clean)[m @ [36mluwak-parent[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m>>> [0;32mmaven-source-plugin:2.2.1:jar[m [1m(attach-sources)[0;1m > [0;1mgenerate-sources[m @ [36mluwak-parent[0;1m >>>[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m<<< [0;32mmaven-source-plugin:2.2.1:jar[m [1m(attach-sources)[0;1m < [0;1mgenerate-sources[m @ [36mluwak-parent[0;1m <<<[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-source-plugin:2.2.1:jar[m [1m(attach-sources)[m @ [36mluwak-parent[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-javadoc-plugin:2.9.1:jar[m [1m(attach-javadocs)[m @ [36mluwak-parent[0;1m ---[m
+[[1;34mINFO[m] Not executing Javadoc as the project is not a Java classpath-capable package
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mforbiddenapis:2.3:check[m [1m(default)[m @ [36mluwak-parent[0;1m ---[m
+[[1;34mINFO[m] Skipping execution for packaging "pom"
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mforbiddenapis:2.3:testCheck[m [1m(default)[m @ [36mluwak-parent[0;1m ---[m
+[[1;34mINFO[m] Skipping execution for packaging "pom"
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-install-plugin:2.4:install[m [1m(default-install)[m @ [36mluwak-parent[0;1m ---[m
+[[1;34mINFO[m] Installing /home/java8-flakesync/scripts/projects/flaxsearch/luwak/pom.xml to /home/java8-flakesync/.m2/repository/com/github/flaxsearch/luwak-parent/1.6.0-SNAPSHOT/luwak-parent-1.6.0-SNAPSHOT.pom
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--------------------< [0;36mcom.github.flaxsearch:luwak[0;1m >---------------------[m
+[[1;34mINFO[m] [1mBuilding luwak 1.6.0-SNAPSHOT                                      [2/2][m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-clean-plugin:2.5:clean[m [1m(default-clean)[m @ [36mluwak[0;1m ---[m
+[[1;34mINFO[m] Deleting /home/java8-flakesync/scripts/projects/flaxsearch/luwak/luwak/target
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.6:resources[m [1m(default-resources)[m @ [36mluwak[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] skip non existing resourceDirectory /home/java8-flakesync/scripts/projects/flaxsearch/luwak/luwak/src/main/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.1:compile[m [1m(default-compile)[m @ [36mluwak[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;34mINFO[m] Compiling 78 source files to /home/java8-flakesync/scripts/projects/flaxsearch/luwak/luwak/target/classes
+[[1;33mWARNING[m] /home/java8-flakesync/scripts/projects/flaxsearch/luwak/luwak/src/main/java/uk/co/flax/luwak/termextractor/treebuilder/TermsQueryTreeBuilder.java: Some input files use or override a deprecated API.
+[[1;33mWARNING[m] /home/java8-flakesync/scripts/projects/flaxsearch/luwak/luwak/src/main/java/uk/co/flax/luwak/termextractor/treebuilder/TermsQueryTreeBuilder.java: Recompile with -Xlint:deprecation for details.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.6:testResources[m [1m(default-testResources)[m @ [36mluwak[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] Copying 20 resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.1:testCompile[m [1m(default-testCompile)[m @ [36mluwak[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;34mINFO[m] Compiling 50 source files to /home/java8-flakesync/scripts/projects/flaxsearch/luwak/luwak/target/test-classes
+[[1;33mWARNING[m] /home/java8-flakesync/scripts/projects/flaxsearch/luwak/luwak/src/test/java/uk/co/flax/luwak/termextractor/TestExtractors.java: Some input files use or override a deprecated API.
+[[1;33mWARNING[m] /home/java8-flakesync/scripts/projects/flaxsearch/luwak/luwak/src/test/java/uk/co/flax/luwak/termextractor/TestExtractors.java: Recompile with -Xlint:deprecation for details.
+[[1;33mWARNING[m] /home/java8-flakesync/scripts/projects/flaxsearch/luwak/luwak/src/test/java/uk/co/flax/luwak/testutils/TestCollectionUtils.java: /home/java8-flakesync/scripts/projects/flaxsearch/luwak/luwak/src/test/java/uk/co/flax/luwak/testutils/TestCollectionUtils.java uses unchecked or unsafe operations.
+[[1;33mWARNING[m] /home/java8-flakesync/scripts/projects/flaxsearch/luwak/luwak/src/test/java/uk/co/flax/luwak/testutils/TestCollectionUtils.java: Recompile with -Xlint:unchecked for details.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-surefire-plugin:3.0.0-M9:test[m [1m(default-test)[m @ [36mluwak[0;1m ---[m
+[[1;34mINFO[m] Tests are skipped.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-jar-plugin:2.4:jar[m [1m(default-jar)[m @ [36mluwak[0;1m ---[m
+[[1;34mINFO[m] Building jar: /home/java8-flakesync/scripts/projects/flaxsearch/luwak/luwak/target/luwak-1.6.0-SNAPSHOT.jar
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m>>> [0;32mmaven-source-plugin:2.2.1:jar[m [1m(attach-sources)[0;1m > [0;1mgenerate-sources[m @ [36mluwak[0;1m >>>[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m<<< [0;32mmaven-source-plugin:2.2.1:jar[m [1m(attach-sources)[0;1m < [0;1mgenerate-sources[m @ [36mluwak[0;1m <<<[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-source-plugin:2.2.1:jar[m [1m(attach-sources)[m @ [36mluwak[0;1m ---[m
+[[1;34mINFO[m] Building jar: /home/java8-flakesync/scripts/projects/flaxsearch/luwak/luwak/target/luwak-1.6.0-SNAPSHOT-sources.jar
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-javadoc-plugin:2.9.1:jar[m [1m(attach-javadocs)[m @ [36mluwak[0;1m ---[m
+[[1;34mINFO[m] Building jar: /home/java8-flakesync/scripts/projects/flaxsearch/luwak/luwak/target/luwak-1.6.0-SNAPSHOT-javadoc.jar
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mforbiddenapis:2.3:check[m [1m(default)[m @ [36mluwak[0;1m ---[m
+[[1;34mINFO[m] Scanning for classes to check...
+[[1;34mINFO[m] Reading bundled API signatures: jdk-unsafe-1.8
+[[1;34mINFO[m] Reading bundled API signatures: jdk-deprecated-1.8
+[[1;33mWARNING[m] The setting 'internalRuntimeForbidden' was deprecated and will be removed in next version. For backwards compatibility task/mojo is using 'jdk-non-portable' bundled signatures instead.
+[[1;34mINFO[m] Reading bundled API signatures: jdk-non-portable
+[[1;34mINFO[m] Loading classes to check...
+[[1;34mINFO[m] Scanning classes for violations...
+[[1;34mINFO[m] Scanned 134 (and 436 related) class file(s) for forbidden API invocations (in 0.37s), 0 error(s).
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mforbiddenapis:2.3:testCheck[m [1m(default)[m @ [36mluwak[0;1m ---[m
+[[1;34mINFO[m] Scanning for classes to check...
+[[1;34mINFO[m] Reading bundled API signatures: jdk-unsafe-1.8
+[[1;34mINFO[m] Reading bundled API signatures: jdk-deprecated-1.8
+[[1;33mWARNING[m] The setting 'internalRuntimeForbidden' was deprecated and will be removed in next version. For backwards compatibility task/mojo is using 'jdk-non-portable' bundled signatures instead.
+[[1;34mINFO[m] Reading bundled API signatures: jdk-non-portable
+[[1;34mINFO[m] Loading classes to check...
+[[1;34mINFO[m] Scanning classes for violations...
+[[1;34mINFO[m] Scanned 80 (and 533 related) class file(s) for forbidden API invocations (in 0.22s), 0 error(s).
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-install-plugin:2.4:install[m [1m(default-install)[m @ [36mluwak[0;1m ---[m
+[[1;34mINFO[m] Installing /home/java8-flakesync/scripts/projects/flaxsearch/luwak/luwak/target/luwak-1.6.0-SNAPSHOT.jar to /home/java8-flakesync/.m2/repository/com/github/flaxsearch/luwak/1.6.0-SNAPSHOT/luwak-1.6.0-SNAPSHOT.jar
+[[1;34mINFO[m] Installing /home/java8-flakesync/scripts/projects/flaxsearch/luwak/luwak/pom.xml to /home/java8-flakesync/.m2/repository/com/github/flaxsearch/luwak/1.6.0-SNAPSHOT/luwak-1.6.0-SNAPSHOT.pom
+[[1;34mINFO[m] Installing /home/java8-flakesync/scripts/projects/flaxsearch/luwak/luwak/target/luwak-1.6.0-SNAPSHOT-sources.jar to /home/java8-flakesync/.m2/repository/com/github/flaxsearch/luwak/1.6.0-SNAPSHOT/luwak-1.6.0-SNAPSHOT-sources.jar
+[[1;34mINFO[m] Installing /home/java8-flakesync/scripts/projects/flaxsearch/luwak/luwak/target/luwak-1.6.0-SNAPSHOT-javadoc.jar to /home/java8-flakesync/.m2/repository/com/github/flaxsearch/luwak/1.6.0-SNAPSHOT/luwak-1.6.0-SNAPSHOT-javadoc.jar
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1mReactor Summary for Luwak 1.6.0-SNAPSHOT:[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] Luwak .............................................. [1;32mSUCCESS[m [  2.479 s]
+[[1;34mINFO[m] luwak .............................................. [1;32mSUCCESS[m [ 23.363 s]
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;32mBUILD SUCCESS[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  27.551 s
+[[1;34mINFO[m] Finished at: 2026-09-01T15:47:40Z
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+./luwak/StackTrace-uk.co.flax.luwak.matchers.TestPartitionMatcher#testParallelSlowLog.txt
+I am from mvn-run-and-find-stack-trace
+From parseScript, Arr =  uk/co/flax/luwak/matchers/PartitionMatcher$MatcherWorker#131, uk/co/flax/luwak/matchers/PartitionMatcher$MatcherWorker#119, 19
+From parseScript, Arr =  uk/co/flax/luwak/matchers/PartitionMatcher$MatcherWorker#131, uk/co/flax/luwak/matchers/PartitionMatcher$MatcherWorker#119, 15
+From parseScript, Arr =  uk/co/flax/luwak/matchers/PartitionMatcher$MatcherWorker#131, uk/co/flax/luwak/matchers/PartitionMatcher$MatcherWorker#119, 17
+From parseScript, Arr =  uk/co/flax/luwak/matchers/PartitionMatcher$MatcherWorker#131, uk/co/flax/luwak/matchers/PartitionMatcher$MatcherWorker#119, 16
+From parseScript, Arr =  uk/co/flax/luwak/matchers/PartitionMatcher$MatcherWorker#131, uk/co/flax/luwak/matchers/PartitionMatcher$MatcherWorker#119, 21
+From parseScript, Arr =  uk/co/flax/luwak/matchers/PartitionMatcher$MatcherWorker#131, uk/co/flax/luwak/matchers/PartitionMatcher$MatcherWorker#119, 18
+From parseScript, Arr =  uk/co/flax/luwak/matchers/PartitionMatcher$MatcherWorker#131, uk/co/flax/luwak/matchers/PartitionMatcher$MatcherWorker#119, 20
+From parseScript, Arr =  uk/co/flax/luwak/matchers/PartitionMatcher$MatcherWorker#131, uk/co/flax/luwak/matchers/PartitionMatcher$MatcherWorker#119, 22
+From parseScript, Arr =  uk/co/flax/luwak/matchers/PartitionMatcher$MatcherWorker#131, uk/co/flax/luwak/matchers/PartitionMatcher$MatcherWorker#119, 23
+From parseScript, Arr =  uk/co/flax/luwak/matchers/PartitionMatcher$MatcherWorker#131, uk/co/flax/luwak/matchers/PartitionMatcher$MatcherWorker#119, 24
+From parseScript, Arr =  uk/co/flax/luwak/matchers/PartitionMatcher$MatcherWorker#131, uk/co/flax/luwak/matchers/PartitionMatcher$MatcherWorker#119, 19
+From parseScript, Arr =  uk/co/flax/luwak/matchers/PartitionMatcher$MatcherWorker#131, uk/co/flax/luwak/matchers/PartitionMatcher$MatcherWorker#119, 15
+From parseScript, Arr =  uk/co/flax/luwak/matchers/PartitionMatcher$MatcherWorker#131, uk/co/flax/luwak/matchers/PartitionMatcher$MatcherWorker#119, 17
+From parseScript, Arr =  uk/co/flax/luwak/matchers/PartitionMatcher$MatcherWorker#131, uk/co/flax/luwak/matchers/PartitionMatcher$MatcherWorker#119, 16
+From parseScript, Arr =  uk/co/flax/luwak/matchers/PartitionMatcher$MatcherWorker#131, uk/co/flax/luwak/matchers/PartitionMatcher$MatcherWorker#119, 21
+From parseScript, Arr =  uk/co/flax/luwak/matchers/PartitionMatcher$MatcherWorker#131, uk/co/flax/luwak/matchers/PartitionMatcher$MatcherWorker#119, 18
+From parseScript, Arr =  uk/co/flax/luwak/matchers/PartitionMatcher$MatcherWorker#131, uk/co/flax/luwak/matchers/PartitionMatcher$MatcherWorker#119, 20
+From parseScript, Arr =  uk/co/flax/luwak/matchers/PartitionMatcher$MatcherWorker#131, uk/co/flax/luwak/matchers/PartitionMatcher$MatcherWorker#119, 22
+From parseScript, Arr =  uk/co/flax/luwak/matchers/PartitionMatcher$MatcherWorker#131, uk/co/flax/luwak/matchers/PartitionMatcher$MatcherWorker#119, 23
+From parseScript, Arr =  uk/co/flax/luwak/matchers/PartitionMatcher$MatcherWorker#131, uk/co/flax/luwak/matchers/PartitionMatcher$MatcherWorker#119, 24
+From parseScript, Arr =  uk/co/flax/luwak/matchers/PartitionMatcher$MatcherWorker#131, uk/co/flax/luwak/matchers/PartitionMatcher$MatcherWorker#119, 21
+From parseScript, Arr =  uk/co/flax/luwak/matchers/PartitionMatcher$MatcherWorker#131, uk/co/flax/luwak/matchers/PartitionMatcher$MatcherWorker#119, 18
+From parseScript, Arr =  uk/co/flax/luwak/matchers/PartitionMatcher$MatcherWorker#131, uk/co/flax/luwak/matchers/PartitionMatcher$MatcherWorker#119, 24
+From parseScript, Arr =  uk/co/flax/luwak/matchers/PartitionMatcher$MatcherWorker#131, uk/co/flax/luwak/matchers/PartitionMatcher$MatcherWorker#119, 21
+From parseScript, Arr =  uk/co/flax/luwak/matchers/PartitionMatcher$MatcherWorker#131, uk/co/flax/luwak/matchers/PartitionMatcher$MatcherWorker#119, 18
+From parseScript, Arr =  uk/co/flax/luwak/matchers/PartitionMatcher$MatcherWorker#131, uk/co/flax/luwak/matchers/PartitionMatcher$MatcherWorker#119, 24
+grep: /home/java8-flakesync/scripts/Locations/already_covered_line-luwak-uk.co.flax.luwak.matchers.TestPartitionMatcher#testParallelSlowLog: No such file or directory
+exists=0, uk/co/flax/luwak/matchers/PartitionMatcher$MatcherWorker#131
+[[1;34mINFO[m] Scanning for projects...
+[[1;33mWARNING[m] 
+[[1;33mWARNING[m] Some problems were encountered while building the effective model for com.github.flaxsearch:luwak-benchmark:jar:1.6.0-SNAPSHOT
+[[1;33mWARNING[m] 'build.plugins.plugin.(groupId:artifactId)' must be unique but found duplicate declaration of plugin org.apache.maven.plugins:maven-surefire-plugin @ com.github.flaxsearch:luwak-benchmark:[unknown-version], /home/java8-flakesync/scripts/projects/flaxsearch/luwak/benchmark/pom.xml, line 40, column 17
+[[1;33mWARNING[m] 'build.plugins.plugin.(groupId:artifactId)' must be unique but found duplicate declaration of plugin org.apache.maven.plugins:maven-surefire-plugin @ com.github.flaxsearch:luwak-benchmark:[unknown-version], /home/java8-flakesync/scripts/projects/flaxsearch/luwak/benchmark/pom.xml, line 49, column 17
+[[1;33mWARNING[m] 'build.plugins.plugin.(groupId:artifactId)' must be unique but found duplicate declaration of plugin org.apache.maven.plugins:maven-surefire-plugin @ com.github.flaxsearch:luwak-benchmark:[unknown-version], /home/java8-flakesync/scripts/projects/flaxsearch/luwak/benchmark/pom.xml, line 58, column 17
+[[1;33mWARNING[m] 'build.plugins.plugin.(groupId:artifactId)' must be unique but found duplicate declaration of plugin org.apache.maven.plugins:maven-surefire-plugin @ com.github.flaxsearch:luwak-parent:1.6.0-SNAPSHOT, /home/java8-flakesync/scripts/projects/flaxsearch/luwak/pom.xml, line 214, column 17
+[[1;33mWARNING[m] 'build.plugins.plugin.(groupId:artifactId)' must be unique but found duplicate declaration of plugin org.apache.maven.plugins:maven-surefire-plugin @ com.github.flaxsearch:luwak-parent:1.6.0-SNAPSHOT, /home/java8-flakesync/scripts/projects/flaxsearch/luwak/pom.xml, line 223, column 17
+[[1;33mWARNING[m] 'build.plugins.plugin.(groupId:artifactId)' must be unique but found duplicate declaration of plugin org.apache.maven.plugins:maven-surefire-plugin @ com.github.flaxsearch:luwak-parent:1.6.0-SNAPSHOT, /home/java8-flakesync/scripts/projects/flaxsearch/luwak/pom.xml, line 232, column 17
+[[1;33mWARNING[m] 
+[[1;33mWARNING[m] Some problems were encountered while building the effective model for com.github.flaxsearch:luwak:jar:1.6.0-SNAPSHOT
+[[1;33mWARNING[m] 'build.plugins.plugin.(groupId:artifactId)' must be unique but found duplicate declaration of plugin org.apache.maven.plugins:maven-surefire-plugin @ com.github.flaxsearch:luwak:[unknown-version], /home/java8-flakesync/scripts/projects/flaxsearch/luwak/luwak/pom.xml, line 54, column 17
+[[1;33mWARNING[m] 'build.plugins.plugin.(groupId:artifactId)' must be unique but found duplicate declaration of plugin org.apache.maven.plugins:maven-surefire-plugin @ com.github.flaxsearch:luwak:[unknown-version], /home/java8-flakesync/scripts/projects/flaxsearch/luwak/luwak/pom.xml, line 63, column 17
+[[1;33mWARNING[m] 'build.plugins.plugin.(groupId:artifactId)' must be unique but found duplicate declaration of plugin org.apache.maven.plugins:maven-surefire-plugin @ com.github.flaxsearch:luwak:[unknown-version], /home/java8-flakesync/scripts/projects/flaxsearch/luwak/luwak/pom.xml, line 72, column 17
+[[1;33mWARNING[m] 
+[[1;33mWARNING[m] Some problems were encountered while building the effective model for com.github.flaxsearch:luwak-parent:pom:1.6.0-SNAPSHOT
+[[1;33mWARNING[m] 'build.plugins.plugin.(groupId:artifactId)' must be unique but found duplicate declaration of plugin org.apache.maven.plugins:maven-surefire-plugin @ line 214, column 17
+[[1;33mWARNING[m] 'build.plugins.plugin.(groupId:artifactId)' must be unique but found duplicate declaration of plugin org.apache.maven.plugins:maven-surefire-plugin @ line 223, column 17
+[[1;33mWARNING[m] 'build.plugins.plugin.(groupId:artifactId)' must be unique but found duplicate declaration of plugin org.apache.maven.plugins:maven-surefire-plugin @ line 232, column 17
+[[1;33mWARNING[m] 
+[[1;33mWARNING[m] It is highly recommended to fix these problems because they threaten the stability of your build.
+[[1;33mWARNING[m] 
+[[1;33mWARNING[m] For this reason, future Maven versions might no longer support building such malformed projects.
+[[1;33mWARNING[m] 
+[[1;34mINFO[m] Inspecting build with total of 2 modules...
+[[1;34mINFO[m] Installing Nexus Staging features:
+[[1;34mINFO[m]   ... total of 2 executions of maven-deploy-plugin replaced with nexus-staging-maven-plugin
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1mReactor Build Order:[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] Luwak                                                              [pom]
+[[1;34mINFO[m] luwak                                                              [jar]
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m-----------------< [0;36mcom.github.flaxsearch:luwak-parent[0;1m >-----------------[m
+[[1;34mINFO[m] [1mBuilding Luwak 1.6.0-SNAPSHOT                                      [1/2][m
+[[1;34mINFO[m] [1m--------------------------------[ pom ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-clean-plugin:2.5:clean[m [1m(default-clean)[m @ [36mluwak-parent[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m>>> [0;32mmaven-source-plugin:2.2.1:jar[m [1m(attach-sources)[0;1m > [0;1mgenerate-sources[m @ [36mluwak-parent[0;1m >>>[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m<<< [0;32mmaven-source-plugin:2.2.1:jar[m [1m(attach-sources)[0;1m < [0;1mgenerate-sources[m @ [36mluwak-parent[0;1m <<<[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-source-plugin:2.2.1:jar[m [1m(attach-sources)[m @ [36mluwak-parent[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-javadoc-plugin:2.9.1:jar[m [1m(attach-javadocs)[m @ [36mluwak-parent[0;1m ---[m
+[[1;34mINFO[m] Not executing Javadoc as the project is not a Java classpath-capable package
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mforbiddenapis:2.3:check[m [1m(default)[m @ [36mluwak-parent[0;1m ---[m
+[[1;34mINFO[m] Skipping execution for packaging "pom"
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mforbiddenapis:2.3:testCheck[m [1m(default)[m @ [36mluwak-parent[0;1m ---[m
+[[1;34mINFO[m] Skipping execution for packaging "pom"
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-install-plugin:2.4:install[m [1m(default-install)[m @ [36mluwak-parent[0;1m ---[m
+[[1;34mINFO[m] Installing /home/java8-flakesync/scripts/projects/flaxsearch/luwak/pom.xml to /home/java8-flakesync/.m2/repository/com/github/flaxsearch/luwak-parent/1.6.0-SNAPSHOT/luwak-parent-1.6.0-SNAPSHOT.pom
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--------------------< [0;36mcom.github.flaxsearch:luwak[0;1m >---------------------[m
+[[1;34mINFO[m] [1mBuilding luwak 1.6.0-SNAPSHOT                                      [2/2][m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-clean-plugin:2.5:clean[m [1m(default-clean)[m @ [36mluwak[0;1m ---[m
+[[1;34mINFO[m] Deleting /home/java8-flakesync/scripts/projects/flaxsearch/luwak/luwak/target
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.6:resources[m [1m(default-resources)[m @ [36mluwak[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] skip non existing resourceDirectory /home/java8-flakesync/scripts/projects/flaxsearch/luwak/luwak/src/main/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.1:compile[m [1m(default-compile)[m @ [36mluwak[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;34mINFO[m] Compiling 78 source files to /home/java8-flakesync/scripts/projects/flaxsearch/luwak/luwak/target/classes
+[[1;33mWARNING[m] /home/java8-flakesync/scripts/projects/flaxsearch/luwak/luwak/src/main/java/uk/co/flax/luwak/termextractor/treebuilder/TermsQueryTreeBuilder.java: Some input files use or override a deprecated API.
+[[1;33mWARNING[m] /home/java8-flakesync/scripts/projects/flaxsearch/luwak/luwak/src/main/java/uk/co/flax/luwak/termextractor/treebuilder/TermsQueryTreeBuilder.java: Recompile with -Xlint:deprecation for details.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.6:testResources[m [1m(default-testResources)[m @ [36mluwak[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] Copying 20 resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.1:testCompile[m [1m(default-testCompile)[m @ [36mluwak[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;34mINFO[m] Compiling 50 source files to /home/java8-flakesync/scripts/projects/flaxsearch/luwak/luwak/target/test-classes
+[[1;33mWARNING[m] /home/java8-flakesync/scripts/projects/flaxsearch/luwak/luwak/src/test/java/uk/co/flax/luwak/termextractor/TestExtractors.java: Some input files use or override a deprecated API.
+[[1;33mWARNING[m] /home/java8-flakesync/scripts/projects/flaxsearch/luwak/luwak/src/test/java/uk/co/flax/luwak/termextractor/TestExtractors.java: Recompile with -Xlint:deprecation for details.
+[[1;33mWARNING[m] /home/java8-flakesync/scripts/projects/flaxsearch/luwak/luwak/src/test/java/uk/co/flax/luwak/testutils/TestCollectionUtils.java: /home/java8-flakesync/scripts/projects/flaxsearch/luwak/luwak/src/test/java/uk/co/flax/luwak/testutils/TestCollectionUtils.java uses unchecked or unsafe operations.
+[[1;33mWARNING[m] /home/java8-flakesync/scripts/projects/flaxsearch/luwak/luwak/src/test/java/uk/co/flax/luwak/testutils/TestCollectionUtils.java: Recompile with -Xlint:unchecked for details.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-surefire-plugin:3.0.0-M9:test[m [1m(default-test)[m @ [36mluwak[0;1m ---[m
+[[1;34mINFO[m] Tests are skipped.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-jar-plugin:2.4:jar[m [1m(default-jar)[m @ [36mluwak[0;1m ---[m
+[[1;34mINFO[m] Building jar: /home/java8-flakesync/scripts/projects/flaxsearch/luwak/luwak/target/luwak-1.6.0-SNAPSHOT.jar
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m>>> [0;32mmaven-source-plugin:2.2.1:jar[m [1m(attach-sources)[0;1m > [0;1mgenerate-sources[m @ [36mluwak[0;1m >>>[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m<<< [0;32mmaven-source-plugin:2.2.1:jar[m [1m(attach-sources)[0;1m < [0;1mgenerate-sources[m @ [36mluwak[0;1m <<<[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-source-plugin:2.2.1:jar[m [1m(attach-sources)[m @ [36mluwak[0;1m ---[m
+[[1;34mINFO[m] Building jar: /home/java8-flakesync/scripts/projects/flaxsearch/luwak/luwak/target/luwak-1.6.0-SNAPSHOT-sources.jar
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-javadoc-plugin:2.9.1:jar[m [1m(attach-javadocs)[m @ [36mluwak[0;1m ---[m
+[[1;34mINFO[m] Building jar: /home/java8-flakesync/scripts/projects/flaxsearch/luwak/luwak/target/luwak-1.6.0-SNAPSHOT-javadoc.jar
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mforbiddenapis:2.3:check[m [1m(default)[m @ [36mluwak[0;1m ---[m
+[[1;34mINFO[m] Scanning for classes to check...
+[[1;34mINFO[m] Reading bundled API signatures: jdk-unsafe-1.8
+[[1;34mINFO[m] Reading bundled API signatures: jdk-deprecated-1.8
+[[1;33mWARNING[m] The setting 'internalRuntimeForbidden' was deprecated and will be removed in next version. For backwards compatibility task/mojo is using 'jdk-non-portable' bundled signatures instead.
+[[1;34mINFO[m] Reading bundled API signatures: jdk-non-portable
+[[1;34mINFO[m] Loading classes to check...
+[[1;34mINFO[m] Scanning classes for violations...
+[[1;34mINFO[m] Scanned 134 (and 436 related) class file(s) for forbidden API invocations (in 0.51s), 0 error(s).
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mforbiddenapis:2.3:testCheck[m [1m(default)[m @ [36mluwak[0;1m ---[m
+[[1;34mINFO[m] Scanning for classes to check...
+[[1;34mINFO[m] Reading bundled API signatures: jdk-unsafe-1.8
+[[1;34mINFO[m] Reading bundled API signatures: jdk-deprecated-1.8
+[[1;33mWARNING[m] The setting 'internalRuntimeForbidden' was deprecated and will be removed in next version. For backwards compatibility task/mojo is using 'jdk-non-portable' bundled signatures instead.
+[[1;34mINFO[m] Reading bundled API signatures: jdk-non-portable
+[[1;34mINFO[m] Loading classes to check...
+[[1;34mINFO[m] Scanning classes for violations...
+[[1;34mINFO[m] Scanned 80 (and 533 related) class file(s) for forbidden API invocations (in 0.33s), 0 error(s).
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-install-plugin:2.4:install[m [1m(default-install)[m @ [36mluwak[0;1m ---[m
+[[1;34mINFO[m] Installing /home/java8-flakesync/scripts/projects/flaxsearch/luwak/luwak/target/luwak-1.6.0-SNAPSHOT.jar to /home/java8-flakesync/.m2/repository/com/github/flaxsearch/luwak/1.6.0-SNAPSHOT/luwak-1.6.0-SNAPSHOT.jar
+[[1;34mINFO[m] Installing /home/java8-flakesync/scripts/projects/flaxsearch/luwak/luwak/pom.xml to /home/java8-flakesync/.m2/repository/com/github/flaxsearch/luwak/1.6.0-SNAPSHOT/luwak-1.6.0-SNAPSHOT.pom
+[[1;34mINFO[m] Installing /home/java8-flakesync/scripts/projects/flaxsearch/luwak/luwak/target/luwak-1.6.0-SNAPSHOT-sources.jar to /home/java8-flakesync/.m2/repository/com/github/flaxsearch/luwak/1.6.0-SNAPSHOT/luwak-1.6.0-SNAPSHOT-sources.jar
+[[1;34mINFO[m] Installing /home/java8-flakesync/scripts/projects/flaxsearch/luwak/luwak/target/luwak-1.6.0-SNAPSHOT-javadoc.jar to /home/java8-flakesync/.m2/repository/com/github/flaxsearch/luwak/1.6.0-SNAPSHOT/luwak-1.6.0-SNAPSHOT-javadoc.jar
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1mReactor Summary for Luwak 1.6.0-SNAPSHOT:[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] Luwak .............................................. [1;32mSUCCESS[m [  1.722 s]
+[[1;34mINFO[m] luwak .............................................. [1;32mSUCCESS[m [ 14.746 s]
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;32mBUILD SUCCESS[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  17.691 s
+[[1;34mINFO[m] Finished at: 2026-09-01T15:48:11Z
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+./luwak/StackTrace-uk.co.flax.luwak.matchers.TestPartitionMatcher#testParallelSlowLog.txt
+exists=0, uk/co/flax/luwak/matchers/PartitionMatcher$MatcherWorker#119
+[[1;34mINFO[m] Scanning for projects...
+[[1;33mWARNING[m] 
+[[1;33mWARNING[m] Some problems were encountered while building the effective model for com.github.flaxsearch:luwak-benchmark:jar:1.6.0-SNAPSHOT
+[[1;33mWARNING[m] 'build.plugins.plugin.(groupId:artifactId)' must be unique but found duplicate declaration of plugin org.apache.maven.plugins:maven-surefire-plugin @ com.github.flaxsearch:luwak-benchmark:[unknown-version], /home/java8-flakesync/scripts/projects/flaxsearch/luwak/benchmark/pom.xml, line 40, column 17
+[[1;33mWARNING[m] 'build.plugins.plugin.(groupId:artifactId)' must be unique but found duplicate declaration of plugin org.apache.maven.plugins:maven-surefire-plugin @ com.github.flaxsearch:luwak-benchmark:[unknown-version], /home/java8-flakesync/scripts/projects/flaxsearch/luwak/benchmark/pom.xml, line 49, column 17
+[[1;33mWARNING[m] 'build.plugins.plugin.(groupId:artifactId)' must be unique but found duplicate declaration of plugin org.apache.maven.plugins:maven-surefire-plugin @ com.github.flaxsearch:luwak-benchmark:[unknown-version], /home/java8-flakesync/scripts/projects/flaxsearch/luwak/benchmark/pom.xml, line 58, column 17
+[[1;33mWARNING[m] 'build.plugins.plugin.(groupId:artifactId)' must be unique but found duplicate declaration of plugin org.apache.maven.plugins:maven-surefire-plugin @ com.github.flaxsearch:luwak-parent:1.6.0-SNAPSHOT, /home/java8-flakesync/scripts/projects/flaxsearch/luwak/pom.xml, line 214, column 17
+[[1;33mWARNING[m] 'build.plugins.plugin.(groupId:artifactId)' must be unique but found duplicate declaration of plugin org.apache.maven.plugins:maven-surefire-plugin @ com.github.flaxsearch:luwak-parent:1.6.0-SNAPSHOT, /home/java8-flakesync/scripts/projects/flaxsearch/luwak/pom.xml, line 223, column 17
+[[1;33mWARNING[m] 'build.plugins.plugin.(groupId:artifactId)' must be unique but found duplicate declaration of plugin org.apache.maven.plugins:maven-surefire-plugin @ com.github.flaxsearch:luwak-parent:1.6.0-SNAPSHOT, /home/java8-flakesync/scripts/projects/flaxsearch/luwak/pom.xml, line 232, column 17
+[[1;33mWARNING[m] 
+[[1;33mWARNING[m] Some problems were encountered while building the effective model for com.github.flaxsearch:luwak:jar:1.6.0-SNAPSHOT
+[[1;33mWARNING[m] 'build.plugins.plugin.(groupId:artifactId)' must be unique but found duplicate declaration of plugin org.apache.maven.plugins:maven-surefire-plugin @ com.github.flaxsearch:luwak:[unknown-version], /home/java8-flakesync/scripts/projects/flaxsearch/luwak/luwak/pom.xml, line 54, column 17
+[[1;33mWARNING[m] 'build.plugins.plugin.(groupId:artifactId)' must be unique but found duplicate declaration of plugin org.apache.maven.plugins:maven-surefire-plugin @ com.github.flaxsearch:luwak:[unknown-version], /home/java8-flakesync/scripts/projects/flaxsearch/luwak/luwak/pom.xml, line 63, column 17
+[[1;33mWARNING[m] 'build.plugins.plugin.(groupId:artifactId)' must be unique but found duplicate declaration of plugin org.apache.maven.plugins:maven-surefire-plugin @ com.github.flaxsearch:luwak:[unknown-version], /home/java8-flakesync/scripts/projects/flaxsearch/luwak/luwak/pom.xml, line 72, column 17
+[[1;33mWARNING[m] 
+[[1;33mWARNING[m] Some problems were encountered while building the effective model for com.github.flaxsearch:luwak-parent:pom:1.6.0-SNAPSHOT
+[[1;33mWARNING[m] 'build.plugins.plugin.(groupId:artifactId)' must be unique but found duplicate declaration of plugin org.apache.maven.plugins:maven-surefire-plugin @ line 214, column 17
+[[1;33mWARNING[m] 'build.plugins.plugin.(groupId:artifactId)' must be unique but found duplicate declaration of plugin org.apache.maven.plugins:maven-surefire-plugin @ line 223, column 17
+[[1;33mWARNING[m] 'build.plugins.plugin.(groupId:artifactId)' must be unique but found duplicate declaration of plugin org.apache.maven.plugins:maven-surefire-plugin @ line 232, column 17
+[[1;33mWARNING[m] 
+[[1;33mWARNING[m] It is highly recommended to fix these problems because they threaten the stability of your build.
+[[1;33mWARNING[m] 
+[[1;33mWARNING[m] For this reason, future Maven versions might no longer support building such malformed projects.
+[[1;33mWARNING[m] 
+[[1;34mINFO[m] Inspecting build with total of 2 modules...
+[[1;34mINFO[m] Installing Nexus Staging features:
+[[1;34mINFO[m]   ... total of 2 executions of maven-deploy-plugin replaced with nexus-staging-maven-plugin
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1mReactor Build Order:[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] Luwak                                                              [pom]
+[[1;34mINFO[m] luwak                                                              [jar]
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m-----------------< [0;36mcom.github.flaxsearch:luwak-parent[0;1m >-----------------[m
+[[1;34mINFO[m] [1mBuilding Luwak 1.6.0-SNAPSHOT                                      [1/2][m
+[[1;34mINFO[m] [1m--------------------------------[ pom ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-clean-plugin:2.5:clean[m [1m(default-clean)[m @ [36mluwak-parent[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m>>> [0;32mmaven-source-plugin:2.2.1:jar[m [1m(attach-sources)[0;1m > [0;1mgenerate-sources[m @ [36mluwak-parent[0;1m >>>[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m<<< [0;32mmaven-source-plugin:2.2.1:jar[m [1m(attach-sources)[0;1m < [0;1mgenerate-sources[m @ [36mluwak-parent[0;1m <<<[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-source-plugin:2.2.1:jar[m [1m(attach-sources)[m @ [36mluwak-parent[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-javadoc-plugin:2.9.1:jar[m [1m(attach-javadocs)[m @ [36mluwak-parent[0;1m ---[m
+[[1;34mINFO[m] Not executing Javadoc as the project is not a Java classpath-capable package
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mforbiddenapis:2.3:check[m [1m(default)[m @ [36mluwak-parent[0;1m ---[m
+[[1;34mINFO[m] Skipping execution for packaging "pom"
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mforbiddenapis:2.3:testCheck[m [1m(default)[m @ [36mluwak-parent[0;1m ---[m
+[[1;34mINFO[m] Skipping execution for packaging "pom"
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-install-plugin:2.4:install[m [1m(default-install)[m @ [36mluwak-parent[0;1m ---[m
+[[1;34mINFO[m] Installing /home/java8-flakesync/scripts/projects/flaxsearch/luwak/pom.xml to /home/java8-flakesync/.m2/repository/com/github/flaxsearch/luwak-parent/1.6.0-SNAPSHOT/luwak-parent-1.6.0-SNAPSHOT.pom
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--------------------< [0;36mcom.github.flaxsearch:luwak[0;1m >---------------------[m
+[[1;34mINFO[m] [1mBuilding luwak 1.6.0-SNAPSHOT                                      [2/2][m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-clean-plugin:2.5:clean[m [1m(default-clean)[m @ [36mluwak[0;1m ---[m
+[[1;34mINFO[m] Deleting /home/java8-flakesync/scripts/projects/flaxsearch/luwak/luwak/target
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.6:resources[m [1m(default-resources)[m @ [36mluwak[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] skip non existing resourceDirectory /home/java8-flakesync/scripts/projects/flaxsearch/luwak/luwak/src/main/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.1:compile[m [1m(default-compile)[m @ [36mluwak[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;34mINFO[m] Compiling 78 source files to /home/java8-flakesync/scripts/projects/flaxsearch/luwak/luwak/target/classes
+[[1;33mWARNING[m] /home/java8-flakesync/scripts/projects/flaxsearch/luwak/luwak/src/main/java/uk/co/flax/luwak/termextractor/treebuilder/TermsQueryTreeBuilder.java: Some input files use or override a deprecated API.
+[[1;33mWARNING[m] /home/java8-flakesync/scripts/projects/flaxsearch/luwak/luwak/src/main/java/uk/co/flax/luwak/termextractor/treebuilder/TermsQueryTreeBuilder.java: Recompile with -Xlint:deprecation for details.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.6:testResources[m [1m(default-testResources)[m @ [36mluwak[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] Copying 20 resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.1:testCompile[m [1m(default-testCompile)[m @ [36mluwak[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;34mINFO[m] Compiling 50 source files to /home/java8-flakesync/scripts/projects/flaxsearch/luwak/luwak/target/test-classes
+[[1;33mWARNING[m] /home/java8-flakesync/scripts/projects/flaxsearch/luwak/luwak/src/test/java/uk/co/flax/luwak/termextractor/TestExtractors.java: Some input files use or override a deprecated API.
+[[1;33mWARNING[m] /home/java8-flakesync/scripts/projects/flaxsearch/luwak/luwak/src/test/java/uk/co/flax/luwak/termextractor/TestExtractors.java: Recompile with -Xlint:deprecation for details.
+[[1;33mWARNING[m] /home/java8-flakesync/scripts/projects/flaxsearch/luwak/luwak/src/test/java/uk/co/flax/luwak/testutils/TestCollectionUtils.java: /home/java8-flakesync/scripts/projects/flaxsearch/luwak/luwak/src/test/java/uk/co/flax/luwak/testutils/TestCollectionUtils.java uses unchecked or unsafe operations.
+[[1;33mWARNING[m] /home/java8-flakesync/scripts/projects/flaxsearch/luwak/luwak/src/test/java/uk/co/flax/luwak/testutils/TestCollectionUtils.java: Recompile with -Xlint:unchecked for details.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-surefire-plugin:3.0.0-M9:test[m [1m(default-test)[m @ [36mluwak[0;1m ---[m
+[[1;34mINFO[m] Tests are skipped.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-jar-plugin:2.4:jar[m [1m(default-jar)[m @ [36mluwak[0;1m ---[m
+[[1;34mINFO[m] Building jar: /home/java8-flakesync/scripts/projects/flaxsearch/luwak/luwak/target/luwak-1.6.0-SNAPSHOT.jar
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m>>> [0;32mmaven-source-plugin:2.2.1:jar[m [1m(attach-sources)[0;1m > [0;1mgenerate-sources[m @ [36mluwak[0;1m >>>[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m<<< [0;32mmaven-source-plugin:2.2.1:jar[m [1m(attach-sources)[0;1m < [0;1mgenerate-sources[m @ [36mluwak[0;1m <<<[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-source-plugin:2.2.1:jar[m [1m(attach-sources)[m @ [36mluwak[0;1m ---[m
+[[1;34mINFO[m] Building jar: /home/java8-flakesync/scripts/projects/flaxsearch/luwak/luwak/target/luwak-1.6.0-SNAPSHOT-sources.jar
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-javadoc-plugin:2.9.1:jar[m [1m(attach-javadocs)[m @ [36mluwak[0;1m ---[m
+[[1;34mINFO[m] Building jar: /home/java8-flakesync/scripts/projects/flaxsearch/luwak/luwak/target/luwak-1.6.0-SNAPSHOT-javadoc.jar
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mforbiddenapis:2.3:check[m [1m(default)[m @ [36mluwak[0;1m ---[m
+[[1;34mINFO[m] Scanning for classes to check...
+[[1;34mINFO[m] Reading bundled API signatures: jdk-unsafe-1.8
+[[1;34mINFO[m] Reading bundled API signatures: jdk-deprecated-1.8
+[[1;33mWARNING[m] The setting 'internalRuntimeForbidden' was deprecated and will be removed in next version. For backwards compatibility task/mojo is using 'jdk-non-portable' bundled signatures instead.
+[[1;34mINFO[m] Reading bundled API signatures: jdk-non-portable
+[[1;34mINFO[m] Loading classes to check...
+[[1;34mINFO[m] Scanning classes for violations...
+[[1;34mINFO[m] Scanned 134 (and 436 related) class file(s) for forbidden API invocations (in 0.73s), 0 error(s).
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mforbiddenapis:2.3:testCheck[m [1m(default)[m @ [36mluwak[0;1m ---[m
+[[1;34mINFO[m] Scanning for classes to check...
+[[1;34mINFO[m] Reading bundled API signatures: jdk-unsafe-1.8
+[[1;34mINFO[m] Reading bundled API signatures: jdk-deprecated-1.8
+[[1;33mWARNING[m] The setting 'internalRuntimeForbidden' was deprecated and will be removed in next version. For backwards compatibility task/mojo is using 'jdk-non-portable' bundled signatures instead.
+[[1;34mINFO[m] Reading bundled API signatures: jdk-non-portable
+[[1;34mINFO[m] Loading classes to check...
+[[1;34mINFO[m] Scanning classes for violations...
+[[1;34mINFO[m] Scanned 80 (and 533 related) class file(s) for forbidden API invocations (in 0.52s), 0 error(s).
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-install-plugin:2.4:install[m [1m(default-install)[m @ [36mluwak[0;1m ---[m
+[[1;34mINFO[m] Installing /home/java8-flakesync/scripts/projects/flaxsearch/luwak/luwak/target/luwak-1.6.0-SNAPSHOT.jar to /home/java8-flakesync/.m2/repository/com/github/flaxsearch/luwak/1.6.0-SNAPSHOT/luwak-1.6.0-SNAPSHOT.jar
+[[1;34mINFO[m] Installing /home/java8-flakesync/scripts/projects/flaxsearch/luwak/luwak/pom.xml to /home/java8-flakesync/.m2/repository/com/github/flaxsearch/luwak/1.6.0-SNAPSHOT/luwak-1.6.0-SNAPSHOT.pom
+[[1;34mINFO[m] Installing /home/java8-flakesync/scripts/projects/flaxsearch/luwak/luwak/target/luwak-1.6.0-SNAPSHOT-sources.jar to /home/java8-flakesync/.m2/repository/com/github/flaxsearch/luwak/1.6.0-SNAPSHOT/luwak-1.6.0-SNAPSHOT-sources.jar
+[[1;34mINFO[m] Installing /home/java8-flakesync/scripts/projects/flaxsearch/luwak/luwak/target/luwak-1.6.0-SNAPSHOT-javadoc.jar to /home/java8-flakesync/.m2/repository/com/github/flaxsearch/luwak/1.6.0-SNAPSHOT/luwak-1.6.0-SNAPSHOT-javadoc.jar
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1mReactor Summary for Luwak 1.6.0-SNAPSHOT:[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] Luwak .............................................. [1;32mSUCCESS[m [  3.122 s]
+[[1;34mINFO[m] luwak .............................................. [1;32mSUCCESS[m [ 18.121 s]
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;32mBUILD SUCCESS[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  23.765 s
+[[1;34mINFO[m] Finished at: 2026-09-01T15:48:52Z
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+./luwak/StackTrace-uk.co.flax.luwak.matchers.TestPartitionMatcher#testParallelSlowLog.txt
+rootLine=15,uk/co/flax/luwak/matchers/PartitionMatcher<MatcherWorker/call=PartitionMatcher/java:119![100]
+****************15,uk/co/flax/luwak/matchers/PartitionMatcher<MatcherWorker/call=PartitionMatcher/java:119![100]****
+exists=1, uk/co/flax/luwak/matchers/PartitionMatcher$MatcherWorker#131
+exists=1, uk/co/flax/luwak/matchers/PartitionMatcher$MatcherWorker#119
+rootLine=15,uk/co/flax/luwak/matchers/PartitionMatcher<MatcherWorker/call=PartitionMatcher/java:119![100]
+****************15,uk/co/flax/luwak/matchers/PartitionMatcher<MatcherWorker/call=PartitionMatcher/java:119![100]****
+exists=1, uk/co/flax/luwak/matchers/PartitionMatcher$MatcherWorker#131
+exists=1, uk/co/flax/luwak/matchers/PartitionMatcher$MatcherWorker#119
+rootLine=15,uk/co/flax/luwak/matchers/PartitionMatcher<MatcherWorker/call=PartitionMatcher/java:119![100]
+****************15,uk/co/flax/luwak/matchers/PartitionMatcher<MatcherWorker/call=PartitionMatcher/java:119![100]****
+exists=1, uk/co/flax/luwak/matchers/PartitionMatcher$MatcherWorker#131
+exists=1, uk/co/flax/luwak/matchers/PartitionMatcher$MatcherWorker#119
+rootLine=15,uk/co/flax/luwak/matchers/PartitionMatcher<MatcherWorker/call=PartitionMatcher/java:119![100]
+****************15,uk/co/flax/luwak/matchers/PartitionMatcher<MatcherWorker/call=PartitionMatcher/java:119![100]****
+exists=1, uk/co/flax/luwak/matchers/PartitionMatcher$MatcherWorker#131
+exists=1, uk/co/flax/luwak/matchers/PartitionMatcher$MatcherWorker#119
+rootLine=15,uk/co/flax/luwak/matchers/PartitionMatcher<MatcherWorker/call=PartitionMatcher/java:119![100]
+****************15,uk/co/flax/luwak/matchers/PartitionMatcher<MatcherWorker/call=PartitionMatcher/java:119![100]****
+exists=1, uk/co/flax/luwak/matchers/PartitionMatcher$MatcherWorker#131
+exists=1, uk/co/flax/luwak/matchers/PartitionMatcher$MatcherWorker#119
+rootLine=15,uk/co/flax/luwak/matchers/PartitionMatcher<MatcherWorker/call=PartitionMatcher/java:119![100]
+****************15,uk/co/flax/luwak/matchers/PartitionMatcher<MatcherWorker/call=PartitionMatcher/java:119![100]****
+exists=1, uk/co/flax/luwak/matchers/PartitionMatcher$MatcherWorker#131
+exists=1, uk/co/flax/luwak/matchers/PartitionMatcher$MatcherWorker#119
+rootLine=15,uk/co/flax/luwak/matchers/PartitionMatcher<MatcherWorker/call=PartitionMatcher/java:119![100]
+****************15,uk/co/flax/luwak/matchers/PartitionMatcher<MatcherWorker/call=PartitionMatcher/java:119![100]****
+exists=1, uk/co/flax/luwak/matchers/PartitionMatcher$MatcherWorker#131
+exists=1, uk/co/flax/luwak/matchers/PartitionMatcher$MatcherWorker#119
+rootLine=15,uk/co/flax/luwak/matchers/PartitionMatcher<MatcherWorker/call=PartitionMatcher/java:119![100]
+****************15,uk/co/flax/luwak/matchers/PartitionMatcher<MatcherWorker/call=PartitionMatcher/java:119![100]****
+exists=1, uk/co/flax/luwak/matchers/PartitionMatcher$MatcherWorker#131
+exists=1, uk/co/flax/luwak/matchers/PartitionMatcher$MatcherWorker#119
+rootLine=15,uk/co/flax/luwak/matchers/PartitionMatcher<MatcherWorker/call=PartitionMatcher/java:119![100]
+****************15,uk/co/flax/luwak/matchers/PartitionMatcher<MatcherWorker/call=PartitionMatcher/java:119![100]****
+exists=1, uk/co/flax/luwak/matchers/PartitionMatcher$MatcherWorker#131
+exists=1, uk/co/flax/luwak/matchers/PartitionMatcher$MatcherWorker#119
+rootLine=15,uk/co/flax/luwak/matchers/PartitionMatcher<MatcherWorker/call=PartitionMatcher/java:119![100]
+****************15,uk/co/flax/luwak/matchers/PartitionMatcher<MatcherWorker/call=PartitionMatcher/java:119![100]****
+*****combined location= uk/co/flax/luwak/matchers/PartitionMatcher$MatcherWorker#call
+[[1;34mINFO[m] Scanning for projects...
+[[1;33mWARNING[m] 
+[[1;33mWARNING[m] Some problems were encountered while building the effective model for com.github.flaxsearch:luwak-benchmark:jar:1.6.0-SNAPSHOT
+[[1;33mWARNING[m] 'build.plugins.plugin.(groupId:artifactId)' must be unique but found duplicate declaration of plugin org.apache.maven.plugins:maven-surefire-plugin @ com.github.flaxsearch:luwak-benchmark:[unknown-version], /home/java8-flakesync/scripts/projects/flaxsearch/luwak/benchmark/pom.xml, line 40, column 17
+[[1;33mWARNING[m] 'build.plugins.plugin.(groupId:artifactId)' must be unique but found duplicate declaration of plugin org.apache.maven.plugins:maven-surefire-plugin @ com.github.flaxsearch:luwak-benchmark:[unknown-version], /home/java8-flakesync/scripts/projects/flaxsearch/luwak/benchmark/pom.xml, line 49, column 17
+[[1;33mWARNING[m] 'build.plugins.plugin.(groupId:artifactId)' must be unique but found duplicate declaration of plugin org.apache.maven.plugins:maven-surefire-plugin @ com.github.flaxsearch:luwak-benchmark:[unknown-version], /home/java8-flakesync/scripts/projects/flaxsearch/luwak/benchmark/pom.xml, line 58, column 17
+[[1;33mWARNING[m] 'build.plugins.plugin.(groupId:artifactId)' must be unique but found duplicate declaration of plugin org.apache.maven.plugins:maven-surefire-plugin @ com.github.flaxsearch:luwak-parent:1.6.0-SNAPSHOT, /home/java8-flakesync/scripts/projects/flaxsearch/luwak/pom.xml, line 214, column 17
+[[1;33mWARNING[m] 'build.plugins.plugin.(groupId:artifactId)' must be unique but found duplicate declaration of plugin org.apache.maven.plugins:maven-surefire-plugin @ com.github.flaxsearch:luwak-parent:1.6.0-SNAPSHOT, /home/java8-flakesync/scripts/projects/flaxsearch/luwak/pom.xml, line 223, column 17
+[[1;33mWARNING[m] 'build.plugins.plugin.(groupId:artifactId)' must be unique but found duplicate declaration of plugin org.apache.maven.plugins:maven-surefire-plugin @ com.github.flaxsearch:luwak-parent:1.6.0-SNAPSHOT, /home/java8-flakesync/scripts/projects/flaxsearch/luwak/pom.xml, line 232, column 17
+[[1;33mWARNING[m] 
+[[1;33mWARNING[m] Some problems were encountered while building the effective model for com.github.flaxsearch:luwak:jar:1.6.0-SNAPSHOT
+[[1;33mWARNING[m] 'build.plugins.plugin.(groupId:artifactId)' must be unique but found duplicate declaration of plugin org.apache.maven.plugins:maven-surefire-plugin @ com.github.flaxsearch:luwak:[unknown-version], /home/java8-flakesync/scripts/projects/flaxsearch/luwak/luwak/pom.xml, line 54, column 17
+[[1;33mWARNING[m] 'build.plugins.plugin.(groupId:artifactId)' must be unique but found duplicate declaration of plugin org.apache.maven.plugins:maven-surefire-plugin @ com.github.flaxsearch:luwak:[unknown-version], /home/java8-flakesync/scripts/projects/flaxsearch/luwak/luwak/pom.xml, line 63, column 17
+[[1;33mWARNING[m] 'build.plugins.plugin.(groupId:artifactId)' must be unique but found duplicate declaration of plugin org.apache.maven.plugins:maven-surefire-plugin @ com.github.flaxsearch:luwak:[unknown-version], /home/java8-flakesync/scripts/projects/flaxsearch/luwak/luwak/pom.xml, line 72, column 17
+[[1;33mWARNING[m] 
+[[1;33mWARNING[m] Some problems were encountered while building the effective model for com.github.flaxsearch:luwak-parent:pom:1.6.0-SNAPSHOT
+[[1;33mWARNING[m] 'build.plugins.plugin.(groupId:artifactId)' must be unique but found duplicate declaration of plugin org.apache.maven.plugins:maven-surefire-plugin @ line 214, column 17
+[[1;33mWARNING[m] 'build.plugins.plugin.(groupId:artifactId)' must be unique but found duplicate declaration of plugin org.apache.maven.plugins:maven-surefire-plugin @ line 223, column 17
+[[1;33mWARNING[m] 'build.plugins.plugin.(groupId:artifactId)' must be unique but found duplicate declaration of plugin org.apache.maven.plugins:maven-surefire-plugin @ line 232, column 17
+[[1;33mWARNING[m] 
+[[1;33mWARNING[m] It is highly recommended to fix these problems because they threaten the stability of your build.
+[[1;33mWARNING[m] 
+[[1;33mWARNING[m] For this reason, future Maven versions might no longer support building such malformed projects.
+[[1;33mWARNING[m] 
+[[1;34mINFO[m] Inspecting build with total of 2 modules...
+[[1;34mINFO[m] Installing Nexus Staging features:
+[[1;34mINFO[m]   ... total of 2 executions of maven-deploy-plugin replaced with nexus-staging-maven-plugin
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1mReactor Build Order:[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] Luwak                                                              [pom]
+[[1;34mINFO[m] luwak                                                              [jar]
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m-----------------< [0;36mcom.github.flaxsearch:luwak-parent[0;1m >-----------------[m
+[[1;34mINFO[m] [1mBuilding Luwak 1.6.0-SNAPSHOT                                      [1/2][m
+[[1;34mINFO[m] [1m--------------------------------[ pom ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-clean-plugin:2.5:clean[m [1m(default-clean)[m @ [36mluwak-parent[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m>>> [0;32mmaven-source-plugin:2.2.1:jar[m [1m(attach-sources)[0;1m > [0;1mgenerate-sources[m @ [36mluwak-parent[0;1m >>>[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m<<< [0;32mmaven-source-plugin:2.2.1:jar[m [1m(attach-sources)[0;1m < [0;1mgenerate-sources[m @ [36mluwak-parent[0;1m <<<[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-source-plugin:2.2.1:jar[m [1m(attach-sources)[m @ [36mluwak-parent[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-javadoc-plugin:2.9.1:jar[m [1m(attach-javadocs)[m @ [36mluwak-parent[0;1m ---[m
+[[1;34mINFO[m] Not executing Javadoc as the project is not a Java classpath-capable package
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mforbiddenapis:2.3:check[m [1m(default)[m @ [36mluwak-parent[0;1m ---[m
+[[1;34mINFO[m] Skipping execution for packaging "pom"
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mforbiddenapis:2.3:testCheck[m [1m(default)[m @ [36mluwak-parent[0;1m ---[m
+[[1;34mINFO[m] Skipping execution for packaging "pom"
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-install-plugin:2.4:install[m [1m(default-install)[m @ [36mluwak-parent[0;1m ---[m
+[[1;34mINFO[m] Installing /home/java8-flakesync/scripts/projects/flaxsearch/luwak/pom.xml to /home/java8-flakesync/.m2/repository/com/github/flaxsearch/luwak-parent/1.6.0-SNAPSHOT/luwak-parent-1.6.0-SNAPSHOT.pom
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--------------------< [0;36mcom.github.flaxsearch:luwak[0;1m >---------------------[m
+[[1;34mINFO[m] [1mBuilding luwak 1.6.0-SNAPSHOT                                      [2/2][m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-clean-plugin:2.5:clean[m [1m(default-clean)[m @ [36mluwak[0;1m ---[m
+[[1;34mINFO[m] Deleting /home/java8-flakesync/scripts/projects/flaxsearch/luwak/luwak/target
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.6:resources[m [1m(default-resources)[m @ [36mluwak[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] skip non existing resourceDirectory /home/java8-flakesync/scripts/projects/flaxsearch/luwak/luwak/src/main/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.1:compile[m [1m(default-compile)[m @ [36mluwak[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;34mINFO[m] Compiling 78 source files to /home/java8-flakesync/scripts/projects/flaxsearch/luwak/luwak/target/classes
+[[1;33mWARNING[m] /home/java8-flakesync/scripts/projects/flaxsearch/luwak/luwak/src/main/java/uk/co/flax/luwak/termextractor/treebuilder/TermsQueryTreeBuilder.java: Some input files use or override a deprecated API.
+[[1;33mWARNING[m] /home/java8-flakesync/scripts/projects/flaxsearch/luwak/luwak/src/main/java/uk/co/flax/luwak/termextractor/treebuilder/TermsQueryTreeBuilder.java: Recompile with -Xlint:deprecation for details.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.6:testResources[m [1m(default-testResources)[m @ [36mluwak[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] Copying 20 resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.1:testCompile[m [1m(default-testCompile)[m @ [36mluwak[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;34mINFO[m] Compiling 50 source files to /home/java8-flakesync/scripts/projects/flaxsearch/luwak/luwak/target/test-classes
+[[1;33mWARNING[m] /home/java8-flakesync/scripts/projects/flaxsearch/luwak/luwak/src/test/java/uk/co/flax/luwak/termextractor/TestExtractors.java: Some input files use or override a deprecated API.
+[[1;33mWARNING[m] /home/java8-flakesync/scripts/projects/flaxsearch/luwak/luwak/src/test/java/uk/co/flax/luwak/termextractor/TestExtractors.java: Recompile with -Xlint:deprecation for details.
+[[1;33mWARNING[m] /home/java8-flakesync/scripts/projects/flaxsearch/luwak/luwak/src/test/java/uk/co/flax/luwak/testutils/TestCollectionUtils.java: /home/java8-flakesync/scripts/projects/flaxsearch/luwak/luwak/src/test/java/uk/co/flax/luwak/testutils/TestCollectionUtils.java uses unchecked or unsafe operations.
+[[1;33mWARNING[m] /home/java8-flakesync/scripts/projects/flaxsearch/luwak/luwak/src/test/java/uk/co/flax/luwak/testutils/TestCollectionUtils.java: Recompile with -Xlint:unchecked for details.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-surefire-plugin:3.0.0-M9:test[m [1m(default-test)[m @ [36mluwak[0;1m ---[m
+[[1;34mINFO[m] Tests are skipped.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-jar-plugin:2.4:jar[m [1m(default-jar)[m @ [36mluwak[0;1m ---[m
+[[1;34mINFO[m] Building jar: /home/java8-flakesync/scripts/projects/flaxsearch/luwak/luwak/target/luwak-1.6.0-SNAPSHOT.jar
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m>>> [0;32mmaven-source-plugin:2.2.1:jar[m [1m(attach-sources)[0;1m > [0;1mgenerate-sources[m @ [36mluwak[0;1m >>>[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m<<< [0;32mmaven-source-plugin:2.2.1:jar[m [1m(attach-sources)[0;1m < [0;1mgenerate-sources[m @ [36mluwak[0;1m <<<[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-source-plugin:2.2.1:jar[m [1m(attach-sources)[m @ [36mluwak[0;1m ---[m
+[[1;34mINFO[m] Building jar: /home/java8-flakesync/scripts/projects/flaxsearch/luwak/luwak/target/luwak-1.6.0-SNAPSHOT-sources.jar
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-javadoc-plugin:2.9.1:jar[m [1m(attach-javadocs)[m @ [36mluwak[0;1m ---[m
+[[1;34mINFO[m] Building jar: /home/java8-flakesync/scripts/projects/flaxsearch/luwak/luwak/target/luwak-1.6.0-SNAPSHOT-javadoc.jar
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mforbiddenapis:2.3:check[m [1m(default)[m @ [36mluwak[0;1m ---[m
+[[1;34mINFO[m] Scanning for classes to check...
+[[1;34mINFO[m] Reading bundled API signatures: jdk-unsafe-1.8
+[[1;34mINFO[m] Reading bundled API signatures: jdk-deprecated-1.8
+[[1;33mWARNING[m] The setting 'internalRuntimeForbidden' was deprecated and will be removed in next version. For backwards compatibility task/mojo is using 'jdk-non-portable' bundled signatures instead.
+[[1;34mINFO[m] Reading bundled API signatures: jdk-non-portable
+[[1;34mINFO[m] Loading classes to check...
+[[1;34mINFO[m] Scanning classes for violations...
+[[1;34mINFO[m] Scanned 134 (and 436 related) class file(s) for forbidden API invocations (in 0.54s), 0 error(s).
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mforbiddenapis:2.3:testCheck[m [1m(default)[m @ [36mluwak[0;1m ---[m
+[[1;34mINFO[m] Scanning for classes to check...
+[[1;34mINFO[m] Reading bundled API signatures: jdk-unsafe-1.8
+[[1;34mINFO[m] Reading bundled API signatures: jdk-deprecated-1.8
+[[1;33mWARNING[m] The setting 'internalRuntimeForbidden' was deprecated and will be removed in next version. For backwards compatibility task/mojo is using 'jdk-non-portable' bundled signatures instead.
+[[1;34mINFO[m] Reading bundled API signatures: jdk-non-portable
+[[1;34mINFO[m] Loading classes to check...
+[[1;34mINFO[m] Scanning classes for violations...
+[[1;34mINFO[m] Scanned 80 (and 533 related) class file(s) for forbidden API invocations (in 0.33s), 0 error(s).
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-install-plugin:2.4:install[m [1m(default-install)[m @ [36mluwak[0;1m ---[m
+[[1;34mINFO[m] Installing /home/java8-flakesync/scripts/projects/flaxsearch/luwak/luwak/target/luwak-1.6.0-SNAPSHOT.jar to /home/java8-flakesync/.m2/repository/com/github/flaxsearch/luwak/1.6.0-SNAPSHOT/luwak-1.6.0-SNAPSHOT.jar
+[[1;34mINFO[m] Installing /home/java8-flakesync/scripts/projects/flaxsearch/luwak/luwak/pom.xml to /home/java8-flakesync/.m2/repository/com/github/flaxsearch/luwak/1.6.0-SNAPSHOT/luwak-1.6.0-SNAPSHOT.pom
+[[1;34mINFO[m] Installing /home/java8-flakesync/scripts/projects/flaxsearch/luwak/luwak/target/luwak-1.6.0-SNAPSHOT-sources.jar to /home/java8-flakesync/.m2/repository/com/github/flaxsearch/luwak/1.6.0-SNAPSHOT/luwak-1.6.0-SNAPSHOT-sources.jar
+[[1;34mINFO[m] Installing /home/java8-flakesync/scripts/projects/flaxsearch/luwak/luwak/target/luwak-1.6.0-SNAPSHOT-javadoc.jar to /home/java8-flakesync/.m2/repository/com/github/flaxsearch/luwak/1.6.0-SNAPSHOT/luwak-1.6.0-SNAPSHOT-javadoc.jar
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1mReactor Summary for Luwak 1.6.0-SNAPSHOT:[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] Luwak .............................................. [1;32mSUCCESS[m [  2.034 s]
+[[1;34mINFO[m] luwak .............................................. [1;32mSUCCESS[m [ 17.313 s]
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;32mBUILD SUCCESS[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  20.546 s
+[[1;34mINFO[m] Finished at: 2026-09-01T15:49:29Z
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+locationCount===>1
+uk/co/flax/luwak/matchers/PartitionMatcher$MatcherWorker#131-uk/co/flax/luwak/matchers/PartitionMatcher$MatcherWorker#138
+EROOR / Failure Found at the beginning***********************************
+*************beginning fail true=uk/co/flax/luwak/matchers/PartitionMatcher$MatcherWorker#131
+lower_line_num=131; and upper_line_num=138;
+***I am sequential jjj=131
+Sequential EROOR / Failure Found at Line 131
+***I am sequential jjj=133
+Sequential EROOR / Failure Found at Line 133
+***I am sequential jjj=135
+Sequential EROOR / Failure Found at Line 135
+***I am sequential jjj=138
+Sequential EROOR / Failure Found at Line 138
+End fails...
+Work with myCluster=======
+totalKeys=1
+Key: 1
+KEY and Value pair=1, uk/co/flax/luwak/matchers/PartitionMatcher$MatcherWorker#131 uk/co/flax/luwak/matchers/PartitionMatcher$MatcherWorker#133 uk/co/flax/luwak/matchers/PartitionMatcher$MatcherWorker#135 uk/co/flax/luwak/matchers/PartitionMatcher$MatcherWorker#138
+uk/co/flax/luwak/matchers/PartitionMatcher$MatcherWorker#131 uk/co/flax/luwak/matchers/PartitionMatcher$MatcherWorker#133 uk/co/flax/luwak/matchers/PartitionMatcher$MatcherWorker#135 uk/co/flax/luwak/matchers/PartitionMatcher$MatcherWorker#138
+first_item and end_item= uk/co/flax/luwak/matchers/PartitionMatcher$MatcherWorker#131 and uk/co/flax/luwak/matchers/PartitionMatcher$MatcherWorker#138
+/home/java8-flakesync/scripts NOW GOING to remove rootProj========= flaxsearch
+FLAKESYNC_STAGE2_TEST=uk.co.flax.luwak.matchers.TestPartitionMatcher#testParallelSlowLog
+FLAKESYNC_ROOT_METHOD_SECONDS=118.373
+FLAKESYNC_CRITICAL_LINE_SECONDS=185.355
+FLAKESYNC_CRITICAL_LINE_EXIT_CODE=0

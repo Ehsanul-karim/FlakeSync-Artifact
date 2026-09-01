@@ -1,0 +1,15 @@
+threshold=1
+filename,all yield_items=/home/java8-flakesync/scripts/YIELDING_Point_StackTrace/delight.nashornsandbox.TestGetFunction#test
+./SearchedMethodANDLine.txt
+StackTrace item=delight.nashornsandbox.internal.NashornSandboxImpl#241,START LINE, st=====225, delight.nashornsandbox.internal.NashornSandboxImpl#241
+max_line=241, star_line=225
+./FlagDelayANDUpdateANDYielding.txt
+./FlagDelayANDUpdateANDYielding.txt
+./FlagDelayANDUpdateANDYielding.txt
+./FlagDelayANDUpdateANDYielding.txt
+./FlagDelayANDUpdateANDYielding.txt
+./FlagDelayANDUpdateANDYielding.txt
+./FlagDelayANDUpdateANDYielding.txt
+./FlagDelayANDUpdateANDYielding.txt
+./FlagDelayANDUpdateANDYielding.txt
+flag=1

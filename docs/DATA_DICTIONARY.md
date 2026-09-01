@@ -6,7 +6,7 @@ Each row is one full wrapper run.
 
 - `run_id`: repository-local identifier; reruns must use distinct IDs.
 - `test_id`: short project label used across summary files.
-- `status`: `COMPLETED`, `NO_REPAIR`, `ABANDONED`, or `SETUP_FAILED`.
+- `status`: `COMPLETED`, `NO_REPAIR`, `INCOMPLETE`, `ABANDONED`, or `SETUP_FAILED`.
 - `stage1_sec`: delay injection plus minimization wall-clock time.
 - `stage2_root_plus_critical_sec`: combined root-method and critical-line wall-clock time.
 - `stage3_barrier_sec`: barrier-stage wrapper wall-clock time.
@@ -18,7 +18,7 @@ Each row is one full wrapper run.
 
 Each row is a later run using the detailed Stage-2 instrumentation.
 
-- `measurement_quality`: `RECORDED_MANUALLY`, `CSV_PRESERVED`, or `INCOMPLETE_OBSERVATION`.
+- `measurement_quality`: `RECORDED_MANUALLY`, `CSV_PRESERVED`, `LOG_MARKERS_PRESERVED`, or `INCOMPLETE_OBSERVATION`.
 - `root_method_sec`: root discovery including its setup and confirmation executions.
 - `critical_line_sec`: time inside the individual line scan.
 - `stage2_wrapper_sec`: wall-clock time around the complete Stage-2 script.
@@ -34,7 +34,11 @@ Each row describes one search phase for one test.
 - `first_success_rank`: one-based position of the first successful candidate.
 - `reported_location`: first critical success, successful barrier, or beginning-of-root location.
 - `candidate_order`: semicolon-separated executed line numbers where available.
-- `result`: `SUCCESS`, `BEGINNING_OF_ROOT_FAILURE`, or `NO_VALID_REPAIR`.
+- `result`: `SUCCESS`, `BEGINNING_OF_ROOT_FAILURE`, `NO_VALID_REPAIR`, or `INTERRUPTED`.
+
+For an interrupted search, `candidates_tested` counts candidates whose individual
+logs were completed before termination. It does not imply that the candidate
+range or alternate-threshold search was exhausted.
 
 For a backward search from line 232 through 207 inclusive, `candidates_tested` is `232 - 207 + 1 = 26`.
 
@@ -50,5 +54,12 @@ This is the authoritative scope table. It prevents a selected input, a partially
 - `candidate-metrics.csv`: extractor output for Achilles and Uniffle;
 - `wasp-metrics.csv`: the earlier Wasp timing and candidate record;
 - `batch-progress.csv`: status recorded by the early batch runner.
+- `detailed-stage2-timings.csv`: machine-generated detailed-run records for the selected-case attempts that exited through the runner normally.
+- `detailed-batch-progress.csv`: machine-generated completion/failure checkpoints for those detailed attempts.
+
+The manually stopped Luwak Stage-3 run could not append its normal detailed
+timing row. Its reviewed checkpoint is therefore recorded in the curated summary
+CSVs and `results/luwak/raw/partial-timing.env`, not in
+`detailed-stage2-timings.csv`.
 
 The early batch runner wrote `SUCCESS` when the wrapper returned successfully, even when a valid repair was absent. Use `results/summary/run-status.csv` for the reviewed outcome. The curated summaries also combine the separately stored Wasp record with the later batch records and normalize blank/no-repair fields.

@@ -1,0 +1,18 @@
+Test: delight.nashornsandbox.TestGetFunction#test
+Run status: COMPLETED_REPAIRED
+
+Root method count: 1
+Root method: delight/nashornsandbox/internal/JsEvaluator#run
+
+Critical candidates completed: 5
+Critical candidate order: 53;54;59;67;68
+Critical candidates reproducing failure: 53;54;59;67;68
+First critical success rank: 1/5
+Reported critical region: JsEvaluator#53 through #68
+
+Barrier threshold: 1
+Barrier candidates completed: 9
+Barrier candidate order: NashornSandboxImpl#241 down through #233
+Successful barrier: NashornSandboxImpl#233
+First barrier success rank: 9/9
+Result: SUCCESS

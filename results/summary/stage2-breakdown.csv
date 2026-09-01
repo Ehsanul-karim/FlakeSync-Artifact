@@ -1,4 +1,6 @@
 run_id,test_id,status,measurement_quality,root_method_sec,critical_line_sec,stage2_wrapper_sec,unassigned_overhead_sec,notes
 wasp-stage2-split-1,wasp,COMPLETED,RECORDED_MANUALLY,181.840,171.096,353.026,0.090,"Generated separated-timing directory was not copied back; values were transcribed from terminal output"
 achilles-stage2-split-1,achilles,INCOMPLETE,INCOMPLETE_OBSERVATION,,,,,"Root processing was observed at about 22 minutes; critical-line phase and exact timing CSV were not completed/preserved"
-
+luwak-stage2-split-1,luwak,COMPLETED,LOG_MARKERS_PRESERVED,118.373,185.355,303.853,0.125,"Exact subphase markers preserved; wrapper and overhead derived from timestamped logs"
+delight-stage2-split-1,delight-nashorn-sandbox,COMPLETED,CSV_PRESERVED,64.696,190.084,254.832,0.052,"Successful retry; individual critical-line search consumed 74.6% of Stage 2"
+rxjava2-extras-stage2-split-1,rxjava2-extras,COMPLETED,CSV_PRESERVED,56.802,64.412,121.262,0.048,"Individual critical-line search was 7.610 seconds longer than root discovery"

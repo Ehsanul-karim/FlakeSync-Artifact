@@ -1,0 +1,24 @@
+Test: uk.co.flax.luwak.matchers.TestPartitionMatcher#testParallelSlowLog
+Run status: USER_STOPPED_STAGE3
+
+Root method count: 1
+Root method: uk/co/flax/luwak/matchers/PartitionMatcher$MatcherWorker#call
+
+Critical candidates completed: 4
+Critical candidate order: 131;133;135;138
+Critical candidates reproducing failure: 131;133;135;138
+First critical success rank: 1/4
+Reported critical region: PartitionMatcher$MatcherWorker#131 through #138
+
+Barrier threshold at stop: 1
+Barrier candidates completed: 93
+Barrier candidate order:
+  ConcurrentMatcherTestBase#113 down through #98 (16 candidates)
+  java.lang.reflect.Method#498 down through #422 (77 candidates)
+Successful barrier candidates: 0
+Last completed barrier candidate: java.lang.reflect.Method#422
+Result: INTERRUPTED_NO_SUCCESS
+
+The run was stopped before java.lang.reflect.Method#421. No fresh barrier result
+row was produced. Existing upstream baseline results are not evidence of success
+for this fresh investigation run.

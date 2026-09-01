@@ -4,7 +4,6 @@ achilles,doanduyhai/Achilles,info.archinnov.achilles.it.TestDSLSimpleEntity#shou
 uniffle,apache/incubator-uniffle,org.apache.uniffle.common.rpc.GrpcServerTest#testGrpcExecutorPool,COMPLETED,NOT_REPAIRED,"Beginning-of-root failure; no valid barrier result"
 java-websocket,TooTallNate/Java-WebSocket,org.java_websocket.issues.Issue580Test#runNoCloseBlockingTestScenario0,ABANDONED,UNKNOWN,"Stage 1 exposed 639 initial candidates and was stopped because the run was too long"
 httpcore,apache/httpcore,org.apache.http.pool.TestConnPool#testLeaseTimeout,SETUP_FAILED,UNKNOWN,"Required checkout was missing from projects-For-Delta"
-luwak,flaxsearch/luwak,uk.co.flax.luwak.matchers.TestPartitionMatcher#testParallelSlowLog,PLANNED,NOT_RUN,"Selected for barrier-ranking validation"
-delight-nashorn-sandbox,javadelight/delight-nashorn-sandbox,delight.nashornsandbox.TestGetFunction#test,PLANNED,NOT_RUN,"Selected for barrier-ranking validation"
-rxjava2-extras,davidmoten/rxjava2-extras,com.github.davidmoten.rx2.FlowablesTest#testCache,PLANNED,NOT_RUN,"Selected for barrier-ranking validation"
-
+luwak,flaxsearch/luwak,uk.co.flax.luwak.matchers.TestPartitionMatcher#testParallelSlowLog,INCOMPLETE,UNKNOWN,"Stage 1 and Stage 2 completed; stopped during threshold-1 barrier search after 93 unsuccessful candidates"
+delight-nashorn-sandbox,javadelight/delight-nashorn-sandbox,delight.nashornsandbox.TestGetFunction#test,COMPLETED,REPAIRED,"First attempt failed Stage 2 reproduction; retry completed all stages and repaired the test"
+rxjava2-extras,davidmoten/rxjava2-extras,com.github.davidmoten.rx2.FlowablesTest#testCache,COMPLETED,REPAIRED,"Completed detailed timing and candidate-ranking investigation"

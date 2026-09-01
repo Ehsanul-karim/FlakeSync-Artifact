@@ -2,4 +2,6 @@ run_id,test_id,status,stage1_sec,stage2_root_plus_critical_sec,stage3_barrier_se
 wasp-full-1,wasp,COMPLETED,142.264,143.355,262.351,547.970,barrier,"Successful repair; barrier wrapper is 47.9% of total"
 achilles-full-1,achilles,COMPLETED,2051.023,2698.157,1734.989,6484.169,root_plus_critical,"Successful repair; Stage 2 wrapper is 41.6% of total"
 uniffle-full-1,uniffle,NO_REPAIR,299.019,274.267,56.326,629.612,minimization,"Timed wrappers completed, but no valid barrier repair was produced"
-
+luwak-detailed-partial-1,luwak,INCOMPLETE,244.410,303.853,2977.620,3525.883,barrier,"Checkpoint-derived wrapper times; user stopped Stage 3 after 93 unsuccessful candidates"
+delight-full-1,delight-nashorn-sandbox,COMPLETED,130.006,254.832,101.922,486.789,root_plus_critical,"Retry completed successfully; Stage 2 wrapper is 52.3% of total"
+rxjava2-extras-full-1,rxjava2-extras,COMPLETED,198.839,121.262,120.663,440.796,minimization,"Successful repair; Stage 1 is 45.1% of total"

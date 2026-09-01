@@ -1,0 +1,21 @@
+threshold=1
+filename,all yield_items=/home/java8-flakesync/scripts/YIELDING_Point_StackTrace/com.github.davidmoten.rx2.FlowablesTest#testCache
+
+StackTrace item=org.junit.Assert#87,START LINE, st=====, org.junit.Assert#87
+max_line=87, star_line=
+/home/java8-flakesync/scripts/run_mvn_test_with_yield_and_cut.sh: line 47: ((: ln >= : syntax error: operand expected (error token is ">= ")
+
+StackTrace item=org.junit.Assert#42,START LINE, st=====, org.junit.Assert#42
+max_line=42, star_line=
+/home/java8-flakesync/scripts/run_mvn_test_with_yield_and_cut.sh: line 47: ((: ln >= : syntax error: operand expected (error token is ">= ")
+
+StackTrace item=org.junit.Assert#53,START LINE, st=====, org.junit.Assert#53
+max_line=53, star_line=
+/home/java8-flakesync/scripts/run_mvn_test_with_yield_and_cut.sh: line 47: ((: ln >= : syntax error: operand expected (error token is ">= ")
+./SearchedMethodANDLine.txt
+StackTrace item=com.github.davidmoten.rx2.FlowablesTest#69,START LINE, st=====31, com.github.davidmoten.rx2.FlowablesTest#69
+max_line=69, star_line=31
+./FlagDelayANDUpdateANDYielding.txt
+./FlagDelayANDUpdateANDYielding.txt
+./FlagDelayANDUpdateANDYielding.txt
+flag=1

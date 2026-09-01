@@ -1,0 +1,136 @@
+Line starts with Hash #Project-Name,SHA,Module,Test-Name,Boundary-Point(s),Anywhere-of-method(1)/Part-of-method(0),#Boundary-Point,Reaches-to-end(TRUE/FALSE)
+uk.co.flax.luwak.matchers.PartitionMatcher$MatcherWorker#138
+100
+Cloning into '/home/java8-flakesync/scripts/projects/flaxsearch/luwak'...
+Checking out files:  50% (594/1166)   Checking out files:  51% (595/1166)   Checking out files:  52% (607/1166)   Checking out files:  53% (618/1166)   Checking out files:  54% (630/1166)   Checking out files:  55% (642/1166)   Checking out files:  56% (653/1166)   Checking out files:  57% (665/1166)   Checking out files:  58% (677/1166)   Checking out files:  59% (688/1166)   Checking out files:  60% (700/1166)   Checking out files:  61% (712/1166)   Checking out files:  62% (723/1166)   Checking out files:  63% (735/1166)   Checking out files:  64% (747/1166)   Checking out files:  65% (758/1166)   Checking out files:  66% (770/1166)   Checking out files:  67% (782/1166)   Checking out files:  68% (793/1166)   Checking out files:  69% (805/1166)   Checking out files:  70% (817/1166)   Checking out files:  71% (828/1166)   Checking out files:  72% (840/1166)   Checking out files:  73% (852/1166)   Checking out files:  74% (863/1166)   Checking out files:  75% (875/1166)   Checking out files:  76% (887/1166)   Checking out files:  77% (898/1166)   Checking out files:  78% (910/1166)   Checking out files:  79% (922/1166)   Checking out files:  80% (933/1166)   Checking out files:  81% (945/1166)   Checking out files:  82% (957/1166)   Checking out files:  83% (968/1166)   Checking out files:  84% (980/1166)   Checking out files:  84% (989/1166)   Checking out files:  85% (992/1166)   Checking out files:  86% (1003/1166)   Checking out files:  87% (1015/1166)   Checking out files:  88% (1027/1166)   Checking out files:  89% (1038/1166)   Checking out files:  90% (1050/1166)   Checking out files:  91% (1062/1166)   Checking out files:  92% (1073/1166)   Checking out files:  93% (1085/1166)   Checking out files:  94% (1097/1166)   Checking out files:  95% (1108/1166)   Checking out files:  96% (1120/1166)   Checking out files:  97% (1132/1166)   Checking out files:  98% (1143/1166)   Checking out files:  99% (1155/1166)   Checking out files: 100% (1166/1166)   Checking out files: 100% (1166/1166), done.
+Note: checking out 'c27ec08c803db6ca6be1b6e8017f45667e603161'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by performing another checkout.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -b with the checkout command again. Example:
+
+  git checkout -b <new-branch-name>
+
+HEAD is now at c27ec08 Rename test files to be Windows-compatible (#180)
+/home/java8-flakesync/scripts/projects/flaxsearch/luwak/benchmark
+/home/java8-flakesync/scripts/projects/flaxsearch/luwak/luwak
+/home/java8-flakesync/scripts/projects/flaxsearch/luwak
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] Inspecting build with total of 2 modules...
+[[1;34mINFO[m] Installing Nexus Staging features:
+[[1;34mINFO[m]   ... total of 2 executions of maven-deploy-plugin replaced with nexus-staging-maven-plugin
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1mReactor Build Order:[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] Luwak                                                              [pom]
+[[1;34mINFO[m] luwak                                                              [jar]
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m-----------------< [0;36mcom.github.flaxsearch:luwak-parent[0;1m >-----------------[m
+[[1;34mINFO[m] [1mBuilding Luwak 1.6.0-SNAPSHOT                                      [1/2][m
+[[1;34mINFO[m] [1m--------------------------------[ pom ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-clean-plugin:2.5:clean[m [1m(default-clean)[m @ [36mluwak-parent[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m>>> [0;32mmaven-source-plugin:2.2.1:jar[m [1m(attach-sources)[0;1m > [0;1mgenerate-sources[m @ [36mluwak-parent[0;1m >>>[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m<<< [0;32mmaven-source-plugin:2.2.1:jar[m [1m(attach-sources)[0;1m < [0;1mgenerate-sources[m @ [36mluwak-parent[0;1m <<<[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-source-plugin:2.2.1:jar[m [1m(attach-sources)[m @ [36mluwak-parent[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-javadoc-plugin:2.9.1:jar[m [1m(attach-javadocs)[m @ [36mluwak-parent[0;1m ---[m
+[[1;34mINFO[m] Not executing Javadoc as the project is not a Java classpath-capable package
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mforbiddenapis:2.3:check[m [1m(default)[m @ [36mluwak-parent[0;1m ---[m
+[[1;34mINFO[m] Skipping execution for packaging "pom"
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mforbiddenapis:2.3:testCheck[m [1m(default)[m @ [36mluwak-parent[0;1m ---[m
+[[1;34mINFO[m] Skipping execution for packaging "pom"
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-install-plugin:2.4:install[m [1m(default-install)[m @ [36mluwak-parent[0;1m ---[m
+[[1;34mINFO[m] Installing /home/java8-flakesync/scripts/projects/flaxsearch/luwak/pom.xml to /home/java8-flakesync/.m2/repository/com/github/flaxsearch/luwak-parent/1.6.0-SNAPSHOT/luwak-parent-1.6.0-SNAPSHOT.pom
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--------------------< [0;36mcom.github.flaxsearch:luwak[0;1m >---------------------[m
+[[1;34mINFO[m] [1mBuilding luwak 1.6.0-SNAPSHOT                                      [2/2][m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-clean-plugin:2.5:clean[m [1m(default-clean)[m @ [36mluwak[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.6:resources[m [1m(default-resources)[m @ [36mluwak[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] skip non existing resourceDirectory /home/java8-flakesync/scripts/projects/flaxsearch/luwak/luwak/src/main/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.1:compile[m [1m(default-compile)[m @ [36mluwak[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;34mINFO[m] Compiling 78 source files to /home/java8-flakesync/scripts/projects/flaxsearch/luwak/luwak/target/classes
+[[1;33mWARNING[m] /home/java8-flakesync/scripts/projects/flaxsearch/luwak/luwak/src/main/java/uk/co/flax/luwak/termextractor/treebuilder/TermsQueryTreeBuilder.java: Some input files use or override a deprecated API.
+[[1;33mWARNING[m] /home/java8-flakesync/scripts/projects/flaxsearch/luwak/luwak/src/main/java/uk/co/flax/luwak/termextractor/treebuilder/TermsQueryTreeBuilder.java: Recompile with -Xlint:deprecation for details.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.6:testResources[m [1m(default-testResources)[m @ [36mluwak[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] Copying 20 resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.1:testCompile[m [1m(default-testCompile)[m @ [36mluwak[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;34mINFO[m] Compiling 50 source files to /home/java8-flakesync/scripts/projects/flaxsearch/luwak/luwak/target/test-classes
+[[1;33mWARNING[m] /home/java8-flakesync/scripts/projects/flaxsearch/luwak/luwak/src/test/java/uk/co/flax/luwak/termextractor/TestExtractors.java: Some input files use or override a deprecated API.
+[[1;33mWARNING[m] /home/java8-flakesync/scripts/projects/flaxsearch/luwak/luwak/src/test/java/uk/co/flax/luwak/termextractor/TestExtractors.java: Recompile with -Xlint:deprecation for details.
+[[1;33mWARNING[m] /home/java8-flakesync/scripts/projects/flaxsearch/luwak/luwak/src/test/java/uk/co/flax/luwak/testutils/TestCollectionUtils.java: /home/java8-flakesync/scripts/projects/flaxsearch/luwak/luwak/src/test/java/uk/co/flax/luwak/testutils/TestCollectionUtils.java uses unchecked or unsafe operations.
+[[1;33mWARNING[m] /home/java8-flakesync/scripts/projects/flaxsearch/luwak/luwak/src/test/java/uk/co/flax/luwak/testutils/TestCollectionUtils.java: Recompile with -Xlint:unchecked for details.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-surefire-plugin:3.0.0-M9:test[m [1m(default-test)[m @ [36mluwak[0;1m ---[m
+[[1;34mINFO[m] Tests are skipped.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-jar-plugin:2.4:jar[m [1m(default-jar)[m @ [36mluwak[0;1m ---[m
+[[1;34mINFO[m] Building jar: /home/java8-flakesync/scripts/projects/flaxsearch/luwak/luwak/target/luwak-1.6.0-SNAPSHOT.jar
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m>>> [0;32mmaven-source-plugin:2.2.1:jar[m [1m(attach-sources)[0;1m > [0;1mgenerate-sources[m @ [36mluwak[0;1m >>>[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m<<< [0;32mmaven-source-plugin:2.2.1:jar[m [1m(attach-sources)[0;1m < [0;1mgenerate-sources[m @ [36mluwak[0;1m <<<[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-source-plugin:2.2.1:jar[m [1m(attach-sources)[m @ [36mluwak[0;1m ---[m
+[[1;34mINFO[m] Building jar: /home/java8-flakesync/scripts/projects/flaxsearch/luwak/luwak/target/luwak-1.6.0-SNAPSHOT-sources.jar
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-javadoc-plugin:2.9.1:jar[m [1m(attach-javadocs)[m @ [36mluwak[0;1m ---[m
+[[1;34mINFO[m] Building jar: /home/java8-flakesync/scripts/projects/flaxsearch/luwak/luwak/target/luwak-1.6.0-SNAPSHOT-javadoc.jar
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mforbiddenapis:2.3:check[m [1m(default)[m @ [36mluwak[0;1m ---[m
+[[1;34mINFO[m] Scanning for classes to check...
+[[1;34mINFO[m] Reading bundled API signatures: jdk-unsafe-1.8
+[[1;34mINFO[m] Reading bundled API signatures: jdk-deprecated-1.8
+[[1;33mWARNING[m] The setting 'internalRuntimeForbidden' was deprecated and will be removed in next version. For backwards compatibility task/mojo is using 'jdk-non-portable' bundled signatures instead.
+[[1;34mINFO[m] Reading bundled API signatures: jdk-non-portable
+[[1;34mINFO[m] Loading classes to check...
+[[1;34mINFO[m] Scanning classes for violations...
+[[1;34mINFO[m] Scanned 134 (and 436 related) class file(s) for forbidden API invocations (in 0.55s), 0 error(s).
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mforbiddenapis:2.3:testCheck[m [1m(default)[m @ [36mluwak[0;1m ---[m
+[[1;34mINFO[m] Scanning for classes to check...
+[[1;34mINFO[m] Reading bundled API signatures: jdk-unsafe-1.8
+[[1;34mINFO[m] Reading bundled API signatures: jdk-deprecated-1.8
+[[1;33mWARNING[m] The setting 'internalRuntimeForbidden' was deprecated and will be removed in next version. For backwards compatibility task/mojo is using 'jdk-non-portable' bundled signatures instead.
+[[1;34mINFO[m] Reading bundled API signatures: jdk-non-portable
+[[1;34mINFO[m] Loading classes to check...
+[[1;34mINFO[m] Scanning classes for violations...
+[[1;34mINFO[m] Scanned 80 (and 533 related) class file(s) for forbidden API invocations (in 0.48s), 0 error(s).
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-install-plugin:2.4:install[m [1m(default-install)[m @ [36mluwak[0;1m ---[m
+[[1;34mINFO[m] Installing /home/java8-flakesync/scripts/projects/flaxsearch/luwak/luwak/target/luwak-1.6.0-SNAPSHOT.jar to /home/java8-flakesync/.m2/repository/com/github/flaxsearch/luwak/1.6.0-SNAPSHOT/luwak-1.6.0-SNAPSHOT.jar
+[[1;34mINFO[m] Installing /home/java8-flakesync/scripts/projects/flaxsearch/luwak/luwak/pom.xml to /home/java8-flakesync/.m2/repository/com/github/flaxsearch/luwak/1.6.0-SNAPSHOT/luwak-1.6.0-SNAPSHOT.pom
+[[1;34mINFO[m] Installing /home/java8-flakesync/scripts/projects/flaxsearch/luwak/luwak/target/luwak-1.6.0-SNAPSHOT-sources.jar to /home/java8-flakesync/.m2/repository/com/github/flaxsearch/luwak/1.6.0-SNAPSHOT/luwak-1.6.0-SNAPSHOT-sources.jar
+[[1;34mINFO[m] Installing /home/java8-flakesync/scripts/projects/flaxsearch/luwak/luwak/target/luwak-1.6.0-SNAPSHOT-javadoc.jar to /home/java8-flakesync/.m2/repository/com/github/flaxsearch/luwak/1.6.0-SNAPSHOT/luwak-1.6.0-SNAPSHOT-javadoc.jar
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1mReactor Summary for Luwak 1.6.0-SNAPSHOT:[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] Luwak .............................................. [1;32mSUCCESS[m [  4.869 s]
+[[1;34mINFO[m] luwak .............................................. [1;32mSUCCESS[m [ 18.410 s]
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;32mBUILD SUCCESS[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  25.711 s
+[[1;34mINFO[m] Finished at: 2026-09-01T15:53:00Z
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m

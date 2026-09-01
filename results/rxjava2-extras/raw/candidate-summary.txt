@@ -1,0 +1,22 @@
+Test: com.github.davidmoten.rx2.FlowablesTest#testCache
+Run status: COMPLETED_REPAIRED
+
+Root method count: 1
+Root method: com/github/davidmoten/rx2/Flowables$4#run
+
+Critical candidates completed: 1
+Critical candidate order: 306
+Critical candidates reproducing failure: 306
+First critical success rank: 1/1
+Reported critical region: Flowables$4#306
+
+Barrier threshold: 1
+Barrier candidates completed: 3
+Barrier candidate order: FlowablesTest#69;68;67
+Successful barrier: FlowablesTest#67
+First barrier success rank: 3/3
+Result: SUCCESS
+
+JUnit Assert frames at lines 87, 42, and 53 were present in the failure trace,
+but no method-start lines were resolved for them and no candidates were run in
+those frames.

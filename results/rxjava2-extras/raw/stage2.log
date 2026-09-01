@@ -1,0 +1,308 @@
+com/github/davidmoten/rx2/Flowables$4#306
+1
+HEAD is now at 7663d3b Bump guava from 32.1.0-jre to 32.1.1-jre
+M	pom.xml
+/home/java8-flakesync/scripts/projects/davidmoten/rxjava2-extras
+[[1;34mINFO[m] Scanning for projects...
+[[1;33mWARNING[m] 
+[[1;33mWARNING[m] Some problems were encountered while building the effective model for com.github.davidmoten:rxjava2-extras:jar:0.2.3-SNAPSHOT
+[[1;33mWARNING[m] 'build.plugins.plugin.(groupId:artifactId)' must be unique but found duplicate declaration of plugin org.apache.maven.plugins:maven-surefire-plugin @ line 291, column 17
+[[1;33mWARNING[m] 'build.plugins.plugin.(groupId:artifactId)' must be unique but found duplicate declaration of plugin org.apache.maven.plugins:maven-surefire-plugin @ line 300, column 17
+[[1;33mWARNING[m] 'build.plugins.plugin.(groupId:artifactId)' must be unique but found duplicate declaration of plugin org.apache.maven.plugins:maven-surefire-plugin @ line 309, column 17
+[[1;33mWARNING[m] 'build.plugins.plugin.(groupId:artifactId)' must be unique but found duplicate declaration of plugin org.apache.maven.plugins:maven-surefire-plugin @ line 318, column 17
+[[1;33mWARNING[m] 
+[[1;33mWARNING[m] It is highly recommended to fix these problems because they threaten the stability of your build.
+[[1;33mWARNING[m] 
+[[1;33mWARNING[m] For this reason, future Maven versions might no longer support building such malformed projects.
+[[1;33mWARNING[m] 
+[[1;34mINFO[m] Inspecting build with total of 1 modules...
+[[1;34mINFO[m] Installing Nexus Staging features:
+[[1;34mINFO[m]   ... total of 1 executions of maven-deploy-plugin replaced with nexus-staging-maven-plugin
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m----------------< [0;36mcom.github.davidmoten:rxjava2-extras[0;1m >----------------[m
+[[1;34mINFO[m] [1mBuilding rxjava2-extras 0.2.3-SNAPSHOT[m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-clean-plugin:2.5:clean[m [1m(default-clean)[m @ [36mrxjava2-extras[0;1m ---[m
+[[1;34mINFO[m] Deleting /home/java8-flakesync/scripts/projects/davidmoten/rxjava2-extras/target
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mjacoco-maven-plugin:0.8.10:prepare-agent[m [1m(prepare-agent)[m @ [36mrxjava2-extras[0;1m ---[m
+[[1;34mINFO[m] argLine set to -javaagent:/home/java8-flakesync/.m2/repository/org/jacoco/org.jacoco.agent/0.8.10/org.jacoco.agent-0.8.10-runtime.jar=destfile=/home/java8-flakesync/scripts/projects/davidmoten/rxjava2-extras/target/jacoco.exec
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.6:resources[m [1m(default-resources)[m @ [36mrxjava2-extras[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] skip non existing resourceDirectory /home/java8-flakesync/scripts/projects/davidmoten/rxjava2-extras/src/main/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.11.0:compile[m [1m(default-compile)[m @ [36mrxjava2-extras[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module! :source
+[[1;34mINFO[m] Compiling 70 source files with javac [debug target 1.8] to target/classes
+[[1;33mWARNING[m] /home/java8-flakesync/scripts/projects/davidmoten/rxjava2-extras/src/main/java/com/github/davidmoten/rx2/internal/flowable/buffertofile/MemoryMappedFile.java:[11,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[[1;33mWARNING[m] /home/java8-flakesync/scripts/projects/davidmoten/rxjava2-extras/src/main/java/com/github/davidmoten/rx2/internal/flowable/buffertofile/MemoryMappedFile.java:[12,18] sun.nio.ch.FileChannelImpl is internal proprietary API and may be removed in a future release
+[[1;33mWARNING[m] /home/java8-flakesync/scripts/projects/davidmoten/rxjava2-extras/src/main/java/com/github/davidmoten/rx2/internal/flowable/buffertofile/UnsafeAccess.java:[5,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[[1;33mWARNING[m] /home/java8-flakesync/scripts/projects/davidmoten/rxjava2-extras/src/main/java/com/github/davidmoten/rx2/internal/flowable/buffertofile/MemoryMappedFile.java:[17,26] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[[1;33mWARNING[m] /home/java8-flakesync/scripts/projects/davidmoten/rxjava2-extras/src/main/java/com/github/davidmoten/rx2/internal/flowable/buffertofile/MemoryMappedFile.java:[28,26] sun.nio.ch.FileChannelImpl is internal proprietary API and may be removed in a future release
+[[1;33mWARNING[m] /home/java8-flakesync/scripts/projects/davidmoten/rxjava2-extras/src/main/java/com/github/davidmoten/rx2/internal/flowable/buffertofile/MemoryMappedFile.java:[29,28] sun.nio.ch.FileChannelImpl is internal proprietary API and may be removed in a future release
+[[1;33mWARNING[m] /home/java8-flakesync/scripts/projects/davidmoten/rxjava2-extras/src/main/java/com/github/davidmoten/rx2/internal/flowable/buffertofile/UnsafeAccess.java:[14,20] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[[1;33mWARNING[m] /home/java8-flakesync/scripts/projects/davidmoten/rxjava2-extras/src/main/java/com/github/davidmoten/rx2/internal/flowable/buffertofile/UnsafeAccess.java:[18,44] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[[1;33mWARNING[m] /home/java8-flakesync/scripts/projects/davidmoten/rxjava2-extras/src/main/java/com/github/davidmoten/rx2/internal/flowable/buffertofile/UnsafeAccess.java:[20,23] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[[1;33mWARNING[m] /home/java8-flakesync/scripts/projects/davidmoten/rxjava2-extras/src/main/java/com/github/davidmoten/rx2/internal/flowable/buffertofile/UnsafeAccess.java:[26,19] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[[1;34mINFO[m] /home/java8-flakesync/scripts/projects/davidmoten/rxjava2-extras/src/main/java/com/github/davidmoten/rx2/internal/flowable/TransformerStateMachine.java: /home/java8-flakesync/scripts/projects/davidmoten/rxjava2-extras/src/main/java/com/github/davidmoten/rx2/internal/flowable/TransformerStateMachine.java uses or overrides a deprecated API.
+[[1;34mINFO[m] /home/java8-flakesync/scripts/projects/davidmoten/rxjava2-extras/src/main/java/com/github/davidmoten/rx2/internal/flowable/TransformerStateMachine.java: Recompile with -Xlint:deprecation for details.
+[[1;34mINFO[m] /home/java8-flakesync/scripts/projects/davidmoten/rxjava2-extras/src/main/java/com/github/davidmoten/rx2/flowable/Burst.java: Some input files use unchecked or unsafe operations.
+[[1;34mINFO[m] /home/java8-flakesync/scripts/projects/davidmoten/rxjava2-extras/src/main/java/com/github/davidmoten/rx2/flowable/Burst.java: Recompile with -Xlint:unchecked for details.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.6:testResources[m [1m(default-testResources)[m @ [36mrxjava2-extras[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] Copying 4 resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.11.0:testCompile[m [1m(default-testCompile)[m @ [36mrxjava2-extras[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module! :dependency
+[[1;34mINFO[m] Compiling 51 source files with javac [debug target 1.8] to target/test-classes
+[[1;34mINFO[m] /home/java8-flakesync/scripts/projects/davidmoten/rxjava2-extras/src/test/java/com/github/davidmoten/rx2/internal/flowable/FlowableRepeatingTransformTest.java: /home/java8-flakesync/scripts/projects/davidmoten/rxjava2-extras/src/test/java/com/github/davidmoten/rx2/internal/flowable/FlowableRepeatingTransformTest.java uses or overrides a deprecated API.
+[[1;34mINFO[m] /home/java8-flakesync/scripts/projects/davidmoten/rxjava2-extras/src/test/java/com/github/davidmoten/rx2/internal/flowable/FlowableRepeatingTransformTest.java: Recompile with -Xlint:deprecation for details.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-surefire-plugin:3.0.0-M9:test[m [1m(default-test)[m @ [36mrxjava2-extras[0;1m ---[m
+[[1;34mINFO[m] Tests are skipped.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mjacoco-maven-plugin:0.8.10:report[m [1m(report)[m @ [36mrxjava2-extras[0;1m ---[m
+[[1;34mINFO[m] Skipping JaCoCo execution due to missing execution data file.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-jar-plugin:3.3.0:jar[m [1m(default-jar)[m @ [36mrxjava2-extras[0;1m ---[m
+[[1;34mINFO[m] Building jar: /home/java8-flakesync/scripts/projects/davidmoten/rxjava2-extras/target/rxjava2-extras-0.2.3-SNAPSHOT.jar
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-site-plugin:3.12.1:attach-descriptor[m [1m(attach-descriptor)[m @ [36mrxjava2-extras[0;1m ---[m
+[[1;34mINFO[m] Skipping because packaging 'jar' is not pom.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-install-plugin:2.4:install[m [1m(default-install)[m @ [36mrxjava2-extras[0;1m ---[m
+[[1;34mINFO[m] Installing /home/java8-flakesync/scripts/projects/davidmoten/rxjava2-extras/target/rxjava2-extras-0.2.3-SNAPSHOT.jar to /home/java8-flakesync/.m2/repository/com/github/davidmoten/rxjava2-extras/0.2.3-SNAPSHOT/rxjava2-extras-0.2.3-SNAPSHOT.jar
+[[1;34mINFO[m] Installing /home/java8-flakesync/scripts/projects/davidmoten/rxjava2-extras/pom.xml to /home/java8-flakesync/.m2/repository/com/github/davidmoten/rxjava2-extras/0.2.3-SNAPSHOT/rxjava2-extras-0.2.3-SNAPSHOT.pom
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;32mBUILD SUCCESS[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  14.857 s
+[[1;34mINFO[m] Finished at: 2026-09-01T17:18:14Z
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+java.lang.InterruptedException: sleep interrupted
+	at java.lang.Thread.sleep(Native Method)
+	at edu.utexas.ece.localization.agent.Utility.delay(Utility.java:66)
+	at com.github.davidmoten.rx2.Flowables$4.run(Flowables.java:306)
+	at io.reactivex.internal.schedulers.ScheduledRunnable.run(ScheduledRunnable.java:66)
+	at io.reactivex.internal.schedulers.ScheduledRunnable.call(ScheduledRunnable.java:57)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+./StackTrace-com.github.davidmoten.rx2.FlowablesTest#testCache.txt
+I am from mvn-run-and-find-stack-trace
+From parseScript, Arr =  com/github/davidmoten/rx2/Flowables$4#306, io/reactivex/internal/schedulers/ScheduledRunnable#66, io/reactivex/internal/schedulers/ScheduledRunnable#57, 17
+From parseScript, Arr =  com/github/davidmoten/rx2/Flowables$4#306, io/reactivex/internal/schedulers/ScheduledRunnable#66, io/reactivex/internal/schedulers/ScheduledRunnable#57, 17
+From parseScript, Arr =  com/github/davidmoten/rx2/Flowables$4#306, io/reactivex/internal/schedulers/ScheduledRunnable#66, io/reactivex/internal/schedulers/ScheduledRunnable#57, 17
+grep: /home/java8-flakesync/scripts/Locations/already_covered_line-rxjava2-extras-com.github.davidmoten.rx2.FlowablesTest#testCache: No such file or directory
+exists=0, com/github/davidmoten/rx2/Flowables$4#306
+[[1;34mINFO[m] Scanning for projects...
+[[1;33mWARNING[m] 
+[[1;33mWARNING[m] Some problems were encountered while building the effective model for com.github.davidmoten:rxjava2-extras:jar:0.2.3-SNAPSHOT
+[[1;33mWARNING[m] 'build.plugins.plugin.(groupId:artifactId)' must be unique but found duplicate declaration of plugin org.apache.maven.plugins:maven-surefire-plugin @ line 291, column 17
+[[1;33mWARNING[m] 'build.plugins.plugin.(groupId:artifactId)' must be unique but found duplicate declaration of plugin org.apache.maven.plugins:maven-surefire-plugin @ line 300, column 17
+[[1;33mWARNING[m] 'build.plugins.plugin.(groupId:artifactId)' must be unique but found duplicate declaration of plugin org.apache.maven.plugins:maven-surefire-plugin @ line 309, column 17
+[[1;33mWARNING[m] 'build.plugins.plugin.(groupId:artifactId)' must be unique but found duplicate declaration of plugin org.apache.maven.plugins:maven-surefire-plugin @ line 318, column 17
+[[1;33mWARNING[m] 
+[[1;33mWARNING[m] It is highly recommended to fix these problems because they threaten the stability of your build.
+[[1;33mWARNING[m] 
+[[1;33mWARNING[m] For this reason, future Maven versions might no longer support building such malformed projects.
+[[1;33mWARNING[m] 
+[[1;34mINFO[m] Inspecting build with total of 1 modules...
+[[1;34mINFO[m] Installing Nexus Staging features:
+[[1;34mINFO[m]   ... total of 1 executions of maven-deploy-plugin replaced with nexus-staging-maven-plugin
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m----------------< [0;36mcom.github.davidmoten:rxjava2-extras[0;1m >----------------[m
+[[1;34mINFO[m] [1mBuilding rxjava2-extras 0.2.3-SNAPSHOT[m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-clean-plugin:2.5:clean[m [1m(default-clean)[m @ [36mrxjava2-extras[0;1m ---[m
+[[1;34mINFO[m] Deleting /home/java8-flakesync/scripts/projects/davidmoten/rxjava2-extras/target
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mjacoco-maven-plugin:0.8.10:prepare-agent[m [1m(prepare-agent)[m @ [36mrxjava2-extras[0;1m ---[m
+[[1;34mINFO[m] argLine set to -javaagent:/home/java8-flakesync/.m2/repository/org/jacoco/org.jacoco.agent/0.8.10/org.jacoco.agent-0.8.10-runtime.jar=destfile=/home/java8-flakesync/scripts/projects/davidmoten/rxjava2-extras/target/jacoco.exec
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.6:resources[m [1m(default-resources)[m @ [36mrxjava2-extras[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] skip non existing resourceDirectory /home/java8-flakesync/scripts/projects/davidmoten/rxjava2-extras/src/main/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.11.0:compile[m [1m(default-compile)[m @ [36mrxjava2-extras[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module! :source
+[[1;34mINFO[m] Compiling 70 source files with javac [debug target 1.8] to target/classes
+[[1;33mWARNING[m] /home/java8-flakesync/scripts/projects/davidmoten/rxjava2-extras/src/main/java/com/github/davidmoten/rx2/internal/flowable/buffertofile/MemoryMappedFile.java:[11,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[[1;33mWARNING[m] /home/java8-flakesync/scripts/projects/davidmoten/rxjava2-extras/src/main/java/com/github/davidmoten/rx2/internal/flowable/buffertofile/MemoryMappedFile.java:[12,18] sun.nio.ch.FileChannelImpl is internal proprietary API and may be removed in a future release
+[[1;33mWARNING[m] /home/java8-flakesync/scripts/projects/davidmoten/rxjava2-extras/src/main/java/com/github/davidmoten/rx2/internal/flowable/buffertofile/UnsafeAccess.java:[5,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[[1;33mWARNING[m] /home/java8-flakesync/scripts/projects/davidmoten/rxjava2-extras/src/main/java/com/github/davidmoten/rx2/internal/flowable/buffertofile/MemoryMappedFile.java:[17,26] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[[1;33mWARNING[m] /home/java8-flakesync/scripts/projects/davidmoten/rxjava2-extras/src/main/java/com/github/davidmoten/rx2/internal/flowable/buffertofile/MemoryMappedFile.java:[28,26] sun.nio.ch.FileChannelImpl is internal proprietary API and may be removed in a future release
+[[1;33mWARNING[m] /home/java8-flakesync/scripts/projects/davidmoten/rxjava2-extras/src/main/java/com/github/davidmoten/rx2/internal/flowable/buffertofile/MemoryMappedFile.java:[29,28] sun.nio.ch.FileChannelImpl is internal proprietary API and may be removed in a future release
+[[1;33mWARNING[m] /home/java8-flakesync/scripts/projects/davidmoten/rxjava2-extras/src/main/java/com/github/davidmoten/rx2/internal/flowable/buffertofile/UnsafeAccess.java:[14,20] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[[1;33mWARNING[m] /home/java8-flakesync/scripts/projects/davidmoten/rxjava2-extras/src/main/java/com/github/davidmoten/rx2/internal/flowable/buffertofile/UnsafeAccess.java:[18,44] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[[1;33mWARNING[m] /home/java8-flakesync/scripts/projects/davidmoten/rxjava2-extras/src/main/java/com/github/davidmoten/rx2/internal/flowable/buffertofile/UnsafeAccess.java:[20,23] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[[1;33mWARNING[m] /home/java8-flakesync/scripts/projects/davidmoten/rxjava2-extras/src/main/java/com/github/davidmoten/rx2/internal/flowable/buffertofile/UnsafeAccess.java:[26,19] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[[1;34mINFO[m] /home/java8-flakesync/scripts/projects/davidmoten/rxjava2-extras/src/main/java/com/github/davidmoten/rx2/internal/flowable/TransformerStateMachine.java: /home/java8-flakesync/scripts/projects/davidmoten/rxjava2-extras/src/main/java/com/github/davidmoten/rx2/internal/flowable/TransformerStateMachine.java uses or overrides a deprecated API.
+[[1;34mINFO[m] /home/java8-flakesync/scripts/projects/davidmoten/rxjava2-extras/src/main/java/com/github/davidmoten/rx2/internal/flowable/TransformerStateMachine.java: Recompile with -Xlint:deprecation for details.
+[[1;34mINFO[m] /home/java8-flakesync/scripts/projects/davidmoten/rxjava2-extras/src/main/java/com/github/davidmoten/rx2/flowable/Burst.java: Some input files use unchecked or unsafe operations.
+[[1;34mINFO[m] /home/java8-flakesync/scripts/projects/davidmoten/rxjava2-extras/src/main/java/com/github/davidmoten/rx2/flowable/Burst.java: Recompile with -Xlint:unchecked for details.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.6:testResources[m [1m(default-testResources)[m @ [36mrxjava2-extras[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] Copying 4 resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.11.0:testCompile[m [1m(default-testCompile)[m @ [36mrxjava2-extras[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module! :dependency
+[[1;34mINFO[m] Compiling 51 source files with javac [debug target 1.8] to target/test-classes
+[[1;34mINFO[m] /home/java8-flakesync/scripts/projects/davidmoten/rxjava2-extras/src/test/java/com/github/davidmoten/rx2/internal/flowable/FlowableRepeatingTransformTest.java: /home/java8-flakesync/scripts/projects/davidmoten/rxjava2-extras/src/test/java/com/github/davidmoten/rx2/internal/flowable/FlowableRepeatingTransformTest.java uses or overrides a deprecated API.
+[[1;34mINFO[m] /home/java8-flakesync/scripts/projects/davidmoten/rxjava2-extras/src/test/java/com/github/davidmoten/rx2/internal/flowable/FlowableRepeatingTransformTest.java: Recompile with -Xlint:deprecation for details.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-surefire-plugin:3.0.0-M9:test[m [1m(default-test)[m @ [36mrxjava2-extras[0;1m ---[m
+[[1;34mINFO[m] Tests are skipped.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mjacoco-maven-plugin:0.8.10:report[m [1m(report)[m @ [36mrxjava2-extras[0;1m ---[m
+[[1;34mINFO[m] Skipping JaCoCo execution due to missing execution data file.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-jar-plugin:3.3.0:jar[m [1m(default-jar)[m @ [36mrxjava2-extras[0;1m ---[m
+[[1;34mINFO[m] Building jar: /home/java8-flakesync/scripts/projects/davidmoten/rxjava2-extras/target/rxjava2-extras-0.2.3-SNAPSHOT.jar
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-site-plugin:3.12.1:attach-descriptor[m [1m(attach-descriptor)[m @ [36mrxjava2-extras[0;1m ---[m
+[[1;34mINFO[m] Skipping because packaging 'jar' is not pom.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-install-plugin:2.4:install[m [1m(default-install)[m @ [36mrxjava2-extras[0;1m ---[m
+[[1;34mINFO[m] Installing /home/java8-flakesync/scripts/projects/davidmoten/rxjava2-extras/target/rxjava2-extras-0.2.3-SNAPSHOT.jar to /home/java8-flakesync/.m2/repository/com/github/davidmoten/rxjava2-extras/0.2.3-SNAPSHOT/rxjava2-extras-0.2.3-SNAPSHOT.jar
+[[1;34mINFO[m] Installing /home/java8-flakesync/scripts/projects/davidmoten/rxjava2-extras/pom.xml to /home/java8-flakesync/.m2/repository/com/github/davidmoten/rxjava2-extras/0.2.3-SNAPSHOT/rxjava2-extras-0.2.3-SNAPSHOT.pom
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;32mBUILD SUCCESS[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  12.349 s
+[[1;34mINFO[m] Finished at: 2026-09-01T17:18:41Z
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+java.lang.InterruptedException: sleep interrupted
+	at java.lang.Thread.sleep(Native Method)
+	at edu.utexas.ece.localization.agent.Utility.delay(Utility.java:66)
+	at com.github.davidmoten.rx2.Flowables$4.run(Flowables.java:306)
+	at io.reactivex.internal.schedulers.ScheduledRunnable.run(ScheduledRunnable.java:66)
+	at io.reactivex.internal.schedulers.ScheduledRunnable.call(ScheduledRunnable.java:57)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+./StackTrace-com.github.davidmoten.rx2.FlowablesTest#testCache.txt
+rootLine=17,com/github/davidmoten/rx2/Flowables<4/run=Flowables/java:306![800]
+****************17,com/github/davidmoten/rx2/Flowables<4/run=Flowables/java:306![800]****
+*****combined location= com/github/davidmoten/rx2/Flowables$4#run
+[[1;34mINFO[m] Scanning for projects...
+[[1;33mWARNING[m] 
+[[1;33mWARNING[m] Some problems were encountered while building the effective model for com.github.davidmoten:rxjava2-extras:jar:0.2.3-SNAPSHOT
+[[1;33mWARNING[m] 'build.plugins.plugin.(groupId:artifactId)' must be unique but found duplicate declaration of plugin org.apache.maven.plugins:maven-surefire-plugin @ line 291, column 17
+[[1;33mWARNING[m] 'build.plugins.plugin.(groupId:artifactId)' must be unique but found duplicate declaration of plugin org.apache.maven.plugins:maven-surefire-plugin @ line 300, column 17
+[[1;33mWARNING[m] 'build.plugins.plugin.(groupId:artifactId)' must be unique but found duplicate declaration of plugin org.apache.maven.plugins:maven-surefire-plugin @ line 309, column 17
+[[1;33mWARNING[m] 'build.plugins.plugin.(groupId:artifactId)' must be unique but found duplicate declaration of plugin org.apache.maven.plugins:maven-surefire-plugin @ line 318, column 17
+[[1;33mWARNING[m] 
+[[1;33mWARNING[m] It is highly recommended to fix these problems because they threaten the stability of your build.
+[[1;33mWARNING[m] 
+[[1;33mWARNING[m] For this reason, future Maven versions might no longer support building such malformed projects.
+[[1;33mWARNING[m] 
+[[1;34mINFO[m] Inspecting build with total of 1 modules...
+[[1;34mINFO[m] Installing Nexus Staging features:
+[[1;34mINFO[m]   ... total of 1 executions of maven-deploy-plugin replaced with nexus-staging-maven-plugin
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m----------------< [0;36mcom.github.davidmoten:rxjava2-extras[0;1m >----------------[m
+[[1;34mINFO[m] [1mBuilding rxjava2-extras 0.2.3-SNAPSHOT[m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-clean-plugin:2.5:clean[m [1m(default-clean)[m @ [36mrxjava2-extras[0;1m ---[m
+[[1;34mINFO[m] Deleting /home/java8-flakesync/scripts/projects/davidmoten/rxjava2-extras/target
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mjacoco-maven-plugin:0.8.10:prepare-agent[m [1m(prepare-agent)[m @ [36mrxjava2-extras[0;1m ---[m
+[[1;34mINFO[m] argLine set to -javaagent:/home/java8-flakesync/.m2/repository/org/jacoco/org.jacoco.agent/0.8.10/org.jacoco.agent-0.8.10-runtime.jar=destfile=/home/java8-flakesync/scripts/projects/davidmoten/rxjava2-extras/target/jacoco.exec
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.6:resources[m [1m(default-resources)[m @ [36mrxjava2-extras[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] skip non existing resourceDirectory /home/java8-flakesync/scripts/projects/davidmoten/rxjava2-extras/src/main/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.11.0:compile[m [1m(default-compile)[m @ [36mrxjava2-extras[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module! :source
+[[1;34mINFO[m] Compiling 70 source files with javac [debug target 1.8] to target/classes
+[[1;33mWARNING[m] /home/java8-flakesync/scripts/projects/davidmoten/rxjava2-extras/src/main/java/com/github/davidmoten/rx2/internal/flowable/buffertofile/MemoryMappedFile.java:[11,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[[1;33mWARNING[m] /home/java8-flakesync/scripts/projects/davidmoten/rxjava2-extras/src/main/java/com/github/davidmoten/rx2/internal/flowable/buffertofile/MemoryMappedFile.java:[12,18] sun.nio.ch.FileChannelImpl is internal proprietary API and may be removed in a future release
+[[1;33mWARNING[m] /home/java8-flakesync/scripts/projects/davidmoten/rxjava2-extras/src/main/java/com/github/davidmoten/rx2/internal/flowable/buffertofile/UnsafeAccess.java:[5,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[[1;33mWARNING[m] /home/java8-flakesync/scripts/projects/davidmoten/rxjava2-extras/src/main/java/com/github/davidmoten/rx2/internal/flowable/buffertofile/MemoryMappedFile.java:[17,26] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[[1;33mWARNING[m] /home/java8-flakesync/scripts/projects/davidmoten/rxjava2-extras/src/main/java/com/github/davidmoten/rx2/internal/flowable/buffertofile/MemoryMappedFile.java:[28,26] sun.nio.ch.FileChannelImpl is internal proprietary API and may be removed in a future release
+[[1;33mWARNING[m] /home/java8-flakesync/scripts/projects/davidmoten/rxjava2-extras/src/main/java/com/github/davidmoten/rx2/internal/flowable/buffertofile/MemoryMappedFile.java:[29,28] sun.nio.ch.FileChannelImpl is internal proprietary API and may be removed in a future release
+[[1;33mWARNING[m] /home/java8-flakesync/scripts/projects/davidmoten/rxjava2-extras/src/main/java/com/github/davidmoten/rx2/internal/flowable/buffertofile/UnsafeAccess.java:[14,20] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[[1;33mWARNING[m] /home/java8-flakesync/scripts/projects/davidmoten/rxjava2-extras/src/main/java/com/github/davidmoten/rx2/internal/flowable/buffertofile/UnsafeAccess.java:[18,44] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[[1;33mWARNING[m] /home/java8-flakesync/scripts/projects/davidmoten/rxjava2-extras/src/main/java/com/github/davidmoten/rx2/internal/flowable/buffertofile/UnsafeAccess.java:[20,23] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[[1;33mWARNING[m] /home/java8-flakesync/scripts/projects/davidmoten/rxjava2-extras/src/main/java/com/github/davidmoten/rx2/internal/flowable/buffertofile/UnsafeAccess.java:[26,19] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[[1;34mINFO[m] /home/java8-flakesync/scripts/projects/davidmoten/rxjava2-extras/src/main/java/com/github/davidmoten/rx2/internal/flowable/TransformerStateMachine.java: /home/java8-flakesync/scripts/projects/davidmoten/rxjava2-extras/src/main/java/com/github/davidmoten/rx2/internal/flowable/TransformerStateMachine.java uses or overrides a deprecated API.
+[[1;34mINFO[m] /home/java8-flakesync/scripts/projects/davidmoten/rxjava2-extras/src/main/java/com/github/davidmoten/rx2/internal/flowable/TransformerStateMachine.java: Recompile with -Xlint:deprecation for details.
+[[1;34mINFO[m] /home/java8-flakesync/scripts/projects/davidmoten/rxjava2-extras/src/main/java/com/github/davidmoten/rx2/flowable/Burst.java: Some input files use unchecked or unsafe operations.
+[[1;34mINFO[m] /home/java8-flakesync/scripts/projects/davidmoten/rxjava2-extras/src/main/java/com/github/davidmoten/rx2/flowable/Burst.java: Recompile with -Xlint:unchecked for details.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.6:testResources[m [1m(default-testResources)[m @ [36mrxjava2-extras[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] Copying 4 resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.11.0:testCompile[m [1m(default-testCompile)[m @ [36mrxjava2-extras[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module! :dependency
+[[1;34mINFO[m] Compiling 51 source files with javac [debug target 1.8] to target/test-classes
+[[1;34mINFO[m] /home/java8-flakesync/scripts/projects/davidmoten/rxjava2-extras/src/test/java/com/github/davidmoten/rx2/internal/flowable/FlowableRepeatingTransformTest.java: /home/java8-flakesync/scripts/projects/davidmoten/rxjava2-extras/src/test/java/com/github/davidmoten/rx2/internal/flowable/FlowableRepeatingTransformTest.java uses or overrides a deprecated API.
+[[1;34mINFO[m] /home/java8-flakesync/scripts/projects/davidmoten/rxjava2-extras/src/test/java/com/github/davidmoten/rx2/internal/flowable/FlowableRepeatingTransformTest.java: Recompile with -Xlint:deprecation for details.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-surefire-plugin:3.0.0-M9:test[m [1m(default-test)[m @ [36mrxjava2-extras[0;1m ---[m
+[[1;34mINFO[m] Tests are skipped.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mjacoco-maven-plugin:0.8.10:report[m [1m(report)[m @ [36mrxjava2-extras[0;1m ---[m
+[[1;34mINFO[m] Skipping JaCoCo execution due to missing execution data file.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-jar-plugin:3.3.0:jar[m [1m(default-jar)[m @ [36mrxjava2-extras[0;1m ---[m
+[[1;34mINFO[m] Building jar: /home/java8-flakesync/scripts/projects/davidmoten/rxjava2-extras/target/rxjava2-extras-0.2.3-SNAPSHOT.jar
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-site-plugin:3.12.1:attach-descriptor[m [1m(attach-descriptor)[m @ [36mrxjava2-extras[0;1m ---[m
+[[1;34mINFO[m] Skipping because packaging 'jar' is not pom.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-install-plugin:2.4:install[m [1m(default-install)[m @ [36mrxjava2-extras[0;1m ---[m
+[[1;34mINFO[m] Installing /home/java8-flakesync/scripts/projects/davidmoten/rxjava2-extras/target/rxjava2-extras-0.2.3-SNAPSHOT.jar to /home/java8-flakesync/.m2/repository/com/github/davidmoten/rxjava2-extras/0.2.3-SNAPSHOT/rxjava2-extras-0.2.3-SNAPSHOT.jar
+[[1;34mINFO[m] Installing /home/java8-flakesync/scripts/projects/davidmoten/rxjava2-extras/pom.xml to /home/java8-flakesync/.m2/repository/com/github/davidmoten/rxjava2-extras/0.2.3-SNAPSHOT/rxjava2-extras-0.2.3-SNAPSHOT.pom
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;32mBUILD SUCCESS[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  11.703 s
+[[1;34mINFO[m] Finished at: 2026-09-01T17:19:06Z
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+locationCount===>1
+com/github/davidmoten/rx2/Flowables$4#306-com/github/davidmoten/rx2/Flowables$4#307
+*** NO EROOR / Failure Found at the beginning
+lower_line_num=306; and upper_line_num=307;
+java.lang.InterruptedException: sleep interrupted
+	at java.lang.Thread.sleep(Native Method)
+	at edu.utexas.ece.localization.agent.Utility.delay(Utility.java:66)
+	at com.github.davidmoten.rx2.Flowables$4.run(Flowables.java:306)
+	at io.reactivex.internal.schedulers.ScheduledRunnable.run(ScheduledRunnable.java:66)
+	at io.reactivex.internal.schedulers.ScheduledRunnable.call(ScheduledRunnable.java:57)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+***I am sequential jjj=306
+Sequential EROOR / Failure Found at Line 306
+End fails...
+Work with myCluster=======
+totalKeys=1
+Key: 1
+KEY and Value pair=1, com/github/davidmoten/rx2/Flowables$4#306
+com/github/davidmoten/rx2/Flowables$4#306
+first_item and end_item= com/github/davidmoten/rx2/Flowables$4#306 and com/github/davidmoten/rx2/Flowables$4#306
+reached to end, and beginning fails=false
+/home/java8-flakesync/scripts NOW GOING to remove rootProj========= davidmoten
+FLAKESYNC_STAGE2_TEST=com.github.davidmoten.rx2.FlowablesTest#testCache
+FLAKESYNC_ROOT_METHOD_SECONDS=56.802
+FLAKESYNC_CRITICAL_LINE_SECONDS=64.412
+FLAKESYNC_CRITICAL_LINE_EXIT_CODE=0
