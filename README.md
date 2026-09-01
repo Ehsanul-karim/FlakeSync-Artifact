@@ -122,11 +122,9 @@ Runtime varies because builds and flaky-test executions are nondeterministic. A 
 - HTTP Core could not start because its project checkout was missing from `projects-For-Delta`.
 - Uniffle reached the beginning-of-root failure case but did not yield a valid barrier repair.
 - Luwak completed Stage 1 and Stage 2 but was stopped during Stage 3 after 93 unsuccessful threshold-1 barrier candidates.
-- Delight Nashorn Sandbox completed successfully on its second detailed attempt; the first attempt could not reproduce its minimized failure in Stage 2.
-- RxJava2 Extras completed successfully with separated Stage-2 timing and a valid barrier repair.
 - No concrete test has yet been identified where FlakeSync fails specifically because multiple critical–barrier synchronization relationships are required.
-- All three cases selected in `data/inputs/planned-ranking-cases.csv` have now been attempted: Delight Nashorn Sandbox and RxJava2 Extras repaired successfully, while Luwak remains incomplete.
-- The ranking observations currently come from four completed barrier searches and need validation on more tests.
+- Luwak remains incomplete.
+- The ranking observations currently come from four completed barrier searches and need validation on more tests. and better ranking strategy.
 
 ## Interpretation boundary
 
